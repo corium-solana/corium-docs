@@ -7,6 +7,8 @@
 | Framework | Anchor |
 | Randomness | MagicBlock VRF |
 | Source | [github.com/corium-solana/corium-core](https://github.com/corium-solana/corium-core) |
+| Verified build | Yes, [OtterSec](https://verify.osec.io/status/CoriumcqGZW3cdnAiyWz6jHHveMUmdrw9RC1KXfMsF8S): the deployed program matches the public source |
+| Upgrade authority | Squads multisig `9BfEudxsWmyPP6uGHRyyMHptShK6DVufZSkYd8aaHAdx` |
 
 All game numbers are compiled into the program. The on-chain `Config` account stores **no tunables at all**, only accounting and the treasury address, so there's nothing an admin could point at. A live star copies its lifecycle at birth.
 
@@ -28,7 +30,7 @@ All game numbers are compiled into the program. The on-chain `Config` account st
 | `create_next_star` | Anyone | Start the next star once the current one is dead, a black hole, stalled, or has 21 SOL committed. |
 | `create_first_star` | Anyone | Once, after `initialize`. |
 | `fund_protocol` | Anyone | One-way donation into `protocol_accrued`. Needed once at genesis: the fee can't accrue until a push settles, and a push can't settle until a draw has been paid for. |
-| `withdraw_protocol_fees` | Anyone | Move accrued protocol SOL to the treasury that was fixed at launch. |
+| `withdraw_protocol_fees` | Anyone (down to a 0.05 SOL float); the treasury for the rest | Move accrued protocol SOL to the treasury that was fixed at launch. |
 
 ## No admin, and no pause
 
@@ -40,4 +42,4 @@ Everything except `feed`, `request_push` and the two claims is **permissionless 
 
 ## What is not on-chain
 
-History, the archive, leaderboards, chat, profiles, these docs, and the HUD are the **interface**. Claims and sends are the **program**.
+History, the archive, leaderboards, chat, profiles, callsigns, epitaphs, these docs, and the HUD are the **interface**. Planets and remnants are drawn from on-chain data (star seeds and feed order), and DUST is an on-chain counter. Claims and sends are the **program**.

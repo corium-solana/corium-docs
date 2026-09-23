@@ -26,7 +26,9 @@ Example: 1 SOL settled means 0.9686 SOL to the prize and 0.0314 SOL to the proto
 
 The house edge is π%, and it's a round number of lamports too: 314 bps of the 0.01 SOL step is exactly 314,000 lamports. The split never rounds, so the prize pool is always *exactly* 96.86% of mass. That exactness is what makes the [return identity](/rules/odds#why-the-ratio-is-the-only-fair-curve) hold to the lamport.
 
-The vault keeps four separate buckets: pending escrow, unpaid prizes, next-star reserve, and protocol accrued. Withdrawing protocol fees always pays the treasury address that was fixed at launch, and can only ever touch **protocol accrued**. It can never take more than what's left after the other three buckets.
+The vault keeps four separate buckets: pending escrow, unpaid prizes, next-star reserve, and protocol accrued. A protocol-fee withdrawal always pays the treasury address fixed at launch, and can only ever touch **protocol accrued**. It can never reach the other three buckets.
+
+Protocol accrued is also the float that pays for randomness draws, so anyone can trigger a withdrawal only down to a **0.05 SOL** floor (about a hundred draws). Only the treasury itself can take that last 0.05 SOL.
 
 ## What you sign
 

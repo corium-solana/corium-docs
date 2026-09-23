@@ -3,8 +3,8 @@ layout: home
 
 hero:
   name: CORIUM
-  text: A star lives on Solana.
-  tagline: Push SOL into it. It grows, it changes, and one push makes it go nova. Whoever lands that push takes the pot. Then a new star is born.
+  text: A universe built with SOL.
+  tagline: Players feed stars, pull planets into orbit, and race to land the push that makes a star go nova. Every star that dies leaves its worlds behind, and the next one lights up.
   image:
     src: /logo.png
     alt: Corium
@@ -21,21 +21,21 @@ hero:
 
 features:
   - icon: ☀️
-    title: One star, one pot
-    details: There is one playable star at a time. Every SOL pushed into it becomes its mass, and 96.86% of that mass is the prize.
+    title: Stars that live and die
+    details: One star burns at a time. Everyone's SOL becomes its mass, and 96.86% of that mass is the prize. When it dies, a new star is born and the universe grows.
+  - icon: 🪐
+    title: Planets you create
+    details: Every nursery feed pulls a world into the star's orbit, from slag and rust worlds to ringed giants and rare terra planets. It stays yours in the archive forever.
   - icon: 🎯
     title: Odds you can calculate
-    details: Your chance to trigger the nova is your own share of the mass your push creates, amount ÷ (star + amount). There are no hidden tables.
-  - icon: ⚖️
-    title: Same return at every size
-    details: A kill pays the whole prize, so every push is worth exactly 96.86% of its stake, whether it is 0.01 SOL or 20 SOL.
+    details: Your chance to trigger the nova is your share of the mass your push creates, amount ÷ (star + amount). Every push returns 96.86% on average, at any size.
   - icon: 🕳️
     title: The black hole
-    details: If a star reaches 21 SOL without going nova, it collapses. Early feeders split the pot instead. Over many stars, that happens 1 time in 21.
-  - icon: 🎲
-    title: Verifiable randomness
-    details: Every roll comes from a MagicBlock VRF draw. One draw is bought per round, paid for by the house, so nobody (including us) can single you out.
+    details: If a star reaches 21 SOL without going nova, it collapses and the nursery feeders split the pot. Over many stars, that happens exactly 1 time in 21.
+  - icon: 🏅
+    title: Ranks, callsigns & boards
+    details: Every SOL you send earns DUST. Climb ten ranks, unlock a callsign that burns over your pushes, wear your rarest world, and carve epitaphs into stars you kill.
   - icon: 🔓
-    title: Nothing can freeze
-    details: There is no admin, no pause, and no retune. Every stake has an exit that does not depend on us, the oracle, or anyone's goodwill.
+    title: Verifiable and unstoppable
+    details: MagicBlock VRF randomness, an OtterSec-verified build, no admin and no pause. Every stake has an exit that doesn't depend on us.
 ---

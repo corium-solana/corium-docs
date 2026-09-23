@@ -46,4 +46,6 @@ Everything except `feed`, `request_push` and the two claims is **permissionless 
 
 It's held on purpose, for one reason. If the oracle we depend on breaks, or a post-launch audit finds something, an upgrade is the only way to get people's money moving again. Dropping it to `None` on day one would make the program honest and also unfixable.
 
+Today, the upgrade authority is a **Squads multisig** (`9BfEudxsWmyPP6uGHRyyMHptShK6DVufZSkYd8aaHAdx`), not a single key. The deployed program is [verified by OtterSec](https://verify.osec.io/status/CoriumcqGZW3cdnAiyWz6jHHveMUmdrw9RC1KXfMsF8S) to match the public source, so you can read exactly what is running.
+
 It will be dropped to `None`. Until it is, treat the program as ours to change, and size your pushes accordingly.

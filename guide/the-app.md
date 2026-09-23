@@ -1,51 +1,63 @@
 # Around the app
 
-Everything lives on one screen at [www.corium.so](https://www.corium.so). The star is in the middle, and everything else opens from the corners.
+Everything happens on one screen at [www.corium.so](https://www.corium.so). The live star is in the middle, the PUSH plate is under it, and everything else opens from the corners.
 
 ## The PUSH plate
 
 This is where you pick an amount and send. It always shows your **stake** and your **odds** of triggering the nova. Tap the **i** beside it for the details:
 
-- the STARDUST the push would earn
+- the DUST this send would earn
 - wallet overhead (network fee and account rent, most of which comes back)
-- the state of the current round, and whether it needs more stake before it can be drawn
+- the state of the current round: pooling, sealing or rolling, and whether it needs more stake before it can be drawn
 
 ## Menu
 
-| Section | What's there |
+| Item | What's there |
 |---|---|
-| **How to play** | The interactive tutorial. It plays a full star lifecycle, with no SOL involved. |
+| **Profile** | Your card: rank, DUST, worlds, perks, PnL, callsign. [More →](/guide/progression#your-profile) |
+| **The Boards** | Leaderboards for DUST, kills, worlds, volume and prizes. [More →](/guide/progression#the-boards) |
+| **History** | Your own activity: every feed, push, supernova, horizon, refund, claim and hole share, filterable by type and star. |
+| **Swap** | Swap tokens to or from SOL through [Jupiter](https://jup.ag), without leaving the game. |
+| **How to play** | Five quick cards that explain the game. |
 | **Docs** | Opens this site. |
-| **History** | Every past star: how it died, who killed it, and what it paid. You can filter by star number or event type, or replay a star's lifecycle. |
-| **Boards** | Leaderboards: DUST, KILLS, WORLDS, VOLUME and PRIZES. |
-| **Fast travel** | Jump to any star by number. The arrows switch between stars. |
-| **Settings** | Graphics, sound, hints, a custom RPC, and your age confirmation and terms (review or withdraw). |
-| **Terms** | The current [terms of use](/legal/terms). |
+| **Settings** | Sound, graphics, the tutorial, network, and your terms & age. |
+
+## Stars & the archive
+
+- **Star name (top centre):** tap it to open **fast travel** and jump to any star by number. The arrows on either side step through stars.
+- **Past stars** can be replayed from start to finish, at different speeds, with your own pushes marked. [The archive →](/guide/universe#the-archive)
+- **Claiming:** if you killed a star, or fed one that collapsed into a black hole, a **CLAIM** button appears on that star.
 
 ## Chat
 
-Live chat sits beside the star. To post, you need to be signed in with your wallet, and each message is tied to the wallet that sent it. There's no separate account.
+One live room for everyone, next to the star on desktop and as a bottom sheet with a one-line ticker on phones.
 
-## Profile
+- Every message is tagged with the star it was said under, and you can filter to **this star only**.
+- The game narrates itself into the room: novas, collapses, new stars, big pushes and closed rounds appear as event lines. Only the game can write those; players can't post them.
+- To post, sign in with a wallet that has fed or pushed at least once. Messages are up to 200 characters, and the room shows the last 24 hours.
 
-Tap the badge in the corner (or Menu → Profile) to open your profile: your STARDUST, what you've unlocked, and your history with the game.
+## Callsigns in the sky
 
-## Epitaphs
+Players with the Callsign perk have their name drawn over their pushes as they fall into the star, in their chosen colour. Planets show their owner's name when you hover near them.
 
-A player who kills a star, and has unlocked the Epitaph perk with STARDUST, can carve a short **epitaph** into that star. It stays with the star in History.
+## Settings
 
-## Swap
+| Section | What's there |
+|---|---|
+| **Sound** | Master on/off, music and effects volume, and UI sounds. |
+| **Graphics** | Low, Med, High or Ultra. Drop it on older phones. |
+| **Learn** | **Play tutorial:** a guided run on a practice star, no SOL involved. **Docs:** this site. |
+| **Network** | Corium's own RPC node is the default. You can paste your own RPC URL, which bypasses ours completely. |
+| **Terms & age** | Review the terms you signed, or withdraw your age confirmation and terms, which signs your wallet out everywhere. |
 
-Need SOL? The **Swap** panel converts other tokens to SOL (or the reverse) through [Jupiter](https://jup.ag), without leaving the game.
+## Return leftover SOL
 
-## Custom RPC
+Every push opens a small account that holds rent until the push is finished. If some haven't been closed yet, **History** shows a **Return leftover SOL** button that closes them and sends the rent back to your wallet.
 
-By default, the app talks to Solana through Corium's own RPC endpoint. Advanced users can paste their own RPC URL under **Settings**, which bypasses ours completely.
+## Hide UI (cinema mode)
 
-## Hide UI
+The eye icon in the top-left hides everything except the star, and unlocks camera controls. [Cinema mode →](/guide/cinema)
 
-The **Hide UI** toggle clears everything except the star, for screenshots and recordings.
+## Wallets
 
-## Mobile
-
-The web app works in mobile browsers, and it also works inside wallet apps that have a built-in browser (for example Phantom's in-app browser).
+Phantom, Solflare and Backpack are supported. The app also works in mobile browsers.

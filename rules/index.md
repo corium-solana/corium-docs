@@ -34,7 +34,7 @@ You push SOL. It grows. It dies. We make another.
 
 ## One star at a time
 
-There is one playable star at a time. You send **native SOL**. STARDUST is a score kept on your player account. It is not a token.
+There is one playable star at a time. You send **native SOL**. STARDUST is a score kept on your player account. It is not a token. Dead stars stay in the archive, with the planets their feeders seeded; see [the universe](/guide/universe).
 
 When the current star has 21 SOL committed (landed plus still in line), or has already died, play moves to the next star. The old star's queue can keep settling in the background.
 

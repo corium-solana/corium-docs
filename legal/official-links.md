@@ -10,6 +10,7 @@ Only trust these. Bookmark the game.
 | Email | [corium.so@proton.me](mailto:corium.so@proton.me) |
 | Source | [github.com/corium-solana/corium-core](https://github.com/corium-solana/corium-core) |
 | Program | `CoriumcqGZW3cdnAiyWz6jHHveMUmdrw9RC1KXfMsF8S` |
+| Verified build | [OtterSec status](https://verify.osec.io/status/CoriumcqGZW3cdnAiyWz6jHHveMUmdrw9RC1KXfMsF8S) |
 
 ## Stay safe
 

@@ -6,7 +6,7 @@ export default defineConfig({
   lang: 'en-US',
   title: 'Corium Docs',
   description:
-    'Corium is a game of chance on Solana. Push SOL into a star, land the killing push, take the pot.',
+    'Corium is a game of chance on Solana, set in a universe its players build. Feed stars, seed planets, land the killing push, take the pot.',
   cleanUrls: true,
   lastUpdated: true,
   appearance: 'dark',
@@ -43,7 +43,10 @@ export default defineConfig({
           { text: 'What is Corium?', link: '/guide/what-is-corium' },
           { text: 'Getting started', link: '/guide/getting-started' },
           { text: 'How to play', link: '/guide/how-to-play' },
+          { text: 'The universe', link: '/guide/universe' },
+          { text: 'Ranks & perks', link: '/guide/progression' },
           { text: 'Around the app', link: '/guide/the-app' },
+          { text: 'Cinema mode', link: '/guide/cinema' },
         ],
       },
       {
