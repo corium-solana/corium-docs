@@ -33,7 +33,7 @@ export default defineConfig({
       { text: 'Rules', link: '/rules/', activeMatch: '/rules/' },
       { text: 'Litepaper', link: '/litepaper' },
       { text: 'FAQ', link: '/faq' },
-      { text: 'Play ↗', link: 'https://www.corium.so' },
+      { text: 'Play', link: 'https://www.corium.so' },
     ],
 
     sidebar: [
