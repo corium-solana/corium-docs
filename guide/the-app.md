@@ -15,7 +15,7 @@ This is where you pick an amount and send. It always shows your **stake** and yo
 | Section | What's there |
 |---|---|
 | **How to play** | The interactive tutorial. It plays a full star lifecycle, with no SOL involved. |
-| **Rules & fees** | The short version of the [rules](/rules/). |
+| **Docs** | Opens this site. |
 | **History** | Every past star: how it died, who killed it, and what it paid. You can filter by star number or event type, or replay a star's lifecycle. |
 | **Boards** | Leaderboards: DUST, KILLS, WORLDS, VOLUME and PRIZES. |
 | **Fast travel** | Jump to any star by number. The arrows switch between stars. |
