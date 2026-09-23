@@ -1,33 +1,68 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
   <defs>
-    <linearGradient id="disk" x1="4" y1="32" x2="60" y2="32" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#b45309" stop-opacity="0.5" />
-      <stop offset="0.3" stop-color="#f59e0b" />
-      <stop offset="0.5" stop-color="#fde68a" />
-      <stop offset="0.7" stop-color="#f59e0b" />
-      <stop offset="1" stop-color="#b45309" stop-opacity="0.5" />
+    <!-- Doppler beaming: the side turning toward us burns brighter. -->
+    <linearGradient id="disk" x1="2" y1="0" x2="62" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff7e0" />
+      <stop offset="0.22" stop-color="#fcd34d" />
+      <stop offset="0.5" stop-color="#f59e0b" />
+      <stop offset="0.8" stop-color="#b45309" />
+      <stop offset="1" stop-color="#7c2d12" stop-opacity="0.6" />
     </linearGradient>
-    <radialGradient id="glow" cx="32" cy="32" r="22" gradientUnits="userSpaceOnUse">
-      <stop offset="0.45" stop-color="#f59e0b" stop-opacity="0.35" />
+    <!-- Hot inner edge fading to cool outer gas. -->
+    <radialGradient id="heat" cx="32" cy="32" r="30" gradientTransform="translate(0 22.4) scale(1 0.3)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.35" stop-color="#fff" stop-opacity="1" />
+      <stop offset="0.7" stop-color="#fff" stop-opacity="0.55" />
+      <stop offset="1" stop-color="#fff" stop-opacity="0" />
+    </radialGradient>
+    <mask id="heatMask" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64">
+      <rect width="64" height="64" fill="url(#heat)" />
+    </mask>
+    <!-- The far side of the disk, bent up over the hole by lensing. -->
+    <radialGradient id="halo" cx="32" cy="32" r="18" gradientUnits="userSpaceOnUse">
+      <stop offset="0.58" stop-color="#fde68a" stop-opacity="0" />
+      <stop offset="0.66" stop-color="#fef3c7" />
+      <stop offset="0.8" stop-color="#f59e0b" stop-opacity="0.75" />
       <stop offset="1" stop-color="#f59e0b" stop-opacity="0" />
     </radialGradient>
+    <radialGradient id="aura" cx="32" cy="32" r="31" gradientUnits="userSpaceOnUse">
+      <stop offset="0.3" stop-color="#f59e0b" stop-opacity="0.35" />
+      <stop offset="1" stop-color="#f59e0b" stop-opacity="0" />
+    </radialGradient>
+    <filter id="blur-lg" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.2" />
+    </filter>
+    <filter id="blur-sm" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="0.6" />
+    </filter>
+    <clipPath id="front">
+      <rect x="0" y="32" width="64" height="32" />
+    </clipPath>
+    <!-- The disk: a thick flattened ring, hollow in the middle. -->
+    <path id="ring" fill-rule="evenodd"
+      d="M2 32 a30 9.5 0 1 0 60 0 a30 9.5 0 1 0 -60 0 Z
+         M17.5 32 a14.5 3.6 0 1 0 29 0 a14.5 3.6 0 1 0 -29 0 Z" />
   </defs>
 
-  <g transform="rotate(-14 32 32)">
-    <!-- soft glow around the horizon -->
-    <circle cx="32" cy="32" r="22" fill="url(#glow)" />
+  <g transform="rotate(-12 32 32)">
+    <circle cx="32" cy="32" r="31" fill="url(#aura)" />
 
-    <!-- far side of the disk, behind the hole -->
-    <path d="M4 32 A28 8 0 0 1 60 32" stroke="url(#disk)" stroke-width="3" stroke-linecap="round" />
+    <!-- far half of the disk (the hole will cover its middle) -->
+    <g mask="url(#heatMask)">
+      <use href="#ring" fill="url(#disk)" filter="url(#blur-lg)" opacity="0.8" />
+      <use href="#ring" fill="url(#disk)" filter="url(#blur-sm)" />
+    </g>
 
-    <!-- far side lensed up over the top of the hole -->
-    <path d="M18.5 30 A13.5 13.5 0 0 1 45.5 30" stroke="url(#disk)" stroke-width="2.4" stroke-linecap="round" opacity="0.9" />
+    <!-- lensed halo: the back of the disk seen over and under the hole -->
+    <circle cx="32" cy="32" r="18" fill="url(#halo)" filter="url(#blur-sm)" />
 
-    <!-- photon ring and the horizon -->
-    <circle cx="32" cy="32" r="11.2" stroke="#fde68a" stroke-width="1.2" opacity="0.9" />
-    <circle cx="32" cy="32" r="10.4" fill="#000" />
+    <!-- photon ring and event horizon -->
+    <circle cx="32" cy="32" r="11.4" stroke="#fff7e0" stroke-width="0.9" filter="url(#blur-sm)" />
+    <circle cx="32" cy="32" r="10.8" fill="#000" />
 
-    <!-- near side of the disk, in front of the hole -->
-    <path d="M4 32 A28 8 0 0 0 60 32" stroke="url(#disk)" stroke-width="3.6" stroke-linecap="round" />
+    <!-- near half of the disk, passing in front of the hole -->
+    <g clip-path="url(#front)" mask="url(#heatMask)">
+      <use href="#ring" fill="url(#disk)" filter="url(#blur-lg)" opacity="0.8" />
+      <use href="#ring" fill="url(#disk)" filter="url(#blur-sm)" />
+    </g>
   </g>
 </svg>
