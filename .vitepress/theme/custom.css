@@ -41,9 +41,24 @@
   font-weight: 500;
 }
 
-.VPHero .image-src {
-  border-radius: 50%;
-  max-width: 240px;
+/* The hero image is the live star (HeroStar.vue), not a picture. */
+.VPHero .image-container {
+  width: auto !important;
+  height: auto !important;
+  transform: none !important;
+}
+.VPHero .image-bg {
+  display: none;
+}
+@media (min-width: 960px) {
+  /* The text column is fixed at 592px; the star takes whatever is left. */
+  .VPHero .image {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+  .VPHero .image-container {
+    width: 100% !important;
+  }
 }
 
 /* Numbers people will quote: keep them in one visual register. */

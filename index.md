@@ -5,9 +5,6 @@ hero:
   name: CORIUM
   text: A universe built with SOL.
   tagline: Players feed stars, pull planets into orbit, and race to land the push that makes a star go nova. Every star that dies leaves its worlds behind, and the next one lights up.
-  image:
-    src: /logo.png
-    alt: Corium
   actions:
     - theme: brand
       text: How to play

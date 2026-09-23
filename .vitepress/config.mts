@@ -9,7 +9,7 @@ export default defineConfig({
     'Corium is a game of chance on Solana, set in a universe its players build. Feed stars, seed planets, land the killing push, take the pot.',
   cleanUrls: true,
   lastUpdated: true,
-  appearance: 'dark',
+  appearance: 'force-dark',
   sitemap: { hostname: 'https://docs.corium.so' },
 
   head: [
