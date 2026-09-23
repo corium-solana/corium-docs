@@ -26,7 +26,10 @@ features:
   - icon: 🎯
     title: Odds you can calculate
     details: Your chance to trigger the nova is your share of the mass your push creates, amount ÷ (star + amount). Every push returns 96.86% on average, at any size.
-  - icon: 🕳️
+  - icon:
+      src: /icons/black-hole.svg
+      width: 40
+      height: 40
     title: The black hole
     details: If a star reaches 21 SOL without going nova, it collapses and the nursery feeders split the pot. Over many stars, that happens exactly 1 time in 21.
   - icon: 🏅
