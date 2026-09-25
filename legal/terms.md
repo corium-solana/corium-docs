@@ -1,6 +1,6 @@
 # Terms of use
 
-**Version 1.** This page mirrors the terms you agree to when you sign in to the Corium launchpad. The in-app version is authoritative. The terms for [Corium Game](/game/) are [here](/game/terms).
+**Version 1.** This page mirrors the terms you agree to when you sign in to the Corium launchpad. The in-app version is authoritative.
 
 ::: info The short version
 - You are 18 or older and allowed to use a service like this where you live.

@@ -6,13 +6,10 @@
 A memecoin launchpad on Solana where every coin is a living star, and the wallets that carry a coin over its graduation line split its supernova bounty. [Read more →](/guide/what-is-corium)
 
 ### Is it on mainnet?
-Not yet. The launchpad is being tested on Solana devnet and launches on mainnet soon. The mainnet addresses and app link will be published [here](/rules/program) and on [@corium_so](https://x.com/corium_so). [Corium Game](/game/) is live on mainnet at [www.corium.so](https://www.corium.so).
+Not yet. The launchpad is being tested on Solana devnet and launches on mainnet soon. The mainnet addresses and app link will be published [here](/rules/program) and on [@corium_so](https://x.com/corium_so).
 
 ### What do I need?
 A Solana wallet (Phantom, Solflare or Backpack), some SOL, and to be 18 or older. Browsing needs nothing. [Getting started →](/guide/getting-started)
-
-### What's the difference between Corium and Corium Game?
-Corium is the launchpad: launch and trade memecoins, each drawn as a star. Corium Game is a separate game of chance where players feed a star and race to make it go nova. They share a universe and a look, not their rules or money. [Corium Game docs →](/game/)
 
 ## Launching
 

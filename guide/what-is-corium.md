@@ -32,10 +32,6 @@ What makes Corium different is the **supernova bounty**. Half of Corium's fees o
 
 Corium never holds your funds. Every trade, launch and claim is a transaction you sign in your own wallet.
 
-## Also from Corium
-
-**[Corium Game](/game/)** is the on-chain game of chance where players feed stars and race to make them go nova. It lives at [www.corium.so](https://www.corium.so) and has its own rules and docs.
-
 ::: warning Memecoins are risky
 Most memecoins go to zero. Nothing on Corium is financial advice, and a coin appearing on Corium is not an endorsement. Only trade what you can afford to lose. You must be 18 or older.
 :::

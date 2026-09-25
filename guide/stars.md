@@ -1,6 +1,6 @@
 # Stars
 
-Every coin on Corium is drawn as a star, rendered live with the same engine as [Corium Game](/game/). The star is not decoration: it is the coin's state, readable at a glance.
+Every coin on Corium is drawn as a star, rendered live in your browser. The star is not decoration: it is the coin's state, readable at a glance.
 
 ## One star per coin
 

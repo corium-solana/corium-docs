@@ -7,19 +7,10 @@ Only trust these. Bookmark them.
 | Docs | [docs.corium.so](https://docs.corium.so) |
 | X | [@corium_so](https://x.com/corium_so) |
 | Email | [corium.so@proton.me](mailto:corium.so@proton.me) |
-| Corium Game | [www.corium.so](https://www.corium.so) |
-| Corium Game source | [github.com/corium-solana/corium-core](https://github.com/corium-solana/corium-core) |
 
-### Corium launchpad
+### The launchpad
 
 The launchpad launches on mainnet soon. Its app link and mainnet program, config and treasury addresses will be announced on [@corium_so](https://x.com/corium_so) and listed on the [program reference](/rules/program). Until then, **anything claiming to be the Corium launchpad on mainnet isn't us.**
-
-### Corium Game
-
-| | |
-|---|---|
-| Program | `CoriumcqGZW3cdnAiyWz6jHHveMUmdrw9RC1KXfMsF8S` |
-| Verified build | [OtterSec status](https://verify.osec.io/status/CoriumcqGZW3cdnAiyWz6jHHveMUmdrw9RC1KXfMsF8S) |
 
 ## Stay safe
 

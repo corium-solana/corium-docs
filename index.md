@@ -39,6 +39,4 @@ features:
 
 ::: info Launching soon
 The Corium launchpad is being tested on Solana devnet and launches on mainnet soon. The app link and the mainnet program and config addresses will be published in these docs and on [@corium_so](https://x.com/corium_so) at launch. Until then, anything claiming to be the Corium launchpad on mainnet isn't us.
-
-Looking for **Corium Game**, the game of chance at [www.corium.so](https://www.corium.so)? It has [its own docs](/game/).
 :::
