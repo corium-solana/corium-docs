@@ -3,39 +3,42 @@ layout: home
 
 hero:
   name: CORIUM
-  text: A universe built with SOL.
-  tagline: Players feed stars, pull planets into orbit, and race to land the push that makes a star go nova. Every star that dies leaves its worlds behind, and the next one lights up.
+  text: Every coin is a star.
+  tagline: A memecoin launchpad on Solana where every coin burns as its own star, and the wallets that carry it over the line split its supernova bounty.
   actions:
     - theme: brand
-      text: How to play
-      link: /guide/how-to-play
+      text: What is Corium?
+      link: /guide/what-is-corium
     - theme: alt
-      text: Read the litepaper
-      link: /litepaper
+      text: The supernova bounty
+      link: /rules/bounty
     - theme: alt
-      text: Play at corium.so ↗
-      link: https://www.corium.so
+      text: Fees
+      link: /rules/fees
 
 features:
+  - icon: 🚀
+    title: Launch in seconds
+    details: A name, a ticker and an image. Your coin starts on a Meteora bonding curve with no creation fee, and the creator earns 37% of its trading fees.
   - icon: ☀️
-    title: Stars that live and die
-    details: One star burns at a time. Everyone's SOL becomes its mass, and 96.86% of that mass is the prize. When it dies, a new star is born and the universe grows.
-  - icon: 🪐
-    title: Planets you create
-    details: Every nursery feed pulls a world into the star's orbit, from slag and rust worlds to ringed giants and rare terra planets. It stays yours in the archive forever.
-  - icon: 🎯
-    title: Odds you can calculate
-    details: Your chance to trigger the nova is your share of the mass your push creates, amount ÷ (star + amount). Every push returns 96.86% on average, at any size.
-  - icon:
-      src: /icons/black-hole.svg
-      width: 40
-      height: 40
-    title: The black hole
-    details: If a star reaches 21 SOL without going nova, it collapses and the nursery feeders split the pot. Over many stars, that happens exactly 1 time in 21.
-  - icon: 🏅
-    title: Ranks, callsigns & boards
-    details: Every SOL you send earns DUST. Climb ten ranks, unlock a callsign that burns over your pushes, wear your rarest world, and carve epitaphs into stars you kill.
-  - icon: 🔓
-    title: Verifiable and unstoppable
-    details: MagicBlock VRF randomness, an OtterSec-verified build, no admin and no pause. Every stake has an exit that doesn't depend on us.
+    title: Every coin is a star
+    details: A coin's star grows as its curve fills, from protostar to supergiant, and turns critical in the final stretch. Go quiet for a week and it collapses into a black hole.
+  - icon: 💥
+    title: The supernova bounty
+    details: Half of Corium's fees on a coin build its bounty. At graduation the star goes supernova, and the wallets that net-bought its final stretch and held split it.
+  - icon: 🔒
+    title: Fees split on chain
+    details: Corium's fee share can only leave through the Corium program, split 50/50 into each coin's bounty escrow and the treasury. Anyone can trigger it; no wallet holds the bounty.
+  - icon: 🌊
+    title: Keep trading after graduation
+    details: At 85 SOL the curve graduates into a Meteora DAMM v2 pool with its liquidity locked forever. You keep trading it right here on Corium.
+  - icon: 💬
+    title: Chat, profiles & leaderboards
+    details: Every coin has a live room. Every wallet gets a profile with a star name. Traders, bounty hunters and creators climb their own leaderboards.
 ---
+
+::: info Launching soon
+The Corium launchpad is being tested on Solana devnet and launches on mainnet soon. The app link and the mainnet program and config addresses will be published in these docs and on [@corium_so](https://x.com/corium_so) at launch. Until then, anything claiming to be the Corium launchpad on mainnet isn't us.
+
+Looking for **Corium Game**, the game of chance at [www.corium.so](https://www.corium.so)? It has [its own docs](/game/).
+:::

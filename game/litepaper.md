@@ -242,7 +242,7 @@ Beyond their stake, players pay only Solana network fees and account rent. Rent 
 ## 12. Responsible play & legal
 
 - Corium is a **game of chance**. Players can lose everything they send.
-- Players must be **21 or older**. Age confirmation and agreement to the [terms of use](/legal/terms) are given in a single wallet sign-in signature, with no transaction and no fee, and can be withdrawn at any time.
+- Players must be **21 or older**. Age confirmation and agreement to the [terms of use](/game/terms) are given in a single wallet sign-in signature, with no transaction and no fee, and can be withdrawn at any time.
 - Players are responsible for complying with the laws of their jurisdiction.
 - DUST, worlds and remnants have no monetary value and can't be transferred.
 - Nothing in this document is financial advice or an offer of any security or investment.

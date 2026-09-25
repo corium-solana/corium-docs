@@ -6,7 +6,7 @@ Every SOL you send, whether a feed or a push, earns **DUST**. DUST is stored on 
 Every perk is identity, memory or status. None of them change odds, payouts, fees or ordering. The game stays the same flat bet for everyone.
 :::
 
-How much DUST a send earns is in the [STARDUST rules](/rules/stardust). In short: 1,000 per SOL, up to 2.5× for sending early in a star's life, and up to 1.2× for taking a big slice. A 1 SOL nursery feed is worth about 2,500 DUST.
+How much DUST a send earns is in the [STARDUST rules](/game/rules/stardust). In short: 1,000 per SOL, up to 2.5× for sending early in a star's life, and up to 1.2× for taking a big slice. A 1 SOL nursery feed is worth about 2,500 DUST.
 
 ## Ranks
 

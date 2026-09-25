@@ -1,55 +1,43 @@
 # What is Corium?
 
-Corium is a game of chance on Solana, played inside a universe that its players build together.
+Corium is a memecoin launchpad on Solana where every coin is drawn as a living star.
 
-At any moment, one star is burning. Players send SOL into it. Early on they **feed** it, and every feed pulls a new planet into the star's orbit. Once the star passes 1 SOL, every **push** can make it go **nova**. Whoever lands that push takes the pot and keeps the star's remnant. If nobody does, the star collapses into a **black hole** at 21 SOL, and the players who fed it split the pot instead.
+Anyone can launch a coin in seconds. It starts on a bonding curve: the more people buy, the more SOL sits in the curve, and the bigger its star grows. When the curve fills, at **85 SOL**, the coin **graduates**: its star goes **supernova**, its liquidity moves into a Meteora pool that is locked forever, and trading carries on.
 
-Then a new star is born, and it starts again. Every star that has ever burned stays in the archive, along with the worlds its players created, so the universe keeps growing with every star.
+What makes Corium different is the **supernova bounty**. Half of Corium's fees on every coin are set aside for that coin. When it graduates, the bounty goes to the wallets that bought its **final stretch** (the last 10% of the curve) and were still holding after graduation. The people who carry a coin over the line get paid for it.
 
 <div class="stat-row">
-  <div class="stat"><b>96.86%</b><span>of every send goes to the prize</span></div>
-  <div class="stat"><b>3.14%</b><span>protocol fee (π%)</span></div>
-  <div class="stat"><b>0.01 SOL</b><span>minimum send</span></div>
-  <div class="stat"><b>21 SOL</b><span>black hole threshold</span></div>
+  <div class="stat"><b>85 SOL</b><span>to graduate</span></div>
+  <div class="stat"><b>1%</b><span>trading fee on the curve</span></div>
+  <div class="stat"><b>0 SOL</b><span>to create a coin</span></div>
+  <div class="stat"><b>50%</b><span>of Corium's fee share builds the bounty</span></div>
 </div>
 
 ## The idea in 30 seconds
 
-- **Under 1 SOL, you are feeding.** Nothing can explode yet. Each feed places a planet in the star's system and gives you a share of the black-hole pot.
-- **From 1 SOL on, every push can trigger a nova.** Your chance is your share of the mass your push creates. The last hit takes the whole prize.
-- **If the star reaches 21 SOL without a nova, it collapses into a black hole.** The feeders split the pot.
-- **Every SOL you send earns DUST**, which ranks you up and unlocks your callsign, colours, and more.
+- **Launch.** Name, ticker, image, optional socials, optional first buy. There is no creation fee; you only pay Solana's account rent (about 0.03 SOL). [Launching a coin →](/guide/launching)
+- **Trade on the curve.** Price rises as SOL comes in and falls as it goes out. Every trade pays 1%, split between Meteora, the creator and Corium. [Trading →](/guide/trading)
+- **Watch the star.** Each coin's star follows its curve: protostar, main sequence, blue giant, red giant, supergiant, then **critical** in the final stretch. [Stars →](/guide/stars)
+- **Buy the final stretch.** The last 10% of the curve is where bounty credit is earned. Hold through graduation and you split the bounty. [The bounty →](/rules/bounty)
+- **Graduation.** At 85 SOL the star goes supernova, the coin moves to a Meteora DAMM v2 pool with locked liquidity, and you keep trading it on Corium.
 
-## What you build
-
-| | |
-|---|---|
-| **Worlds** | Every feed that lands becomes a planet in that star's system. Nine orbital zones, nine planet families, and a rarity tier for each. [The universe →](/guide/universe) |
-| **Remnants** | Kill a star and its remnant is yours, the rarest thing on a profile card. |
-| **A profile** | A callsign, a rank, the world you choose to wear, and your record, public for anyone to visit. [Ranks & perks →](/guide/progression) |
-| **Epitaphs** | High-ranked killers carve a line into the star they ended, and it stays in its archive forever. |
-
-## What makes it different
-
-**The odds are simple and public.** There is no stage table, no base rate, and no hidden multiplier. A push of `a` SOL into a star of `M` SOL has a chance of `a ÷ (M + a)`.
-
-**Every push is worth the same.** A kill pays the entire prize, and the prize is always 96.86% of the star's mass, so every push returns exactly 96.86% of its stake on average. Small pushes aren't a worse deal than big ones, or the other way around. The 3.14% fee is the only edge.
-
-**DUST never buys an edge.** Ranks and perks are identity and status only. Nothing you unlock changes odds, payouts, fees or ordering.
-
-**The house can't touch the rules.** Odds, fee and thresholds are compiled into the program. There is no admin instruction, no pause, and no setting to change. The deployed build is verified against the public source. See [the trust model](/litepaper#trust-model) for the one thing you do have to trust.
-
-## Where to play
+## Built on
 
 | | |
 |---|---|
-| Web app | [www.corium.so](https://www.corium.so) |
-| Network | Solana mainnet |
-| Program | `CoriumcqGZW3cdnAiyWz6jHHveMUmdrw9RC1KXfMsF8S` |
-| X | [@corium_so](https://x.com/corium_so) |
+| Bonding curve | [Meteora Dynamic Bonding Curve](https://docs.meteora.ag) (DBC) |
+| After graduation | Meteora DAMM v2, liquidity permanently locked |
+| Bounty and fee split | The Corium program (`corium_launch`), see [the fee router](/rules/fee-router) |
+| Network | Solana (devnet now, mainnet at launch) |
 
-::: warning Play responsibly
-Corium is a game of chance that uses real SOL, and it is for players 21 or older. You can lose what you send. Only play with money you can afford to lose.
+Corium never holds your funds. Every trade, launch and claim is a transaction you sign in your own wallet.
+
+## Also from Corium
+
+**[Corium Game](/game/)** is the on-chain game of chance where players feed stars and race to make them go nova. It lives at [www.corium.so](https://www.corium.so) and has its own rules and docs.
+
+::: warning Memecoins are risky
+Most memecoins go to zero. Nothing on Corium is financial advice, and a coin appearing on Corium is not an endorsement. Only trade what you can afford to lose. You must be 18 or older.
 :::
 
 **Next:** [Getting started →](/guide/getting-started)

@@ -1,6 +1,6 @@
 # STARDUST
 
-STARDUST (DUST for short) is Corium's score. It's a counter on your on-chain player account, **not a token and not money**. You can't send it, sell it, or withdraw it. It only goes up, and it decides your [rank and perks](/guide/progression) and your place on the DUST board.
+STARDUST (DUST for short) is Corium's score. It's a counter on your on-chain player account, **not a token and not money**. You can't send it, sell it, or withdraw it. It only goes up, and it decides your [rank and perks](/game/progression) and your place on the DUST board.
 
 ## How it's earned
 

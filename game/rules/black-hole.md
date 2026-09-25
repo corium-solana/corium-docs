@@ -12,7 +12,7 @@ If the star reaches **21 SOL** without a nova, it collapses:
 
 If nobody fed the star (`early_volume == 0`), nobody can claim, and the prize is recycled into the next star.
 
-Over many stars, this happens exactly **1 time in 21**. [Why →](/rules/odds#why-the-hole-is-1-in-21)
+Over many stars, this happens exactly **1 time in 21**. [Why →](/game/rules/odds#why-the-hole-is-1-in-21)
 
 ## The next star
 
@@ -26,7 +26,7 @@ sha256("soldust:star-seed" ‖ prev.seed ‖ prev.star_id ‖ new_star_id)
 
 ## Endowment
 
-Prize money that has no claimant goes into the **next-star reserve**. That covers a black hole nobody fed, and the leftover after a [stalled-star collapse](/rules/safety#if-the-game-dies) has refunded the feeders. The reserve seeds the next star's mass and prize, so it doesn't sit in the vault forever. **It can never be withdrawn.**
+Prize money that has no claimant goes into the **next-star reserve**. That covers a black hole nobody fed, and the leftover after a [stalled-star collapse](/game/rules/safety#if-the-game-dies) has refunded the feeders. The reserve seeds the next star's mass and prize, so it doesn't sit in the vault forever. **It can never be withdrawn.**
 
 The endowment is rounded down to the 0.01 step and capped at **0.99 SOL**, so a recycled prize can never open a star at or above the nursery cap.
 

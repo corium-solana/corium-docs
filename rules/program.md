@@ -1,45 +1,85 @@
 # Program reference
 
+## Addresses
+
+::: info Mainnet addresses at launch
+The launchpad runs on Solana devnet while it's being tested. The mainnet program, config and treasury addresses will be listed here at launch. Don't trust a mainnet address for the Corium launchpad from anywhere else.
+:::
+
+### Devnet
+
 | | |
 |---|---|
-| Program ID | `CoriumcqGZW3cdnAiyWz6jHHveMUmdrw9RC1KXfMsF8S` |
-| Network | Solana mainnet |
-| Framework | Anchor |
-| Randomness | MagicBlock VRF |
-| Source | [github.com/corium-solana/corium-core](https://github.com/corium-solana/corium-core) |
-| Verified build | Yes, [OtterSec](https://verify.osec.io/status/CoriumcqGZW3cdnAiyWz6jHHveMUmdrw9RC1KXfMsF8S): the deployed program matches the public source |
-| Upgrade authority | Squads multisig `9BfEudxsWmyPP6uGHRyyMHptShK6DVufZSkYd8aaHAdx` |
+| Corium program (`corium_launch`) | `NovanpiewpH4zvYgtzAQN2zWQ94KcKWrHCTswWdZ1Y1` |
+| Corium config (Meteora DBC) | `7QjxUbrRoZCJA4zX2wLcZMBMJikckzZsD5GrbQRKuHZS` |
+| Fee claimer (the Corium vault) | `HdtdnxH8mqD4UhSKsA1gueo89DYNsc9QaoAXqWoZaodb` |
+| Graduates at | 5 SOL (a test config; mainnet graduates at 85 SOL) |
 
-All game numbers are compiled into the program. The on-chain `Config` account stores **no tunables at all**, only accounting and the treasury address, so there's nothing an admin could point at. A live star copies its lifecycle at birth.
+### Meteora programs (same on mainnet and devnet)
+
+| | |
+|---|---|
+| Dynamic Bonding Curve | `dbcij3LWUppWqq96dh6gJWwBifmcGfLSB5D4DuSMaqN` |
+| DAMM v2 | `cpamdpZCGKUy5JxQXB4dcpGPiikHawvSWAd6mEn1sGG` |
+
+## The coin config
+
+One Meteora DBC config for every coin:
+
+| | |
+|---|---|
+| Quote | SOL |
+| Supply | 1,000,000,000, 6 decimals, immutable mint and metadata |
+| Migration threshold | 85 SOL (quote reserve) |
+| Supply into the pool at migration | 20% |
+| Base fee | 1%; exponential scheduler from 50% to 1% over 60 × 1 s periods |
+| First buy by the creator | Pays the minimum fee |
+| Fee split | 37% of the partner + creator share to the creator |
+| Fee claimer | The Corium vault |
+| Migrates to | DAMM v2, 1% fee, liquidity 50% creator / 50% Corium, all permanently locked |
+
+## Accounts
+
+All addresses are PDAs of the Corium program:
+
+| Account | Seeds | Holds |
+|---|---|---|
+| `Config` | `["config"]` | Admin, crank, treasury, claim window |
+| Vault | `["vault"]` | SOL for escrows and payouts; the DBC fee claimer; owner of Corium's DAMM v2 positions |
+| `Route` | `["route", dbc_config]` | The config's bounty share in basis points (5000), fixed forever |
+| `Bounty` | `["bounty", pool]` | A coin's escrow: `accrued` (lamports), `fees` (all partner fees claimed), `distributed` |
+| `Distribution` | `["dist", pool]` | A posted payout: root, total, claimed, expiry, the IPFS URI of its scores |
+| `ClaimRecord` | `["claim", distribution, wallet]` | Exists once a wallet has claimed |
 
 ## Instructions
 
-| Instruction | Who signs | What it does |
+| Instruction | Signer | Does |
 |---|---|---|
-| `feed` | Player | Nursery send. |
-| `request_push` | Player | Escrow the stake and join the star's open round. No oracle, no prepayment. |
-| `draw_round` | Anyone (crank) | Seal a round to new entrants, derive its seed, and request its one VRF draw, all in one transaction. Paid from `protocol_accrued`, and the caller is reimbursed in the same transaction. |
-| `consume_randomness` | MagicBlock VRF only | The oracle's callback. Writes the draw onto the round. Only the identity the VRF program signs for, scoped to this program, can call it. |
-| `expire_round` | Anyone | Void a round that has stalled past the timeout, so its members can be refunded. Refuses if the draw has already landed. |
-| `resolve_push` | Anyone | Settle or refund the next pending push. |
-| `close_push` | Fee payer | Close a finished pending account. Rent goes to the player. |
-| `close_round_account` | Anyone | Close a round whose members have all resolved. Rent goes to whoever opened it. |
-| `claim_prize` | The star's killer | Pay out `final_prize` on a dead star, once. |
-| `claim_hole_share` | Feeder | Pay out that wallet's share on a black-hole or stalled star, once. |
-| `collapse_stalled_star` | Anyone | Finish a star that has gone 7 days without gaining mass (24 hours in the nursery) with nothing queued. |
-| `create_next_star` | Anyone | Start the next star once the current one is dead, a black hole, stalled, or has 21 SOL committed. |
-| `create_first_star` | Anyone | Once, after `initialize`. |
-| `fund_protocol` | Anyone | One-way donation into `protocol_accrued`. Needed once at genesis: the fee can't accrue until a push settles, and a push can't settle until a draw has been paid for. |
-| `withdraw_protocol_fees` | Anyone (down to a 0.05 SOL float); the treasury for the rest | Move accrued protocol SOL to the treasury that was fixed at launch. |
+| `initialize` | Upgrade authority, once | Sets admin, crank, treasury, claim window |
+| `set_crank`, `set_treasury` | Admin | Rotate those addresses |
+| `create_route` | Admin, once per config | Registers a DBC config and its bounty share |
+| `claim_fees` | Anyone | Claims a pool's partner fees; route share to its escrow, the rest to the treasury |
+| `create_distribution` | Crank | Posts a graduated coin's merkle root for exactly its escrow |
+| `claim` | Winner | Pays a proven amount |
+| `sweep_expired` | Anyone | After the window: unclaimed rest to the treasury |
+| `release_bounty` | Anyone | No payout within the window after graduation: escrow to the treasury |
+| `claim_lp_fees` | Anyone | DAMM v2 position fees to the treasury's token accounts |
+| `claim_surplus` | Anyone | Curve surplus to the treasury's token account |
 
-## No admin, and no pause
+## Verifying a payout
 
-`initialize` runs once, at deploy, and records nothing but the treasury and the genesis seed. There's no `update_config`, no `set_authority`, and no pause. They aren't disabled; they don't exist.
+Every `Distribution` carries the URI of a JSON report with each winner's stretch credit, stretch tokens, balance at the hold check, score, amount and merkle proof. To check one:
 
-`initialize` is also the only gated instruction: it must be signed by the program's upgrade authority. That isn't an admin power. It stops whoever front-runs the deploy transaction from claiming the treasury, and it's used up the first time it runs.
+1. Fetch every swap on the coin's pool, oldest first, and score the final stretch with the rules on [the bounty page](/rules/bounty#scoring).
+2. Read each scoring wallet's balance at the hold check, and scale its credit.
+3. Split the `Bounty` escrow pro rata by score, rounding down, with the rounding dust to the top score.
+4. Build the tree and compare its root with the one on chain.
 
-Everything except `feed`, `request_push` and the two claims is **permissionless bookkeeping**. None of it can be withheld from you: if our crank stops, anyone can run those instructions and the queue keeps draining.
+The tree:
 
-## What is not on-chain
+```
+leaf = sha256("corium:leaf" ‖ distribution ‖ wallet ‖ amount as u64 little-endian)
+node = sha256("corium:node" ‖ min(a, b) ‖ max(a, b))
+```
 
-History, the archive, leaderboards, chat, profiles, callsigns, epitaphs, these docs, and the HUD are the **interface**. Planets and remnants are drawn from on-chain data (star seeds and feed order), and DUST is an on-chain counter. Claims and sends are the **program**.
+The distinct prefixes keep an inner node from ever passing as a leaf, and sorting each pair means a proof is just the list of sibling hashes.

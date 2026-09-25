@@ -1,41 +1,48 @@
 # Getting started
 
-It takes about two minutes to go from nothing to your first push.
+## 1. Get a wallet
 
-## 1. Get a Solana wallet
+Corium works with any Solana wallet that supports the Wallet Standard: **Phantom**, **Solflare** and **Backpack** are the common ones. You need some SOL for trades and network fees.
 
-Corium supports **Phantom**, **Solflare** and **Backpack**. If you don't have one yet, install one from the wallet's official website and write down your recovery phrase somewhere safe and offline.
+You can browse without a wallet: every coin, chart, chat and leaderboard is public.
 
-::: danger Never share your recovery phrase
-Corium will never ask for your seed phrase or private key, and we will never message you first. Anyone who asks for either is not us.
-:::
+## 2. Connect and sign in
 
-## 2. Add some SOL
+Press **Connect wallet** and pick yours. Connecting only tells Corium your address.
 
-Pushes are in SOL, and the minimum is **0.01 SOL**. You also need a little extra for network fees and account rent. Most of that rent comes back to you; see [Sending & fees](/rules/fees).
+The first time, Corium asks you to **sign in**. That is a single message signature:
 
-If you hold other tokens, you can swap them to SOL inside the app. The **Swap** panel is powered by [Jupiter](https://jup.ag).
+- **It is not a transaction.** Nothing moves and there is no fee. If a "sign-in" ever asks you to approve a transfer, it isn't us.
+- **It carries your agreement.** The message says you are 18 or older and agree to the [Terms of Use](/legal/terms), pinned to the exact version you saw. Your wallet shows the full text before you sign.
+- **It keeps you signed in** for up to 30 days (14 days without a visit). Signing out ends the session at once.
 
-## 3. Open the game
+You need to be signed in to trade, launch coins and chat. Browsing never needs it.
 
-Go to **[www.corium.so](https://www.corium.so)**. The star loads straight away, and you can watch, browse past stars and read the chat without connecting anything.
+## 3. Your profile
 
-New here? On your first visit, the game offers an interactive **tutorial** on a practice star, with no SOL involved. You can replay it any time from **Settings → Play tutorial**. **Menu → How to play** has the five-card version.
+Signing in for the first time gives your wallet a public profile with a **random star name**, like *Molten Quasar* or *Quiet Gravity*. Keep it or pick your own right away, and change it any time from **Edit profile**.
 
-## 4. Connect and sign in
+| | |
+|---|---|
+| Name | 3 to 20 letters, numbers, spaces, dots, dashes or underscores. Unique across Corium, ignoring capitals. Names that look like wallet addresses or official accounts are refused. |
+| Photo | PNG, JPEG or WebP, cropped to a square. Stored on IPFS. |
+| Bio | Up to 160 characters. |
 
-1. Tap the wallet button in the corner and pick your wallet.
-2. **Sign in** with one signature. This is a message, not a transaction, and it costs nothing.
-3. The first time, that signature also confirms that **you are 21 or older** and that you **agree to the [terms of use](/legal/terms)**.
+Your name and photo replace your address everywhere: chat, trades, holders, leaderboards. Your profile page also shows your holdings, bounties, launches and activity. [Chat, profiles & leaderboards →](/guide/social)
 
-Connecting a wallet on its own does not sign you in or agree to anything. A sign-in lasts up to 30 days, or 14 days without use. You can review or withdraw your age confirmation and terms under **Settings** at any time.
+## 4. Find a coin
 
-## 5. Make your first push
+**Explore** lists every coin as a star card. The tabs sort them:
 
-1. Use the **PUSH** plate to pick an amount. The `+`/`−` buttons step by 0.01 SOL.
-2. The plate shows your **stake** and your **odds**. Tap the **i** next to it to see the DUST you'd earn, the wallet overhead, and the state of the current round.
-3. Press **PUSH** and approve the transaction in your wallet.
+| Tab | Shows |
+|---|---|
+| Trending | The most active coins right now |
+| Final stretch | Coins in the last 10% of their curve, where bounty credit is earned |
+| About to graduate | The closest to 85 SOL |
+| New | The latest launches |
+| Supernovas | Coins that graduated |
+| Collapsed | Black holes: no trades for 7 days |
 
-In the nursery (under 1 SOL), your send is a **feed**: it lands straight away and a new planet appears in orbit. Above 1 SOL, it's a **push**: it joins the current round, and within about 30 seconds the round is drawn and your roll plays out on the star.
+The search box finds coins by name, ticker or mint address, and wallets by address. The **Live chat** panel shows what people are saying across every coin.
 
-**Next:** [How to play →](/guide/how-to-play)
+**Next:** [Launching a coin →](/guide/launching) or [Trading →](/guide/trading)

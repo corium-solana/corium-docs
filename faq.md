@@ -3,104 +3,66 @@
 ## The basics
 
 ### What is Corium?
-An on-chain game of chance on Solana, set in a universe its players build. Players feed stars, which pulls planets into orbit, and push SOL into them. Whoever lands the push that makes a star go nova takes the pot. [Read more →](/guide/what-is-corium)
+A memecoin launchpad on Solana where every coin is a living star, and the wallets that carry a coin over its graduation line split its supernova bounty. [Read more →](/guide/what-is-corium)
 
 ### Is it on mainnet?
-Yes. Corium runs on Solana mainnet at [www.corium.so](https://www.corium.so). The program ID is `CoriumcqGZW3cdnAiyWz6jHHveMUmdrw9RC1KXfMsF8S`.
+Not yet. The launchpad is being tested on Solana devnet and launches on mainnet soon. The mainnet addresses and app link will be published [here](/rules/program) and on [@corium_so](https://x.com/corium_so). [Corium Game](/game/) is live on mainnet at [www.corium.so](https://www.corium.so).
 
-### What do I need to play?
-A Solana wallet (Phantom, Solflare or Backpack), some SOL, and to be 21 or older. [Getting started →](/guide/getting-started)
+### What do I need?
+A Solana wallet (Phantom, Solflare or Backpack), some SOL, and to be 18 or older. Browsing needs nothing. [Getting started →](/guide/getting-started)
 
-### Can I try it without SOL?
-Yes. The interactive tutorial runs on a practice star with no SOL involved. It's offered on your first visit, and it's always under **Settings → Play tutorial**. You can also watch live stars and replay past ones without connecting a wallet.
+### What's the difference between Corium and Corium Game?
+Corium is the launchpad: launch and trade memecoins, each drawn as a star. Corium Game is a separate game of chance where players feed a star and race to make it go nova. They share a universe and a look, not their rules or money. [Corium Game docs →](/game/)
 
-### What's the minimum bet?
-0.01 SOL. Every send is a whole multiple of 0.01 SOL.
+## Launching
 
-### Is there a maximum?
-Only the room left in the current star: up to 1 SOL during the nursery, and up to 21 SOL of total mass after that. Anything over that is clipped, not rejected.
+### How much does it cost to launch a coin?
+No creation fee. You pay about 0.03 SOL of Solana rent for the new accounts, plus your optional first buy. [Launching →](/guide/launching)
 
-## Odds & winning
+### What does the creator earn?
+37% of the curve's trading fees after Meteora's cut (about 0.3% of volume), plus half of the locked pool's LP fees after graduation. [Fees →](/rules/fees)
 
-### What are my odds?
-`your push ÷ (star mass + your push)`. For example, 1 SOL into a 9 SOL star is 10%. [Details →](/rules/odds)
+### Can I change my coin's name or image later?
+No. Every Corium coin's mint and metadata are immutable, so what buyers see is what you launched.
 
-### Is a big push better than a small one?
-No. Every push, at any size, has the same expected return of 96.86% of its stake. A bigger push buys a bigger chance at the same pot. [Proof →](/rules/odds#why-the-ratio-is-the-only-fair-curve)
+### Can the creator pull the liquidity?
+No. Before graduation the SOL is in the bonding curve; after graduation it's in a Meteora pool whose liquidity is permanently locked.
 
-### What does the winner get?
-The whole prize pool (96.86% of everything that went into the star), plus the star's remnant for their atlas.
+## Trading
 
-### What's the black hole?
-If a star reaches 21 SOL without anyone triggering a nova, it collapses. The pot is then split between everyone who fed it during its nursery (under 1 SOL), in proportion to what they fed. This happens 1 time in 21. [Details →](/rules/black-hole)
+### What are the fees?
+1% per trade on the curve (50% in the first 60 seconds, decaying to 1%). Of the 1%: 0.2% to Meteora, about 0.3% to the creator, about 0.25% to the coin's bounty and about 0.25% to Corium. [Details →](/rules/fees)
 
-### How do I claim my winnings?
-Open the star you won (it's in your History, or use fast travel) and press **CLAIM**. Prizes and black-hole shares are claimed once, by the winning wallet, and there is no deadline.
+### When does a coin graduate?
+When 85 SOL is in its curve. Its liquidity moves to a Meteora DAMM v2 pool, locked forever, and you keep trading it on Corium. [Trading →](/guide/trading)
 
-## Planets, DUST & ranks
+### Why did my buy only partly fill?
+Near the top of the curve, a buy bigger than the room left fills up to the graduation price, and the rest of your SOL stays in your wallet. The trade panel warns you first.
 
-### How do I get a planet?
-Feed a star while it's under 1 SOL. Every feed that lands becomes a world in that star's orbit, and it's recorded as yours. [The universe →](/guide/universe)
+### What is a black hole?
+A coin with no trades for 7 days collapses into a black hole. One buy brings it back. [Stars →](/guide/stars)
 
-### What decides which planet I get?
-The star's on-chain seed and the order your feed landed in. The same star always has the same worlds, so yours is fixed the moment it lands. Terra worlds and ringed worlds are the rarest.
+## The bounty
 
-### Are planets NFTs? Can I sell them?
-No. Worlds, remnants and DUST are derived from on-chain data, so they're verifiable, but they aren't tokens. They can't be transferred or sold and have no monetary value.
+### How do I win a supernova bounty?
+Buy a coin during its final stretch (the last 10% of its curve) and still hold those tokens 10 minutes after it graduates. The bounty is split by net SOL bought into the stretch. [The bounty →](/rules/bounty)
 
-### What is DUST?
-A score on your on-chain player account. Every send earns it, with more for sending early in a star's life. It only goes up and unlocks ranks and perks. [Ranks & perks →](/guide/progression)
+### Where does the bounty money come from?
+Half of Corium's share of the coin's trading fees, over its whole life on the curve. The Corium program puts it into the coin's escrow every time the fees are claimed. [The fee router →](/rules/fee-router)
 
-### Does a higher rank improve my odds?
-No, never. Every perk is cosmetic, social or archival. Nothing changes odds, payouts, fees or ordering.
+### Can Corium take the bounty?
+No. The bounty half of every fee claim goes straight into the coin's escrow on chain, and a payout must equal the escrow exactly. The only way escrow reaches the treasury is if nobody wins it and 30 days pass, or if winners leave it unclaimed for 30 days.
 
-### How do I get a name over my pushes?
-Reach 2,500 DUST to unlock **Callsign**, then set your name on your profile. At 6,000 DUST you can pick its colour.
+### How do I claim?
+**Portfolio → Bounties**, or the coin page, once the payout is posted (shortly after the 10-minute hold check). You have 30 days.
 
-## Fees
+### Does splitting my buys across wallets help?
+No. Credit is linear in SOL, so ten wallets earn exactly what one would.
 
-### What's the house edge?
-3.14% of every settled send. That's the only edge in the game.
+## Account
 
-### Do I pay for the randomness?
-No. The house pays for every VRF draw out of its own 3.14%.
+### Why do I sign a message to sign in?
+It proves you own the wallet without moving anything, and it records that you're 18+ and agree to the terms. It is never a transaction. [Getting started →](/guide/getting-started)
 
-### What else do I pay?
-Solana network fees, plus account rent. Most rent comes back to you when the accounts close, and **History → Return leftover SOL** collects any that's still waiting. The worst case is about 0.0029 SOL of non-refundable rent, on a brand-new wallet's first push into a brand-new star. [Details →](/rules/fees#what-you-sign)
-
-## Fairness & safety
-
-### Can the team rig the outcome?
-The odds and fees are compiled into the program, and there's no admin or config that can change them. Randomness comes from MagicBlock's verifiable oracle, and no one can compute a round's seed before the round closes. [How →](/rules/randomness)
-
-### Is the deployed program the same as the public code?
-Yes. The build is verified by OtterSec against [corium-core](https://github.com/corium-solana/corium-core). [Check the status →](https://verify.osec.io/status/CoriumcqGZW3cdnAiyWz6jHHveMUmdrw9RC1KXfMsF8S)
-
-### Is Corium audited?
-The program has had an internal audit. Every finding is fixed and covered by a test scenario that runs against a real Solana validator. It hasn't had an external audit yet.
-
-### Is there anything I have to trust?
-Yes, one thing: the program's **upgrade authority**. It's held by a Squads multisig at launch, so that a broken oracle or a discovered bug can be fixed, and it will be dropped to `None`. Until then, treat the program as changeable by the team. [Details →](/rules/safety#what-you-do-have-to-trust)
-
-### What if my push takes a long time?
-On a very quiet star, a small push may wait for others to join its round. If no one does within about five minutes, the round is voided and your stake is refunded in full.
-
-### What if Corium goes offline?
-Your funds aren't stuck. Every bookkeeping instruction is permissionless, rounds that never draw are refunded after about five minutes, and a star that goes silent for 7 days can be collapsed by anyone, with feeders refunded. [Details →](/rules/safety)
-
-## Account & chat
-
-### Why do I need to sign a message?
-Signing in is one signature. It's not a transaction and costs nothing. The first time, it also confirms you are 21+ and agree to the [terms](/legal/terms). It enables chat, your profile, and other signed-in features.
-
-### How long does a sign-in last?
-Up to 30 days, or 14 days without use.
-
-### Why can't I post in chat?
-You need to be signed in with a wallet that has fed or pushed at least once.
-
-### Can I hide my PnL?
-Yes. Your profile has a switch that hides your PnL from visitors.
-
-### Can I withdraw my consent?
-Yes, under Settings. Withdrawing signs that wallet out everywhere.
+### Where does my profile name come from?
+You get a random star name when you first sign in. Change it any time; names are unique. [Profiles →](/guide/social#profiles)

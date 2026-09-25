@@ -48,7 +48,7 @@ Systems sort themselves like real ones: molten rock close in, giants further out
 
 ## Your atlas
 
-Everything you've created (every world you've seeded and every remnant you've earned) is collected on your **profile** as your atlas. Your rarest world is shown first. With the ATLAS perk, you can choose which one you wear on your card, on the boards, and next to your name. [Ranks & perks →](/guide/progression)
+Everything you've created (every world you've seeded and every remnant you've earned) is collected on your **profile** as your atlas. Your rarest world is shown first. With the ATLAS perk, you can choose which one you wear on your card, on the boards, and next to your name. [Ranks & perks →](/game/progression)
 
 The **WORLDS** leaderboard ranks players by how many worlds they've built.
 

@@ -1,73 +1,52 @@
-# Sending & fees
+# Fees
 
-## How much you can send
+## On the bonding curve
 
-There is one rule for shape, everywhere: **a push is a whole multiple of 0.01 SOL.** That step is both the granularity and the minimum. It's compiled in, and it never moves.
+Every trade on the curve, buy or sell, pays a **1% trading fee**, taken in SOL.
 
-- **Min:** `0.01 SOL`. Legal on every star, at every pot size, forever.
-- **Max:** the room left before the next boundary: 1 SOL in the nursery, 21 SOL after it. There is no absolute ceiling and no stage gate.
-
-A send of zero, or one that isn't a whole step, **fails** (`PushNotOnStep`). A send above the room left is **clipped**, never rejected. That's all the validation there is.
-
-Because 1 SOL and 21 SOL are both whole numbers of steps, mass always stays on the 0.01 grid, and the room left before a boundary is always itself a legal push. So the star can never get stuck just short of the hole.
-
-Past the nursery, room is measured against **committed** mass (settled plus queued), so the queue can't promise the same lamports twice. If the queue ahead of you shrinks by the time your push lands, the excess is refunded when it resolves.
-
-Nothing about a signed amount can go stale. There's no minimum to fall below, and oversized sends clip instead of failing.
-
-## The split
-
-| Share | Value |
+| Share of each trade | Goes to |
 |---|---|
-| Prize pool | **96.86%** |
-| Protocol | **3.14%** |
+| **0.20%** | Meteora (its protocol fee: 20% of the fee) |
+| **0.296%** | The coin's **creator** (37% of what Meteora leaves) |
+| **0.252%** | The coin's **supernova bounty** escrow |
+| **0.252%** | The Corium **treasury** |
 
-Example: 1 SOL settled means 0.9686 SOL to the prize and 0.0314 SOL to the protocol.
+Corium's share (63% of what Meteora leaves, about 0.5% of volume) is split 50/50 between the coin's bounty and the treasury **by the Corium program**, every time it's claimed. [The fee router →](/rules/fee-router)
 
-The house edge is π%, and it's a round number of lamports too: 314 bps of the 0.01 SOL step is exactly 314,000 lamports. The split never rounds, so the prize pool is always *exactly* 96.86% of mass. That exactness is what makes the [return identity](/rules/odds#why-the-ratio-is-the-only-fair-curve) hold to the lamport.
+### The launch window
 
-The vault keeps four separate buckets: pending escrow, unpaid prizes, next-star reserve, and protocol accrued. A protocol-fee withdrawal always pays the treasury address fixed at launch, and can only ever touch **protocol accrued**. It can never reach the other three buckets.
+To take the edge off sniper bots, the fee starts at **50%** when a coin launches and decays exponentially to **1%** over the first **60 seconds**. The split above applies to whatever the fee is at that moment.
 
-Protocol accrued is also the float that pays for randomness draws, so anyone can trigger a withdrawal only down to a **0.05 SOL** floor (about a hundred draws). Only the treasury itself can take that last 0.05 SOL.
+The creator's own buy in the launch transaction always pays the normal 1%.
 
-## What you sign
+### Worked example
 
-The PUSH number is your **stake**, the SOL that goes into the star.
+A 1 SOL buy after the launch window pays 0.01 SOL in fees: 0.002 SOL to Meteora, 0.00296 SOL to the creator, 0.00252 SOL into the coin's bounty and 0.00252 SOL to the treasury.
 
-You don't pay for randomness. Your round buys one draw for all its members, and the house pays for it out of its 3.14%. What you do sign, besides the stake, is **rent**. Solana charges rent for the bytes an account takes up, and refunds it when the account is closed. The figures below are exact: `(128 + bytes) × 5080` lamports, which is the rate both mainnet and devnet charge.
+## After graduation
 
-### Rent you get back
+A graduated coin trades on its **Meteora DAMM v2** pool, which charges a **1%** fee to traders. After Meteora's protocol share, the fee goes to the pool's liquidity. That liquidity is **permanently locked**, and it belongs **50/50 to the creator and Corium**: both earn its fees, and neither can ever withdraw it.
 
-| Account | Amount | Comes back |
-|---|---|---|
-| `PendingPush` | 0.0014224 SOL | when your push resolves (`close_push`) |
-| `Round` | 0.0017577 SOL | when every member of the round has resolved (`close_round_account`) |
+Graduation itself costs nothing: there is no migration fee.
 
-Round rent is paid by whichever member happens to open the round, and it is returned to that same wallet. You can't know in advance whether that will be you, so the app quotes it either way. If you join a round someone else opened, you simply don't pay it.
+## Launching
 
-### Rent you don't get back
+| | |
+|---|---|
+| Creation fee | **None** |
+| Network cost | About **0.03 SOL** of Solana rent for the new accounts |
+| Your buy at launch | Optional, pays the normal 1% |
 
-These accounts are reused by your later pushes:
+## Other costs
 
-| Account | Amount | How often |
-|---|---|---|
-| `Player` | 0.0011430 SOL | once per wallet, ever |
-| `FeedShare` | 0.0009449 SOL | once per wallet per star |
-| `StarFeed` | 0.0007772 SOL | once per star, paid by whoever touches it first |
+| | |
+|---|---|
+| Signing in, chat, profiles | Free. Signing in is a message, not a transaction. |
+| Claiming a bounty | The Solana transaction fee, plus about 0.001 SOL of rent for your claim record |
+| Solana network fees | Every transaction pays Solana's own small fee, which goes to validators |
 
-### Worst case
+Corium never adds a fee on top of what's shown in the trade panel.
 
-A brand-new wallet, making its first push into a brand-new star, that also opens the round, signs **the stake plus 0.0060452 SOL**. Of that, 0.0031801 SOL comes back and 0.0028651 SOL is actually spent.
+## Checking the numbers
 
-A second push from the same wallet into the same star signs the stake, plus push-account rent that comes straight back, plus the network fee.
-
-A **feed** is just the stake plus a tiny network fee.
-
-## If your push never rolls
-
-Your stake is refunded in full, and the reclaimable rent still comes back. That happens in two cases:
-
-- the star was destroyed while your push was still queued, or
-- your round was voided, because its draw never arrived or because, on a very quiet star, it never gathered enough stake to be worth drawing.
-
-In either case, a push that never rolls costs you only the network fee.
+Every fee above is set in the Corium config on Meteora's bonding-curve program, one config for every coin, and in the Corium program's route for that config. Both are public accounts. [Program reference →](/rules/program)

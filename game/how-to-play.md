@@ -20,11 +20,11 @@ A star goes through two phases: the **nursery** and the **hazard** phase. What y
 
 While the star is under 1 SOL, every send is a **feed**. Feeds settle at once, don't use the oracle, and can't kill the star.
 
-Every feed that lands pulls a **world** into the star's orbit. Its type and rarity are set by the star's seed and your place in line, and it stays yours in the archive for good. [The universe →](/guide/universe)
+Every feed that lands pulls a **world** into the star's orbit. Its type and rarity are set by the star's seed and your place in line, and it stays yours in the archive for good. [The universe →](/game/universe)
 
 Each feed adds to your share of the star's **early volume**. If the star later reaches 21 SOL without going nova, it collapses into a black hole and the whole prize is split between feeders in proportion to what they fed.
 
-A star makes it from 1 SOL to 21 SOL without a nova exactly **1 time in 21** (4.76%), however many people push and however big their pushes are. That makes feeding a fair 21:1 bet on the black hole. [See the maths →](/rules/odds#why-the-hole-is-1-in-21)
+A star makes it from 1 SOL to 21 SOL without a nova exactly **1 time in 21** (4.76%), however many people push and however big their pushes are. That makes feeding a fair 21:1 bet on the black hole. [See the maths →](/game/rules/odds#why-the-hole-is-1-in-21)
 
 ## Pushing: going for the kill
 
@@ -44,7 +44,7 @@ chance = your push ÷ (star mass + your push)
 If your push triggers the nova, you become the star's **killer**. You can claim the entire prize pool, which is 96.86% of everything that went into the star, and the star's **remnant** goes into your atlas.
 
 ::: tip Why size doesn't matter for value
-A bigger push gives a bigger chance, but the prize you'd win is the same pot either way. The maths works out so that **every push returns exactly 96.86% of its stake** on average. Push the amount you are comfortable with. [Proof →](/rules/odds#why-the-ratio-is-the-only-fair-curve)
+A bigger push gives a bigger chance, but the prize you'd win is the same pot either way. The maths works out so that **every push returns exactly 96.86% of its stake** on average. Push the amount you are comfortable with. [Proof →](/game/rules/odds#why-the-ratio-is-the-only-fair-curve)
 :::
 
 ## Rounds
@@ -65,4 +65,4 @@ On a very quiet star, a lone 0.01 SOL push may wait for company, because a round
 
 As soon as a star dies, collapses, or has 21 SOL committed, anyone can start the next one. Play moves on straight away, even while the old star's queue finishes settling. The old star joins the archive, with its planets still in orbit.
 
-**Next:** [Around the app →](/guide/the-app)
+**Next:** [Around the app →](/game/the-app)

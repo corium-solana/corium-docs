@@ -14,8 +14,8 @@ This is where you pick an amount and send. It always shows your **stake** and yo
 
 | Item | What's there |
 |---|---|
-| **Profile** | Your card: rank, DUST, worlds, perks, PnL, callsign. [More →](/guide/progression#your-profile) |
-| **The Boards** | Leaderboards for DUST, kills, worlds, volume and prizes. [More →](/guide/progression#the-boards) |
+| **Profile** | Your card: rank, DUST, worlds, perks, PnL, callsign. [More →](/game/progression#your-profile) |
+| **The Boards** | Leaderboards for DUST, kills, worlds, volume and prizes. [More →](/game/progression#the-boards) |
 | **History** | Your own activity: every feed, push, supernova, horizon, refund, claim and hole share, filterable by type and star. |
 | **Swap** | Swap tokens to or from SOL through [Jupiter](https://jup.ag), without leaving the game. |
 | **How to play** | Five quick cards that explain the game. |
@@ -25,7 +25,7 @@ This is where you pick an amount and send. It always shows your **stake** and yo
 ## Stars & the archive
 
 - **Star name (top centre):** tap it to open **fast travel** and jump to any star by number. The arrows on either side step through stars.
-- **Past stars** can be replayed from start to finish, at different speeds, with your own pushes marked. [The archive →](/guide/universe#the-archive)
+- **Past stars** can be replayed from start to finish, at different speeds, with your own pushes marked. [The archive →](/game/universe#the-archive)
 - **Claiming:** if you killed a star, or fed one that collapsed into a black hole, a **CLAIM** button appears on that star.
 
 ## Chat
@@ -56,7 +56,7 @@ Every push opens a small account that holds rent until the push is finished. If 
 
 ## Hide UI (cinema mode)
 
-The eye icon in the top-left hides everything except the star, and unlocks camera controls. [Cinema mode →](/guide/cinema)
+The eye icon in the top-left hides everything except the star, and unlocks camera controls. [Cinema mode →](/game/cinema)
 
 ## Wallets
 
