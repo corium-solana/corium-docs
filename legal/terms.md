@@ -1,6 +1,6 @@
 # Terms of use
 
-**Version 1.** This page mirrors the terms you agree to when you sign in to the Corium launchpad. The in-app version is authoritative.
+**Version 2.** This page mirrors the terms you agree to when you sign in to the Corium launchpad. The in-app version at [corium.so/#/terms](https://corium.so/#/terms) is authoritative.
 
 ::: info The short version
 - You are 18 or older and allowed to use a service like this where you live.
@@ -10,7 +10,7 @@
 - No scams, impersonation, harassment or illegal content. We hide it and ban wallets.
 :::
 
-These terms govern your use of Corium (corium.so), an interface for launching and trading tokens on Solana through third-party smart contracts, including Meteora's Dynamic Bonding Curve and DAMM v2 pools and the Corium bounty distributor. By signing in with your wallet you agree to them.
+These terms are an agreement between you and KOIA LLC, a Wyoming limited liability company ("KOIA", "we", "us"), which operates Corium (corium.so), an interface for launching and trading tokens on Solana through smart contracts, including Meteora's Dynamic Bonding Curve and DAMM v2 pools and the Corium launch program. By signing in with your wallet you agree to them and acknowledge the Corium Privacy Policy.
 
 ## Eligibility
 
@@ -30,7 +30,7 @@ Nothing on Corium is financial, investment, legal or tax advice. A coin appearin
 
 ## Fees and bounties
 
-Trades pay the fees shown in the trade panel. Part of Corium's fee on a coin in its final stretch funds that coin's supernova bounty, which is split by the published scoring rules. Bounty amounts are estimates until the distribution is published; the rules can change for coins launched after a change is announced.
+Trades pay the fees shown in the trade panel. Corium's share of a coin's curve fees is split on chain: half into that coin's supernova bounty escrow, half to Corium's treasury. A bounty is split among qualifying final-stretch buyers by the published scoring rules and can be claimed for 30 days after it is posted; a bounty nobody qualifies for, and anything left unclaimed, goes to Corium's treasury. Bounty amounts are estimates until the distribution is published; the rules can change for coins launched after a change is announced.
 
 ## Your content
 
@@ -44,26 +44,38 @@ Corium may hide content, remove coins from its interface, and block wallets from
 
 Signing in creates a public profile for your wallet with a generated name you can change. Your wallet address, profile, trades, launches and chat messages are public.
 
+## Privacy
+
+The Corium Privacy Policy (corium.so/#/privacy) explains what we collect, why, and your choices. On-chain activity and files published to IPFS are public and permanent, and we cannot change or delete them.
+
 ## Availability
 
 Corium is provided as is, without warranties of any kind. It can be changed, interrupted or discontinued at any time.
 
 ## Liability
 
-To the fullest extent allowed by law, Corium and its contributors are not liable for any loss arising from your use of Corium, including trading losses, failed transactions, bugs, or the acts of other users or of third-party protocols.
+To the fullest extent allowed by law, KOIA, its members and Corium's contributors are not liable for any loss arising from your use of Corium, including trading losses, failed transactions, bugs, or the acts of other users or of third-party protocols.
+
+## Governing law
+
+These terms are governed by the laws of the State of Wyoming, USA, without regard to its conflict-of-laws rules. Disputes are to be resolved in the state or federal courts located in Wyoming, unless the law where you live gives you the right to bring a claim in your local courts.
 
 ## Changes
 
 We may update these terms. The version you agreed to is part of your signed sign-in message; a new version asks you to agree again the next time you sign in.
 
+## Contact
+
+KOIA LLC, 1309 Coffeen Ave Ste 1200, Sheridan, Wyoming 82801, USA. Email: corium.so@proton.me.
+
 ## What you sign
 
 Signing in signs this statement with your wallet:
 
-> Sign in to Corium. I confirm I am 18 or older and agree to the Corium Terms of Use v1.
+> Sign in to Corium. I confirm I am 18 or older and agree to the Corium Terms of Use v2.
 
 The message also pins the exact text above by its SHA-256 hash:
 
-`69b3d3c77e709f09e53efd76fe9a260e3d9a9eb222aae1bd4052e4d4f9a07875`
+`95d7e49c118e8b2ac4498c79501582bb5825283763137ee29b75f5c1e5401488`
 
 If the terms change, the version changes, and you are asked to agree again the next time you sign in.

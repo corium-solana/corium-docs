@@ -64,6 +64,7 @@ export default defineConfig({
           items: [
             { text: 'FAQ', link: '/faq' },
             { text: 'Terms of use', link: '/legal/terms' },
+            { text: 'Privacy policy', link: '/legal/privacy' },
             { text: 'Official links & security', link: '/legal/official-links' },
           ],
         },
