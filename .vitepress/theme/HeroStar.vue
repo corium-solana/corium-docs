@@ -1,7 +1,9 @@
 <script setup>
-// The live star is rendered by the game itself (corium.so/embed/star) and
-// framed here, so no renderer code lives in this repo.
-const src = import.meta.env.DEV ? 'http://localhost:5174/embed/star.html' : 'https://www.corium.so/embed/star';
+// A live launchpad star, rendered by the site itself (corium.so/embed/star:
+// the hottest coin on the curve, else the latest supernova) and framed here,
+// so no renderer code lives in this repo. In dev, the launchpad's local
+// devnet server (yarn dev:devnet in soldust/launch).
+const src = import.meta.env.DEV ? 'http://localhost:5179/embed/star.html' : 'https://corium.so/embed/star';
 </script>
 
 <template>
@@ -9,7 +11,7 @@ const src = import.meta.env.DEV ? 'http://localhost:5174/embed/star.html' : 'htt
     <iframe
       class="hero-star-frame"
       :src="src"
-      title="The current Corium star, live"
+      title="A live Corium star"
       loading="lazy"
       scrolling="no"
       referrerpolicy="no-referrer"

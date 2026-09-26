@@ -24,7 +24,7 @@ Each wallet's score is its **net SOL into the final stretch**:
 
 ### The hold check
 
-**10 minutes after graduation**, each scoring wallet's balance of the coin is checked. Your credit is scaled by the share of your stretch tokens you still hold:
+Each scoring wallet's balance of the coin is taken as of **exactly 10 minutes after graduation**, rebuilt from on-chain history, so it doesn't matter when the payout is actually computed. Selling or moving tokens after that moment never affects your bounty. Your credit is scaled by the share of your stretch tokens you still hold:
 
 `score = stretch credit × min(1, tokens held ÷ stretch tokens bought)`
 
