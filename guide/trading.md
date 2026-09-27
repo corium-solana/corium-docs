@@ -23,6 +23,16 @@ Every trade pays a **1% fee** (50% in the first 60 seconds after launch, decayin
 
 Selling Max sells your exact balance, so nothing is left behind as dust.
 
+## The chart and terminal mode
+
+The chart shows **market cap or price**, in **USD or SOL**, in candles from **1 second to 4 hours**, with volume underneath. Arrows mark the **dev's** trades and **yours**; dashed lines mark the **final stretch** and **supernova** levels. Hover a candle for its open, high, low, close and volume.
+
+**Terminal mode** (the ⛶ button, or <kbd>F</kbd>) turns the coin page into a full-screen trading terminal: a big chart, the star small beside the trade panel, trades and chat underneath, and a strip of coins across the top (your watchlist, coins you opened lately, then the hottest). Switch coins with <kbd>[</kbd> and <kbd>]</kbd>, search with <kbd>/</kbd>, leave with <kbd>Esc</kbd>. It stays on until you turn it off.
+
+## Trading from Telegram
+
+The [Corium bot](/guide/telegram) puts **Buy** and **Sell** buttons on its alerts, and `/buy HDOG 0.5` or `/sell HDOG 50` makes one for any coin. A button opens the coin in Phantom or Solflare with the trade already filled in; you check it and approve it in your wallet. The bot never trades by itself and never has your keys.
+
 ## Near the top of the curve
 
 A buy bigger than the room left before 85 SOL is **filled partially**: you get tokens up to the graduation price, and the rest of your SOL stays in your wallet. The trade panel tells you in advance when this will happen and how much comes back.

@@ -43,8 +43,9 @@ You need to be signed in to launch. Launching is limited to signed-in wallets be
 
 ## As the creator
 
-- You earn **37% of the curve's trading fees after Meteora's cut** (about 0.3% of volume), in SOL. Claim them through Meteora's creator tools.
+- You earn **37% of the curve's trading fees after Meteora's cut** (about 0.3% of volume), in SOL.
 - After graduation you own half of the locked pool liquidity, and earn half of its LP fees.
+- **Claiming:** open your profile. The **Creator fees to claim** card and the **Created** tab show what each coin owes you, curve fees and LP fees together; **Claim** sends them to your wallet in one transaction. The Telegram bot's `/claims` lists them too.
 - Your trades are marked **Dev** on the coin page and in chat, so everyone can see what the creator does.
 
 ::: tip A good launch

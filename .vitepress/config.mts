@@ -48,7 +48,8 @@ export default defineConfig({
             { text: 'Launching a coin', link: '/guide/launching' },
             { text: 'Trading', link: '/guide/trading' },
             { text: 'Stars', link: '/guide/stars' },
-            { text: 'Chat, profiles & leaderboards', link: '/guide/social' },
+            { text: 'Social: follow, callouts & more', link: '/guide/social' },
+            { text: 'Telegram alerts', link: '/guide/telegram' },
           ],
         },
         {
