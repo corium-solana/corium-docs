@@ -40,7 +40,7 @@ What the program guarantees, whoever runs the crank:
 
 What you do trust: **the crank's scoring**. The crank decides who wins how much of a coin's escrow, by the public [scoring rules](/rules/bounty#scoring). Every payout publishes its scores and proofs to IPFS, so anyone can recompute it from chain data. The crank cannot take bounty money for itself, redirect fees, or pay out a different amount.
 
-The program's **admin** (its upgrade authority) can rotate the crank and the treasury addresses and register routes for new configs. It cannot change an existing route's split, a posted payout, or an escrow.
+The program's **admin** (a Squads multisig, which is also its upgrade authority) can rotate the crank and the treasury addresses and register routes for new configs. It cannot change an existing route's split, a posted payout, or an escrow.
 
 ## Verify it yourself
 

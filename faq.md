@@ -6,7 +6,7 @@
 A memecoin launchpad on Solana where every coin is a living star, and the wallets that carry a coin over its graduation line split its supernova bounty. [Read more →](/guide/what-is-corium)
 
 ### Is it on mainnet?
-Not yet. The launchpad is being tested on Solana devnet and launches on mainnet soon. The mainnet addresses and app link will be published [here](/rules/program) and on [@corium_so](https://x.com/corium_so).
+Yes. The launchpad is live on Solana mainnet at [corium.so](https://corium.so). Every official address is on the [program reference](/rules/program).
 
 ### What do I need?
 A Solana wallet (Phantom, Solflare or Backpack), some SOL, and to be 18 or older. Browsing needs nothing. [Getting started →](/guide/getting-started)

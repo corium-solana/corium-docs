@@ -28,7 +28,7 @@ What makes Corium different is the **supernova bounty**. Half of Corium's fees o
 | Bonding curve | [Meteora Dynamic Bonding Curve](https://docs.meteora.ag) (DBC) |
 | After graduation | Meteora DAMM v2, liquidity permanently locked |
 | Bounty and fee split | The Corium program (`corium_launch`), see [the fee router](/rules/fee-router) |
-| Network | Solana (devnet now, mainnet at launch) |
+| Network | Solana mainnet, at [corium.so](https://corium.so) |
 
 Corium never holds your funds. Every trade, launch and claim is a transaction you sign in your own wallet.
 

@@ -4,13 +4,14 @@ Only trust these. Bookmark them.
 
 | | |
 |---|---|
+| Launchpad | [corium.so](https://corium.so) |
 | Docs | [docs.corium.so](https://docs.corium.so) |
 | X | [@corium_so](https://x.com/corium_so) |
 | Email | [corium.so@proton.me](mailto:corium.so@proton.me) |
 
 ### The launchpad
 
-The launchpad launches on mainnet soon. Its app link and mainnet program, config and treasury addresses will be announced on [@corium_so](https://x.com/corium_so) and listed on the [program reference](/rules/program). Until then, **anything claiming to be the Corium launchpad on mainnet isn't us.**
+The launchpad is live on Solana mainnet at [corium.so](https://corium.so). Its program is `NovanpiewpH4zvYgtzAQN2zWQ94KcKWrHCTswWdZ1Y1`, and every other official address is on the [program reference](/rules/program). **Any other site or program claiming to be the Corium launchpad isn't us.**
 
 ## Stay safe
 

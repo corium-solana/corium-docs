@@ -2,11 +2,26 @@
 
 ## Addresses
 
-::: info Mainnet addresses at launch
-The launchpad runs on Solana devnet while it's being tested. The mainnet program, config and treasury addresses will be listed here at launch. Don't trust a mainnet address for the Corium launchpad from anywhere else.
+::: tip These are the only official addresses
+Don't trust an address for the Corium launchpad from anywhere else. Your wallet shows the program ID before you approve a transaction: it should be `NovanpiewpH4zvYgtzAQN2zWQ94KcKWrHCTswWdZ1Y1` or one of Meteora's below.
 :::
 
-### Devnet
+### Mainnet
+
+| | |
+|---|---|
+| App | [corium.so](https://corium.so) |
+| Corium program (`corium_launch`) | `NovanpiewpH4zvYgtzAQN2zWQ94KcKWrHCTswWdZ1Y1` |
+| Corium config (Meteora DBC) | `HdY7SdqgdquPcSSFD6gkFaLUQ4zRTdCjPDaPa57DgbRw` |
+| Fee claimer (the Corium vault) | `HdtdnxH8mqD4UhSKsA1gueo89DYNsc9QaoAXqWoZaodb` |
+| Treasury | `GLVXkNtqT7Atdz1vCyd22kWDPcFdCbktHFGHiWx19yg4` (a Squads multisig) |
+| Admin and upgrade authority | `GLVXkNtqT7Atdz1vCyd22kWDPcFdCbktHFGHiWx19yg4` (the same Squads multisig) |
+| Crank (posts payouts) | `DU3PVbRgL4G9rdFnJ5guRC5rt26JCEEckGJmMKGdc1JG` |
+| Graduates at | 85 SOL |
+
+The program was deployed from a verifiable build, and no single key can upgrade it or change its admin settings: both need the Squads multisig.
+
+### Devnet (testing)
 
 | | |
 |---|---|
@@ -57,6 +72,8 @@ All addresses are PDAs of the Corium program:
 |---|---|---|
 | `initialize` | Upgrade authority, once | Sets admin, crank, treasury, claim window |
 | `set_crank`, `set_treasury` | Admin | Rotate those addresses |
+| `propose_admin`, `cancel_admin_offer` | Admin | Offer the admin role to a new address, or withdraw the offer |
+| `accept_admin` | The proposed admin | Takes the admin role; a two-step handover, so it can't go to a mistyped address |
 | `create_route` | Admin, once per config | Registers a DBC config and its bounty share |
 | `claim_fees` | Anyone | Claims a pool's partner fees; route share to its escrow, the rest to the treasury |
 | `create_distribution` | Crank | Posts a graduated coin's merkle root for exactly its escrow |

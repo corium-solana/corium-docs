@@ -37,6 +37,6 @@ features:
     details: Every coin has a live room. Every wallet gets a profile with a star name. Traders, bounty hunters and creators climb their own leaderboards.
 ---
 
-::: info Launching soon
-The Corium launchpad is being tested on Solana devnet and launches on mainnet soon. The app link and the mainnet program and config addresses will be published in these docs and on [@corium_so](https://x.com/corium_so) at launch. Until then, anything claiming to be the Corium launchpad on mainnet isn't us.
+::: tip Live on Solana mainnet
+The Corium launchpad is live at **[corium.so](https://corium.so)**. The only official program is `NovanpiewpH4zvYgtzAQN2zWQ94KcKWrHCTswWdZ1Y1`; every official address is on the [program reference](/rules/program). Anything else claiming to be the Corium launchpad isn't us.
 :::
