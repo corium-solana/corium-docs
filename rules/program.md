@@ -19,7 +19,7 @@ Don't trust an address for the Corium launchpad from anywhere else. Your wallet 
 | Crank (posts payouts) | `DU3PVbRgL4G9rdFnJ5guRC5rt26JCEEckGJmMKGdc1JG` |
 | Graduates at | 85 SOL |
 
-The program was deployed from a verifiable build, and no single key can upgrade it or change its admin settings: both need the Squads multisig.
+The program is **verified**: OtterSec rebuilt it from its public source, [github.com/corium-solana/corium-launch](https://github.com/corium-solana/corium-launch), and the result matches the on-chain program byte for byte ([verification](https://verify.osec.io/status/NovanpiewpH4zvYgtzAQN2zWQ94KcKWrHCTswWdZ1Y1)). Its security contact is embedded in the program (security.txt) and at [corium.so/security.txt](https://corium.so/security.txt). No single key can upgrade it or change its admin settings: both need the Squads multisig.
 
 ### Devnet (testing)
 

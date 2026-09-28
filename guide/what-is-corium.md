@@ -18,7 +18,7 @@ What makes Corium different is the **supernova bounty**. Half of Corium's fees o
 - **Launch.** Name, ticker, image, optional socials, optional first buy. There is no creation fee; you only pay Solana's account rent (about 0.03 SOL). [Launching a coin →](/guide/launching)
 - **Trade on the curve.** Price rises as SOL comes in and falls as it goes out. Every trade pays 1%, split between Meteora, the creator and Corium. [Trading →](/guide/trading)
 - **Watch the star.** Each coin's star follows its curve: protostar, main sequence, blue giant, red giant, supergiant, then **critical** in the final stretch. [Stars →](/guide/stars)
-- **Buy the final stretch.** The last 10% of the curve is where bounty credit is earned. Hold through graduation and you split the bounty. [The bounty →](/rules/bounty)
+- **Buy the final stretch.** The last 10% of the curve is where bounty credit is earned. Hold those tokens until 10 minutes after graduation and you split the bounty. [The bounty →](/rules/bounty)
 - **Graduation.** At 85 SOL the star goes supernova, the coin moves to a Meteora DAMM v2 pool with locked liquidity, and you keep trading it on Corium.
 
 ## Built on
