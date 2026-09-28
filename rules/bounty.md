@@ -20,6 +20,7 @@ Each wallet's score is its **net SOL into the final stretch**:
 
 - **A buy** earns credit for the SOL it put in *above* the stretch line. A buy that starts at 70 SOL and ends at 80 SOL earns credit for the part from 76.5 to 80 SOL only.
 - **A sell** made while the curve is in the stretch takes its SOL back out of the seller's credit. Sell as much as you bought and your credit is gone.
+- **Whose trade it is:** each trade counts for the wallet whose balance of the coin changes in that transaction (the wallet that receives the tokens on a buy, the one that gives them up on a sell), not for whoever paid the network fee. So a buy made through a trading bot, an aggregator or a Jupiter limit order counts for you, just like a buy on corium.so. The curve's and the pool's own vaults are never counted.
 - Credit is linear in SOL, so splitting a buy across several wallets gains nothing.
 
 ### The hold check
