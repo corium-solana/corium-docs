@@ -37,7 +37,7 @@ export default defineConfig({
       { text: 'Earn', link: '/earn/', activeMatch: '/earn/' },
       { text: 'Rules', link: '/rules/', activeMatch: '/rules/' },
       { text: 'FAQ', link: '/faq' },
-      { text: 'Open app ↗', link: 'https://corium.so' },
+      { text: 'Open app', link: 'https://corium.so' },
     ],
 
     sidebar: {
