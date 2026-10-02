@@ -56,6 +56,43 @@ No. The bounty half of every fee claim goes straight into the coin's escrow on c
 ### Does splitting my buys across wallets help?
 No. Credit is linear in SOL, so ten wallets earn exactly what one would.
 
+## Bounties & requests
+
+### What’s the difference between the supernova bounty and a bounty?
+The **supernova bounty** is automatic: every Corium coin has one, funded by Corium’s fees. A **bounty** is extra SOL that someone puts on a coin graduating, on Corium or pump.fun, refunded if it doesn’t. Finishing a coin can win both. [Bounties →](/earn/bounties)
+
+### Can I put a bounty on a pump.fun coin?
+Yes. Paste its address or link on [corium.so/bounties](https://corium.so/bounties). Corium takes 5%, only if the coin graduates and the bounty pays out.
+
+### How do I finish a pump.fun coin with a bounty?
+Buy through Corium: **Buy on Corium** on its bounty card, its finish link, or `/finish` in the Telegram bot. It’s pump.fun’s own buy at pump.fun’s price; the part past 90% of the curve is recorded on chain and locked until an hour after graduation. Buys made on pump.fun directly don’t count. [Finishing →](/earn/bounties#finish-one)
+
+### What happens to my bounty if the coin doesn’t graduate?
+You get all of it back, with no fee. The same if it graduates but nobody finished it through Corium, or if finishers leave their shares unclaimed for 30 days.
+
+### What’s a request?
+A prize for a coin that doesn’t exist yet. Creators launch it to enter, the first to graduate wins, and its creator and finishers split the prize. The sponsor gets a bag of the winner at launch price and half of Corium’s fees on it. [Requests →](/earn/requests)
+
+### Do creators pay to enter a request?
+No fee. They stake a small part of their own launch buy; if they lose, or nobody wins, it comes back to them.
+
+## DUST & referrals
+
+### What is DUST?
+Points for what grows Corium: finishing curves, launching coins that graduate, winning requests, funding bounties, trading and referrals. Every Monday the top 20 split a SOL pool. [DUST →](/earn/dust)
+
+### How big is the weekly pool?
+25% of Corium’s fees that week, never less than 1.5 SOL.
+
+### Why didn’t I get paid with lots of trading DUST?
+To be paid you need 1,000 DUST that week, at least 500 of it earned from finishing, launching, requests or bounties. Trading and referral DUST add to a payout but can’t qualify one on their own. [Qualifying →](/earn/dust#qualifying)
+
+### Does my DUST reset?
+Your weekly DUST does, every Monday. Your lifetime DUST and your rank never do.
+
+### How do referrals work?
+Share `corium.so/?r=yourcode`. Anyone who signs in for the first time through it adds 10% of their DUST to yours, up to 5,000 a week, without losing any of theirs. [Referrals →](/earn/referrals)
+
 ## Account
 
 ### Why do I sign a message to sign in?
@@ -63,3 +100,9 @@ It proves you own the wallet without moving anything, and it records that you're
 
 ### Where does my profile name come from?
 You get a random star name when you first sign in. Change it any time; names are unique. [Profiles →](/guide/social#profiles)
+
+### I use several wallets. Can they be one account?
+Yes. Link up to 10 wallets on your profile, each by signing a message with it (or a never-sent memo transaction on a Ledger). Their DUST and pump.fun record add up. [Linked wallets →](/guide/account#linked-wallets)
+
+### Can I show my pump.fun history?
+Yes. Corium reads your wallets’ pump.fun trades and launches from the last 180 days and shows them on your profile’s **Track record**. [Track record →](/guide/account#track-record-bring-your-pump-fun-stats)

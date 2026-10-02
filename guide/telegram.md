@@ -20,6 +20,7 @@ One wallet per chat. `/stop` in the bot, or **Disconnect** on your profile, unli
 | 🔥 Final stretch | A coin you watch enters its final stretch |
 | 💥 Supernova | A coin you watch goes supernova |
 | 🏆 Bounty | You won part of a supernova bounty (with a Claim button) |
+| ✨ DUST | You entered this week’s top 3 or the paid top 20, and a recap when the week closes |
 
 Follow people on their profiles; watch coins with ☆ **Watch** on a coin page, or `/watch` in the bot.
 
@@ -28,6 +29,7 @@ Follow people on their profiles; watch coins with ☆ **Watch** on a coin page, 
 | Command | Does |
 |---|---|
 | `/buy HDOG 0.5` | A button that opens a 0.5 SOL buy of $HDOG in your wallet (without an amount: 0.1, 0.5 and 1 SOL) |
+| `/finish HDOG` | Finish a coin: its curve, its bounties, and buttons that open its [finish page](/guide/finish-links) in your wallet. Takes a ticker or a pump.fun link. |
 | `/sell HDOG 50` | A button to sell 50% of your $HDOG (25% and 100% too) |
 | `/claims` | Bounties you won and creator fees waiting for you |
 | `/watch HDOG`, `/unwatch HDOG` | Watch or stop watching a coin (a ticker or a mint) |

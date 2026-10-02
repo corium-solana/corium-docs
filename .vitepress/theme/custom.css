@@ -86,6 +86,217 @@
   color: var(--vp-c-text-2);
 }
 
+/* ---------------------------------------------------------------- home */
+.VPHero .text {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+.VPHero .tagline {
+  max-width: 560px;
+}
+.VPHero .name {
+  font-family: var(--vp-font-family-mono);
+  letter-spacing: 0.22em;
+  font-weight: 600;
+}
+.VPFeatures .VPFeature {
+  background: linear-gradient(180deg, rgba(245, 158, 11, 0.06), rgba(17, 19, 24, 0.6) 55%);
+  border: 1px solid rgba(245, 158, 11, 0.16);
+  transition: border-color 0.2s, transform 0.2s;
+}
+.VPFeatures .VPFeature:hover {
+  border-color: rgba(245, 158, 11, 0.5);
+  transform: translateY(-2px);
+}
+.VPFeatures .VPFeature .icon {
+  background: rgba(245, 158, 11, 0.1);
+  border-radius: 12px;
+}
+.VPFeatures .VPFeature .link-text-value {
+  color: var(--vp-c-brand-1);
+}
+.home-body {
+  max-width: 1152px;
+  margin: 0 auto;
+  padding: 24px 24px 64px;
+}
+@media (min-width: 640px) {
+  .home-body { padding: 24px 48px 80px; }
+}
+@media (min-width: 960px) {
+  .home-body { padding: 24px 64px 96px; }
+}
+.home-body h2 {
+  margin: 48px 0 16px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  border: 0;
+}
+.home-body .stat-row {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+/* Path cards: one per kind of user. */
+.paths {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 14px;
+  margin: 8px 0 32px;
+}
+.paths .path {
+  display: block;
+  padding: 20px 22px;
+  border-radius: 14px;
+  border: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+  text-decoration: none;
+  transition: border-color 0.2s, background 0.2s;
+}
+.paths .path:hover {
+  border-color: rgba(245, 158, 11, 0.5);
+  background: rgba(245, 158, 11, 0.05);
+}
+.paths .path-k {
+  display: block;
+  font-family: var(--vp-font-family-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--vp-c-brand-1);
+}
+.paths .path b {
+  display: block;
+  margin: 6px 0 6px;
+  font-size: 1.1rem;
+}
+.paths .path p {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: var(--vp-c-text-2);
+}
+
+/* ---------------------------------------------------------------- docs */
+.vp-doc h1 {
+  letter-spacing: -0.02em;
+}
+.vp-doc h2 {
+  letter-spacing: -0.01em;
+}
+.vp-doc .lede {
+  font-size: 1.12rem;
+  line-height: 1.7;
+  color: var(--vp-c-text-2);
+}
+.vp-doc table {
+  font-size: 0.92rem;
+}
+.vp-doc th {
+  font-family: var(--vp-font-family-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* At a glance: the page in one box. */
+.vp-doc .glance {
+  margin: 24px 0;
+  padding: 18px 22px;
+  border-radius: 14px;
+  border: 1px solid rgba(245, 158, 11, 0.28);
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.08), rgba(17, 19, 24, 0.5));
+}
+.vp-doc .glance > b:first-child {
+  display: block;
+  margin-bottom: 8px;
+  font-family: var(--vp-font-family-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--vp-c-brand-1);
+}
+.vp-doc .glance ul {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+.vp-doc .glance li + li {
+  margin-top: 4px;
+}
+
+/* Numbered steps. */
+.vp-doc .steps {
+  counter-reset: step;
+  list-style: none;
+  padding: 0;
+  margin: 24px 0;
+}
+.vp-doc .steps > li {
+  counter-increment: step;
+  position: relative;
+  margin: 0;
+  padding: 0 0 20px 52px;
+  border-left: 1px solid var(--vp-c-divider);
+  margin-left: 16px;
+}
+.vp-doc .steps > li:last-child {
+  border-left-color: transparent;
+  padding-bottom: 4px;
+}
+.vp-doc .steps > li::before {
+  content: counter(step);
+  position: absolute;
+  left: -17px;
+  top: -3px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-family: var(--vp-font-family-mono);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #1a0e00;
+  background: var(--vp-c-brand-1);
+  box-shadow: 0 0 18px rgba(245, 158, 11, 0.35);
+}
+.vp-doc .steps > li > b:first-child {
+  display: block;
+  margin-bottom: 2px;
+}
+
+/* Cards that link onward. */
+.vp-doc .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+.vp-doc .cards a {
+  display: block;
+  padding: 16px 18px;
+  border-radius: 12px;
+  border: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+  text-decoration: none;
+  transition: border-color 0.2s;
+}
+.vp-doc .cards a:hover {
+  border-color: rgba(245, 158, 11, 0.5);
+}
+.vp-doc .cards a b {
+  display: block;
+  color: var(--vp-c-brand-1);
+  margin-bottom: 4px;
+}
+.vp-doc .cards a span {
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: var(--vp-c-text-2);
+}
+
 /* The litepaper prints to PDF from the browser (Cmd+P). */
 @media print {
   .VPNav, .VPLocalNav, .VPSidebar, .VPDocFooter, .VPFooter, .aside, .VPDocAsideOutline {

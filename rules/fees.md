@@ -37,6 +37,27 @@ Graduation itself costs nothing: there is no migration fee.
 | Network cost | About **0.03 SOL** of Solana rent for the new accounts |
 | Your buy at launch | Optional, pays the normal 1% |
 
+## Bounties and requests
+
+| | Corium fee |
+|---|---|
+| Bounty on a Corium coin | **None** (the coin’s trading already pays Corium’s curve fee) |
+| Bounty on a pump.fun coin | **5%** of the bounty, **only if it pays out** |
+| Request | **None** |
+| Any refund | **None** |
+| Opening a pot | No fee; about 0.007 SOL of Solana rent |
+
+A pump.fun finishing buy goes through pump.fun’s own program at pump.fun’s price and fees; Corium adds nothing to it. [The rules →](/rules/pots)
+
+## Paid back to users
+
+| | |
+|---|---|
+| Weekly DUST pool | 25% of Corium’s fees each week (curve plus locked-pool fees), never under 1.5 SOL. [DUST →](/rules/dust) |
+| Request sponsors | 50% of Corium’s fees on a request’s winning coin: curve fees from when the request opened until graduation, and locked-pool fees for 30 days after. [Requests →](/earn/requests) |
+
+Both are paid in SOL from the treasury.
+
 ## Other costs
 
 | | |

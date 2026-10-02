@@ -83,6 +83,12 @@ All addresses are PDAs of the Corium program:
 | `claim_lp_fees` | Anyone | DAMM v2 position fees to the treasury's token accounts |
 | `claim_surplus` | Anyone | Curve surplus to the treasury's token account |
 
+### Bounties and requests (pots)
+
+Sponsored bounties, requests and the stretch ledger are instructions in the same program, with their own accounts: `PotConfig`, `Pot`, `Contribution`, `Entry`, `PotClaim`, `Stretch` and `Credit`. Each pot’s SOL sits in the pot’s own token account, never in the vault above, so pots can’t reach supernova escrows or the treasury. The full list of accounts and instructions is on [Bounties & requests: the rules](/rules/pots#accounts-and-instructions).
+
+The pump.fun program, read (never called) by the stretch ledger and by `mark_winner` for pump.fun bounties: `6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P`.
+
 ## Verifying a payout
 
 Every `Distribution` carries the URI of a JSON report with each winner's stretch credit, stretch tokens, balance at the hold check, score, amount and merkle proof. To check one:
