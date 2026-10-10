@@ -45,7 +45,9 @@ Everything on a profile is public, like the chain it comes from.
 
 ## Callouts
 
-A **callout** says *this one*, in public, with a timestamp. Open a coin and tap **Call it**, with an optional note of up to 140 characters. Your followers hear it.
+A **callout** says *this one*, in public, with a timestamp. It is made in the coin's chat: turn on the megaphone next to **Send**, add a note of up to 140 characters if you like, and post. It shows in the chat as a marked line, and your followers hear it.
+
+You can only call a coin you hold: at least **$1** of it at the moment you call. Chat itself stays open to anyone signed in.
 
 Every call records the market cap at that moment, and shows what happened after:
 
