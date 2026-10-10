@@ -50,7 +50,7 @@ Nobody judges entries: if buyers graduate a coin, it wins. While an entry is sti
 
 ## For creators
 
-- **Enter** from the request’s page. You launch a coin as usual, with a launch buy at least the request’s stake. The stake part is held by the request; the rest of your buy is yours.
+- **Enter** from the request’s page. You launch a coin as usual, with a launch buy of at least the minimum the form shows: a little more than the stake itself, because a launch buy pays the 1% trading fee. The stake part is held by the request; the rest of your buy is yours.
 - **A coin can enter one request, ever**, and only while it’s early on its curve, so a coin that’s already nearly graduated can’t be entered everywhere.
 - **If you win**, you get your share of the prize in SOL, you keep every token you bought apart from the stake, and you earn your normal creator fees. Winning always pays you: the stake is sized from the prize so your share is worth more than what you give up.
 - **If you lose**, or nobody wins, your stake comes back to you.
