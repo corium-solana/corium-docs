@@ -45,7 +45,7 @@ Most traders use more than one wallet. Link them to your account and Corium trea
 
 | | |
 |---|---|
-| Wallets per account | Up to 10 |
+| Wallets per account | Your first wallet and up to 10 linked |
 | One account per wallet | A wallet linked to someone’s account can’t be linked to another until it’s unlinked |
 | Unlinking | Your account can unlink any of its wallets, and a linked wallet can leave on its own, at any time |
 

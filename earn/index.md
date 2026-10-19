@@ -32,7 +32,7 @@ Find coins to finish on **Explore → Final stretch** and on **[Bounties](https:
 ### If you sponsor
 
 - A [bounty](/earn/bounties) pays only if the coin graduates in time. Otherwise every lamport comes back to you.
-- A [request](/earn/requests) gets you a bag of the winning coin at its launch price, and **half of Corium’s fees on it** for 30 days after it graduates. No winner, full refund.
+- A [request](/earn/requests) gets you a bag of the winning coin at its launch price, and **half of Corium’s fees on it**: its curve fees from when you opened the request, and its locked pool’s fees for 30 days after it graduates. No winner, full refund.
 - Funding a bounty earns **200 DUST per SOL** that went to other finishers when the coin graduates.
 
 ## How it adds up
