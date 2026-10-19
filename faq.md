@@ -79,13 +79,13 @@ No fee. They stake a small part of their own launch buy; if they lose, or nobody
 ## DUST & referrals
 
 ### What is DUST?
-Points for what grows Corium: finishing curves, launching coins that graduate, winning requests, funding bounties, trading and referrals. Every Monday the top 20 split a SOL pool. [DUST →](/earn/dust)
+Points for what grows Corium: finishing curves, launching coins that graduate, winning requests, funding bounties, trading and referrals, plus free DUST for signing in, a daily star and daily quests. Every Monday the top 20 split a SOL pool. [DUST →](/earn/dust)
 
 ### How big is the weekly pool?
 25% of Corium’s fees that week, never less than 1.5 SOL.
 
 ### Why didn’t I get paid with lots of trading DUST?
-To be paid you need 1,000 DUST that week, at least 500 of it earned from finishing, launching, requests or bounties. Trading and referral DUST add to a payout but can’t qualify one on their own. [Qualifying →](/earn/dust#qualifying)
+To be paid you need 1,000 DUST that week, at least 500 of it earned from finishing, launching, requests, bounties or free DUST. Trading DUST and the 10% referral share add to a payout but can’t qualify one on their own. [Qualifying →](/earn/dust#qualifying)
 
 ### Does my DUST reset?
 Your weekly DUST does, every Monday. Your lifetime DUST and your rank never do.

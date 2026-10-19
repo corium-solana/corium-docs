@@ -5,7 +5,7 @@
 <div class="glance">
 <b>At a glance</b>
 
-- **Earn DUST** for finishing curves, launching coins that graduate, winning requests, funding bounties, trading and referrals.
+- **Earn DUST** for finishing curves, launching coins that graduate, winning requests, funding bounties, trading and referrals, and **for free**: a welcome bonus, a star every day and daily quests.
 - **Every week** (Monday to Monday, UTC) the **top 20** with at least **1,000 DUST** split the pool pro rata, in SOL.
 - **The pool** is **25% of Corium’s fees** that week, and **never less than 1.5 SOL**.
 - **Lifetime DUST** sets your **rank**, from Drifter to Singularity. It carries across every week and season.
@@ -25,6 +25,21 @@ See the board at **[corium.so/points](https://corium.so/points)**.
 | **Trade** | **10 per SOL**, up to 300 a day | Any trade on Corium, except a creator trading their own coin. |
 | **Refer friends** | **10%** of theirs, up to 5,000 a week | On top of theirs, never out of it. [Referrals →](/earn/referrals) |
 
+### Free DUST
+
+Sign in with X, Reddit or Discord and DUST comes free, no SOL needed. At [corium.so/points](https://corium.so/points):
+
+| You | DUST | When |
+|---|---|---|
+| **Welcome bonus** | **250** | Once per account. |
+| **Connect X, Reddit or Discord** | **200** each | Once per network. |
+| **Link the Telegram bot** | **150** | Once. |
+| **Choose a star** | **20 to 500** | Once a UTC day: five stars, a DUST amount under each, pick one. Days in a row multiply it, up to ×2 from day 11. A missed day starts the streak over. |
+| **Daily quests** | **30** each | Three a day, the same three for everyone. |
+| **Bring a friend** | **150** | When someone who joined through your link connects an eligible account. Up to 3,000 a week. On top of the 10% share. |
+
+Daily stars and daily quests add up to at most **1,500 a week**. Free DUST needs at least one **eligible** account on yours: X at least 30 days old with 10+ followers, Reddit at least 30 days old with 20+ karma, or Discord at least 90 days old. Without one you can sign in and look around, but you won't earn free DUST.
+
 ## Getting paid
 
 <ol class="steps">
@@ -36,7 +51,7 @@ See the board at **[corium.so/points](https://corium.so/points)**.
 
 ### Qualifying
 
-To be paid you need **at least 1,000 DUST** that week, and **at least 500 of it earned**: finishing, launching, requests and bounties. Trading and referral DUST add to your payout once you qualify, but can’t qualify you on their own. That keeps the pool for the people actually building coins up, not for wash trading.
+To be paid you need **at least 1,000 DUST** that week, and **at least 500 of it earned**: finishing, launching, requests, bounties and [free DUST](#free-dust). Trading DUST and the 10% referral share add to your payout once you qualify, but can’t qualify you on their own. That keeps the pool for people who show up and build coins up, not for wash trading.
 
 ### What 1,000 DUST is worth
 

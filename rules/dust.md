@@ -12,6 +12,7 @@
 | Fund a bounty | 200 per SOL | The week its coin graduates, for the share of your contribution that went to finishers other than you. |
 | Trade | 10 per SOL | Every trade on a Corium coin, up to 300 DUST per wallet per UTC day. A coin’s creator earns none for trading their own coin. |
 | Referrals | 10% of theirs | Of each referral’s DUST that week, capped at 5,000 a week in total. Never taken from the referral. [Referrals →](/earn/referrals) |
+| Free DUST | See [Free DUST](/earn/dust#free-dust) | Welcome bonus 250 and one-time quests (connecting X, Reddit or Discord 200 each, the Telegram bot 150), once per account; a daily star (20 to 500, times the streak, up to ×2) and three daily quests (30 each), together at most 1,500 a week; 150 per friend brought, at most 3,000 a week. Only with an eligible X, Reddit or Discord account on yours, and each grant once per account and per identity. |
 
 Linked wallets are one account: their DUST adds up, and the account’s caps apply once. Corium’s own wallets are excluded from the board.
 
@@ -31,7 +32,7 @@ Corium’s fees are its share of curve trading fees on every coin plus the fees 
 
 ## The split
 
-1. **Qualify:** at least **1,000 DUST** that week, of which at least **500 earned** (finishing, launching, requests and bounties). Trading and referral DUST count toward your payout, but not toward the 500.
+1. **Qualify:** at least **1,000 DUST** that week, of which at least **500 earned** (finishing, launching, requests, bounties and free DUST). Trading DUST and the 10% referral share count toward your payout, but not toward the 500.
 2. **Top 20:** the 20 qualifying accounts with the most DUST.
 3. **Pro rata:** each gets `pool × their DUST ÷ the top 20’s DUST`.
 4. **Cap:** no account takes more than **30%** of the pool. What a capped account can’t take is shared among the rest the same way. If fewer than four accounts qualify, what can’t be paid under the cap stays in the treasury.
@@ -59,6 +60,7 @@ Finishing earns roughly a 6% to 15% rebate on the SOL put into a graduating coin
 | Fund a bounty and finish it yourself | ~0.25 SOL | Funding DUST counts only what went to other finishers |
 | Graduate your own coin alone | Tens of SOL | Selling 80% of the supply into an 85 SOL pool |
 | Fake referrals | The referrals’ own activity | Capped at 5,000 a week, and can’t qualify you |
+| Farm free DUST with many accounts | An aged X, Reddit or Discord account each | Only eligible accounts earn it, each identity once; daily DUST is capped at 1,500 a week; payouts are checked by hand |
 
 In weeks the fees drive the pool, it grows by about 0.00005 SOL per trading DUST, while a trading DUST costs about 0.0005 SOL in fees: volume farming loses ten to one.
 
