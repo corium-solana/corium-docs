@@ -53,6 +53,7 @@ export default defineConfig({
           text: 'Launch & trade',
           items: [
             { text: 'Launching a coin', link: '/guide/launching' },
+            { text: 'The screen', link: '/guide/screen' },
             { text: 'Trading', link: '/guide/trading' },
             { text: 'Stars', link: '/guide/stars' },
           ],
