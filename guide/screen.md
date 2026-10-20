@@ -6,7 +6,7 @@
 
 | Signal | What it is | Where it comes from |
 |---|---|---|
-| **Bundlers** | Wallets that bought in the coin's **launch block**, the same block as the transaction that created it. Only a bundle lands there. Shown as what they bought and what they still hold. | The coin's first trades, read once and kept |
+| **Bundlers** | Wallets that bought **together in one block**: anyone but the creator in the coin's **launch block** (only a bundle lands there), or three or more wallets in any one block of the first minute, which is where a bundle sent a few seconds after the creation lands. Shown as what they bought and what they still hold: red goes by what they hold now, and a bundle that bought a share worth flagging is amber at least, whatever it holds now. | The coin's first minute of trades, read once and kept |
 | **Snipers** | Wallets that bought within about **two seconds** of the launch block. | The same |
 | **Top 10** | The ten largest holders' share of the supply, with pools and exchanges left out. | Jupiter |
 | **Dev** | The creator's share now, what the creator bought at launch, and whether the creator has sold out. | Jupiter and the launch block |
@@ -47,4 +47,4 @@ A creator who bought at launch and has sold almost all of it is amber under **De
 
 ## What it is not
 
-The screen shows **signals**, not a verdict on anyone and not a guarantee. Tracing the holders' funding takes a few seconds the first time a coin is opened; a holder seen before costs nothing, and what wasn't reached in time is read on the next look. A label is a fact about a wallet's trades ("bought in the launch block"), never an accusation. A green screen does not mean a coin is safe: it means these particular signals are clear right now. Sources can be slow or down; a missing one is shown as unavailable, and the last good read stands meanwhile. Nothing here is financial advice.
+The screen shows **signals**, not a verdict on anyone and not a guarantee. Tracing the holders' funding takes a few seconds the first time a coin is opened; a holder seen before costs nothing, and what wasn't reached in time is read on the next look. A label is a fact about a wallet's trades ("bought together in one block at launch"), never an accusation. A green screen does not mean a coin is safe: it means these particular signals are clear right now. Sources can be slow or down; a missing one is shown as unavailable, and the last good read stands meanwhile. Nothing here is financial advice.
