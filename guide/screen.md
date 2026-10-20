@@ -10,7 +10,7 @@
 | **Snipers** | Wallets that bought within about **two seconds** of the launch block. | The same |
 | **Top 10** | The ten largest holders' share of the supply, with pools and exchanges left out. | Jupiter |
 | **Dev** | The creator's share now, what the creator bought at launch, and whether the creator has sold out. | Jupiter and the launch block |
-| **Insiders** | Among the largest holders, wallets whose first SOL came from the **same wallet**, grouped, and what they hold together. A group funded by the creator is marked. Exchanges and bots, which fund thousands of unrelated wallets, never group anyone. | Corium's own trace of each holder's first transaction, with RugCheck's figure alongside as a cross-check |
+| **Insiders** | Among the largest holders, wallets whose first SOL came from the **same wallet**, directly or through one wallet in between, grouped, and what they hold together. A group funded by the creator is marked. Exchanges and bots, which fund thousands of unrelated wallets, never group anyone. RugCheck's own read, which links wallets by token transfers, is shown alongside, and the flag goes by the worse of the two. | Corium's trace of each holder's first transactions, and RugCheck |
 | **Fresh wallets** | Top holders whose **first transaction** is from the day of the launch or later: wallets made for this coin. | The same trace |
 | **Creator** | How many coins the creator launched, how many graduated, and whether the creator has rugged a token before. | Jupiter and RugCheck |
 | **Authorities** | Whether the **mint** and **freeze** authorities are revoked. If not, more tokens can be printed, or wallets frozen. | Jupiter |
