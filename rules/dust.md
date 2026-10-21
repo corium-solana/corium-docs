@@ -13,6 +13,7 @@
 | Fund a bounty | 500 per SOL | The week its coin graduates, for the share of your contribution that went to finishers other than you. |
 | Trade | 10 per SOL | Every trade on a Corium coin, up to 300 DUST per wallet per UTC day. A coin’s creator earns none for trading their own coin. |
 | Referrals | 10% of theirs | Of each referral’s DUST that week, capped at 5,000 a week in total. Never taken from the referral. [Referrals →](/earn/referrals) |
+| Genesis | 500 once per token, then 100 a week | A Seeker or Saga Genesis Token in a wallet on the account: the bonus once per token (by mint, whichever of the owner’s wallets holds it), the weekly grant every week the account opens its campaign, eligibility for free DUST without a follower count, and ×1.25 weight on on-chain DUST in the hunters’ pool. |
 | Free DUST | See [Free DUST](/earn/dust#free-dust) | Welcome bonus 250 and one-time quests (connecting X, Reddit or Discord 200 each, the Telegram bot 150, the Telegram group and alerts channel 100 each, following @corium_so and @corium_bounties on X 75 each), once per account; a post about Corium on X mentioning @corium_so, 150 a week; a daily star (20 to 500, times the streak, up to ×2) and three daily quests (30 each), together at most 1,500 a week; 150 per friend brought, at most 3,000 a week. Only with an eligible X, Reddit or Discord account on yours, and each grant once per account and per identity. |
 
 Linked wallets are one account: their DUST adds up, and the account’s caps apply once. Corium’s own wallets are excluded from the board.

@@ -35,6 +35,7 @@ Sign in with X, Reddit or Discord and DUST comes free, no SOL needed. At [corium
 | **Welcome bonus** | **250** | Once per account. |
 | **Connect X, Reddit or Discord** | **200** each | Once per network. |
 | **Link the Telegram bot** | **150** | Once. |
+| **Seeker or Saga owner** | **500** once, then **100 a week** | Connect the wallet that holds your Genesis token (on a Seeker, the Seed Vault wallet). The token is one per phone and stays with you, so it also makes your account eligible without a follower count, and your on-chain DUST weighs ×1.25 in the hunters’ pool. |
 | **Join @corium_solana and @corium_alerts on Telegram** | **100** each | Once each. Checked with Telegram, so join with the Telegram account you linked. |
 | **Follow @corium_so and @corium_bounties on X** | **75** each | Once each. X tells Corium about follows as they happen; give it a minute before you check. |
 | **Post about Corium on X** | **150** | Once a week. A post from the X account you connected that mentions @corium_so; put your invite link in it and every sign-up through it pays you too. |
