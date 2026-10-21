@@ -30,7 +30,7 @@ Two pools a week, each the larger of a floor and a share of Corium’s fees:
 
 ```
 hunters’ pool   = max(3 SOL,   25% × Corium’s fees that week)
-community pool  = max(1.5 SOL, 25% × Corium’s fees that week)
+community pool  = max(1.5 SOL, 10% × Corium’s fees that week)
 ```
 
 The **hunters’ pool** is split by **on-chain DUST alone**: finishing, stretch buys, launches, bounties and requests. The **community pool** is the board as a whole: every kind of DUST, including free DUST and referrals. Corium’s fees are its share of curve trading fees on every coin plus the fees its locked pool positions earned that week; the floors are paid from the treasury when fees don’t cover them. Both pools land in one payout, to the same wallet. The shares are set per season and said here when they change.
