@@ -23,13 +23,16 @@ Linked wallets are one account: their DUST adds up, and the account’s caps app
 - **Season 1** began on **Friday 2 October 2026**, so its first week runs ten days, to Monday 12 October. Every week after runs Monday to Monday.
 - A **season** is four weeks, and the next begins the moment one ends. Lifetime DUST and ranks add up across every week and season.
 
-## The pool
+## The pools
+
+Two pools a week, each the larger of a floor and a share of Corium’s fees:
 
 ```
-pool = max(1.5 SOL, 25% × Corium’s fees that week)
+hunters’ pool   = max(3 SOL,   25% × Corium’s fees that week)
+community pool  = max(1.5 SOL, 25% × Corium’s fees that week)
 ```
 
-Corium’s fees are its share of curve trading fees on every coin plus the fees its locked pool positions earned that week. The 1.5 SOL floor is paid from the treasury when fees don’t cover it.
+The **hunters’ pool** is split by **on-chain DUST alone**: finishing, stretch buys, launches, bounties and requests. The **community pool** is the board as a whole: every kind of DUST, including free DUST and referrals. Corium’s fees are its share of curve trading fees on every coin plus the fees its locked pool positions earned that week; the floors are paid from the treasury when fees don’t cover them. Both pools land in one payout, to the same wallet. The shares are set per season and said here when they change.
 
 ## The split
 
@@ -38,7 +41,7 @@ Corium’s fees are its share of curve trading fees on every coin plus the fees 
 3. **Pro rata:** each gets `pool × their DUST ÷ the top 20’s DUST`.
 4. **Cap:** no account takes more than **30%** of the pool.
 
-On top of that, the **hunters' pool** (1 SOL a week while it is on, shown inside the week's total) is split by **on-chain DUST alone**: finishing, stretch buys, launches, bounties and requests. Anyone with any of it is in, pro rata, none over 40% of it; free DUST and referral DUST don't count toward it. Both shares land in the same payout, to the same wallet. What a capped account can’t take is shared among the rest the same way. If fewer than four accounts qualify, what can’t be paid under the cap stays in the treasury.
+**The hunters’ pool** is split separately: everyone with at least **100 on-chain DUST** that week is in, pro rata by on-chain DUST, nobody over **30%** of it. Free DUST and referral DUST don’t count toward it.
 
 Payouts are sent in SOL to each account’s main wallet from the treasury after the week closes.
 

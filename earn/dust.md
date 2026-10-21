@@ -6,7 +6,7 @@
 <b>At a glance</b>
 
 - **Earn DUST** for finishing curves, launching coins that graduate, winning requests, funding bounties, trading and referrals, and **for free**: a welcome bonus, a star every day and daily quests.
-- **Every week** (Monday to Monday, UTC) the **top 20** with at least **1,000 DUST** split the pool pro rata, in SOL. Part of every week's pool is the **hunters' pool**, split by on-chain DUST alone: finishing, stretch buys, launches, bounties and requests. Free DUST and referrals don't reach it.
+- **Every week** (Monday to Monday, UTC) two pools of SOL are split. The **hunters’ pool** (at least 3 SOL) goes to everyone with 100+ on-chain DUST, finishing, stretch buys, launches, bounties and requests, pro rata. The **community pool** (at least 1.5 SOL) goes to the **top 20** with at least **1,000 DUST** of any kind, pro rata.
 - **The pool** is **25% of Corium’s fees** that week, and **never less than 1.5 SOL**.
 - **Lifetime DUST** sets your **rank**, from Drifter to Singularity. It carries across every week and season.
 - **Season 1 is live.** Its first week runs from Oct 2 to Mon Oct 12, 2026.
