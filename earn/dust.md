@@ -7,7 +7,7 @@
 
 - **Earn DUST** for finishing curves, launching coins that graduate, winning requests, funding bounties, trading and referrals, and **for free**: a welcome bonus, a star every day and daily quests.
 - **Every week** (Monday to Monday, UTC) two pools of SOL are split. The **hunters’ pool** (at least 3 SOL) goes to everyone with 100+ on-chain DUST, finishing, stretch buys, launches, bounties and requests, pro rata. The **community pool** (at least 1.5 SOL) goes to the **top 20** with at least **1,000 DUST** of any kind, pro rata.
-- **The pool** is **25% of Corium’s fees** that week, and **never less than 1.5 SOL**.
+- **Two pools a week.** The hunters’ pool is **25% of Corium’s fees**, never less than **3 SOL**, for on-chain DUST only. The community pool is **10% of fees**, never less than **1.5 SOL**, for the whole board.
 - **Lifetime DUST** sets your **rank**, from Drifter to Singularity. It carries across every week and season.
 - **Season 1 is live.** Its first week runs from Oct 2 to Mon Oct 12, 2026.
 </div>
@@ -49,8 +49,8 @@ Daily stars and daily quests add up to at most **1,500 a week**. Free DUST needs
 
 <ol class="steps">
   <li><b>The week closes</b> at Monday 00:00 UTC and its board is frozen as it stands.</li>
-  <li><b>The pool is set:</b> 25% of Corium’s fees that week (curve fees plus locked-pool fees), or 1.5 SOL if that’s more.</li>
-  <li><b>The top 20 qualifying accounts split it</b> pro rata to their DUST. No account takes more than 30%; what a capped account can’t take goes to the rest.</li>
+  <li><b>The pools are set:</b> the hunters’ pool is 25% of Corium’s fees that week (curve fees plus locked-pool fees), or 3 SOL if that’s more; the community pool is 10%, or 1.5 SOL.</li>
+  <li><b>The hunters’ pool is split</b> among everyone with 100+ on-chain DUST, pro rata; <b>the community pool</b> among the top 20 qualifying accounts, pro rata to all their DUST. Nobody takes more than 30% of either; what a capped account can’t take goes to the rest.</li>
   <li><b>SOL is sent to each account’s main wallet</b> from Corium’s treasury, shortly after the week closes.</li>
 </ol>
 
