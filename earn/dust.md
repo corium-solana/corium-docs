@@ -24,7 +24,7 @@ See the board at **[corium.so/points](https://corium.so/points)**.
 | **Win a request** | **5,000** | The creator of the winning coin. |
 | **Fund a bounty** | **500 per SOL** | When its coin graduates, for the part of your bounty that went to other finishers. |
 | **Trade** | **10 per SOL**, up to 300 a day | Any trade on Corium, except a creator trading their own coin. |
-| **Refer friends** | **10%** of theirs, up to 5,000 a week | On top of theirs, never out of it. [Referrals →](/earn/referrals) |
+| **Refer friends** | **10%** of theirs, up to 5,000 a week | On top of theirs, never out of it. Counts in the weeks they trade. [Referrals →](/earn/referrals) |
 
 ### Free DUST
 
@@ -38,7 +38,7 @@ Sign in with X, Reddit or Discord and DUST comes free, no SOL needed. At [corium
 | **Seeker or Saga owner** | **500** once, then **100 a week** | Connect the wallet that holds your Genesis token (on a Seeker, the Seed Vault wallet). The token is one per phone and stays with you, so it also makes your account eligible without a follower count, and your on-chain DUST weighs ×1.25 in the hunters’ pool. |
 | **Join @corium_solana and @corium_alerts on Telegram** | **100** each | Once each. Checked with Telegram, so join with the Telegram account you linked. |
 | **Follow @corium_so and @corium_bounties on X** | **75** each | Once each. X tells Corium about follows as they happen; give it a minute before you check. |
-| **Post about Corium on X** | **150** | Once a week. A post from the X account you connected that mentions @corium_so; put your invite link in it and every sign-up through it pays you too. |
+| **Post about Corium on X** | **150** | Once a week. A post from the X account you connected that mentions @corium_so; put your invite link in it and everyone who signs in through it and trades pays you too. |
 | **Choose a star** | **20 to 500** | Once a UTC day: five stars, a DUST amount under each, pick one. Days in a row multiply it, up to ×2 from day 11. A missed day starts the streak over. |
 | **Daily quests** | **30** each | Three a day, the same three for everyone. |
 | **Bring a friend** | **150** | When someone who joined through your link connects an eligible account. Up to 3,000 a week. On top of the 10% share. |

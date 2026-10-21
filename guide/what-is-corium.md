@@ -21,7 +21,7 @@ Most launchpads keep every fee and leave the hard part, getting a coin over the 
 | [**Bounties**](/earn/bounties) | SOL anyone puts on a coin graduating, on Corium or pump.fun | The same finishers. If it doesn’t graduate in time, sponsors are refunded in full |
 | [**Requests**](/earn/requests) | A prize for a coin that doesn’t exist yet | The creator of the first entry to graduate, and its finishers. The sponsor gets a bag of the winner and half of Corium’s fees on it |
 | [**DUST**](/earn/dust) | Points for everything above, plus trading | The top 20 each week split a SOL pool: 25% of Corium’s fees, never under 1.5 SOL |
-| [**Referrals**](/earn/referrals) | Your own link | 10% of the DUST of everyone you bring, on top of theirs |
+| [**Referrals**](/earn/referrals) | Your own link | 10% of the DUST of everyone you bring who trades, on top of theirs |
 
 ## The idea in 30 seconds
 
