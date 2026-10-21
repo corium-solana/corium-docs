@@ -6,10 +6,11 @@
 
 | Action | DUST | Exactly |
 |---|---|---|
-| Finish a curve | 1,000 per SOL | Net SOL into the final stretch of a coin that graduates that week. On Corium coins, the stretch credit of the [supernova bounty](/rules/bounty#scoring): sells in the stretch cancel buys. On pump.fun coins with a bounty, the credit in the program’s [stretch ledger](/rules/pots#finishers-the-stretch-ledger); forfeited credit counts 0. |
-| Launch a coin | 500, then 2,500 | 500 the week the coin first reaches its final stretch; 2,500 the week it graduates. |
-| Win a request | 3,000 | To the creator of the winning coin, the week it wins. |
-| Fund a bounty | 200 per SOL | The week its coin graduates, for the share of your contribution that went to finishers other than you. |
+| Finish a curve | 2,000 per SOL | Net SOL into the final stretch of a coin that graduates that week. On Corium coins, the stretch credit of the [supernova bounty](/rules/bounty#scoring): sells in the stretch cancel buys. On pump.fun coins with a bounty, the credit in the program’s [stretch ledger](/rules/pots#finishers-the-stretch-ledger); forfeited credit counts 0. |
+| Buy a stretch | 300 per SOL | Every final-stretch buy through Corium, on a Corium coin or a pump.fun coin, the week it is made, whether or not the coin finishes; up to 600 DUST per wallet per UTC day. A creator earns none on their own coin. Finishing pays on top.
+| Launch a coin | 300 and 1,000, then 500, then 5,000 | 300 once others have put 2 SOL into your coin's curve and 1,000 once 10 SOL, the week you launched it (your own buys don't count); 500 the week the coin first reaches its final stretch; 5,000 the week it graduates. |
+| Win a request | 5,000 | To the creator of the winning coin, the week it wins. |
+| Fund a bounty | 500 per SOL | The week its coin graduates, for the share of your contribution that went to finishers other than you. |
 | Trade | 10 per SOL | Every trade on a Corium coin, up to 300 DUST per wallet per UTC day. A coin’s creator earns none for trading their own coin. |
 | Referrals | 10% of theirs | Of each referral’s DUST that week, capped at 5,000 a week in total. Never taken from the referral. [Referrals →](/earn/referrals) |
 | Free DUST | See [Free DUST](/earn/dust#free-dust) | Welcome bonus 250 and one-time quests (connecting X, Reddit or Discord 200 each, the Telegram bot 150, the Telegram group and alerts channel 100 each, following @corium_so and @corium_bounties on X 75 each), once per account; a post about Corium on X mentioning @corium_so, 150 a week; a daily star (20 to 500, times the streak, up to ×2) and three daily quests (30 each), together at most 1,500 a week; 150 per friend brought, at most 3,000 a week. Only with an eligible X, Reddit or Discord account on yours, and each grant once per account and per identity. |
@@ -35,7 +36,9 @@ Corium’s fees are its share of curve trading fees on every coin plus the fees 
 1. **Qualify:** at least **1,000 DUST** that week, of which at least **500 earned** (finishing, launching, requests, bounties and free DUST). Trading DUST and the 10% referral share count toward your payout, but not toward the 500.
 2. **Top 20:** the 20 qualifying accounts with the most DUST.
 3. **Pro rata:** each gets `pool × their DUST ÷ the top 20’s DUST`.
-4. **Cap:** no account takes more than **30%** of the pool. What a capped account can’t take is shared among the rest the same way. If fewer than four accounts qualify, what can’t be paid under the cap stays in the treasury.
+4. **Cap:** no account takes more than **30%** of the pool.
+
+On top of that, the **hunters' pool** (1 SOL a week while it is on, shown inside the week's total) is split by **on-chain DUST alone**: finishing, stretch buys, launches, bounties and requests. Anyone with any of it is in, pro rata, none over 40% of it; free DUST and referral DUST don't count toward it. Both shares land in the same payout, to the same wallet. What a capped account can’t take is shared among the rest the same way. If fewer than four accounts qualify, what can’t be paid under the cap stays in the treasury.
 
 Payouts are sent in SOL to each account’s main wallet from the treasury after the week closes.
 

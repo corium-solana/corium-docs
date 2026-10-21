@@ -6,7 +6,7 @@
 <b>At a glance</b>
 
 - **Earn DUST** for finishing curves, launching coins that graduate, winning requests, funding bounties, trading and referrals, and **for free**: a welcome bonus, a star every day and daily quests.
-- **Every week** (Monday to Monday, UTC) the **top 20** with at least **1,000 DUST** split the pool pro rata, in SOL.
+- **Every week** (Monday to Monday, UTC) the **top 20** with at least **1,000 DUST** split the pool pro rata, in SOL. Part of every week's pool is the **hunters' pool**, split by on-chain DUST alone: finishing, stretch buys, launches, bounties and requests. Free DUST and referrals don't reach it.
 - **The pool** is **25% of Corium’s fees** that week, and **never less than 1.5 SOL**.
 - **Lifetime DUST** sets your **rank**, from Drifter to Singularity. It carries across every week and season.
 - **Season 1 is live.** Its first week runs from Oct 2 to Mon Oct 12, 2026.
@@ -18,10 +18,11 @@ See the board at **[corium.so/points](https://corium.so/points)**.
 
 | You | DUST | When it counts |
 |---|---|---|
-| **Finish a curve** | **1,000 per SOL** | Your net SOL into the final stretch of a coin that graduates that week. Corium coins and pump.fun coins with a bounty. |
-| **Launch a coin** | **500**, then **2,500** | When your coin first reaches its final stretch, then when it graduates. |
-| **Win a request** | **3,000** | The creator of the winning coin. |
-| **Fund a bounty** | **200 per SOL** | When its coin graduates, for the part of your bounty that went to other finishers. |
+| **Finish a curve** | **2,000 per SOL** | Your net SOL into the final stretch of a coin that graduates that week. Corium coins and pump.fun coins with a bounty. |
+| **Buy a stretch** | **300 per SOL**, up to 600 a day | Every final-stretch buy through Corium, finished or not. Finishing pays on top. |
+| **Launch a coin** | **300**, **1,000**, then **500**, then **5,000** | When others have put 2 SOL, then 10 SOL into your coin; when it reaches its final stretch; when it graduates. |
+| **Win a request** | **5,000** | The creator of the winning coin. |
+| **Fund a bounty** | **500 per SOL** | When its coin graduates, for the part of your bounty that went to other finishers. |
 | **Trade** | **10 per SOL**, up to 300 a day | Any trade on Corium, except a creator trading their own coin. |
 | **Refer friends** | **10%** of theirs, up to 5,000 a week | On top of theirs, never out of it. [Referrals →](/earn/referrals) |
 
