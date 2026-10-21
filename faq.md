@@ -91,7 +91,7 @@ To be paid you need 1,000 DUST that week, at least 500 of it earned from finishi
 Your weekly DUST does, every Monday. Your lifetime DUST and your rank never do.
 
 ### How do referrals work?
-Share `corium.so/?r=yourcode`. Anyone who signs in for the first time through it adds 10% of their DUST to yours, up to 5,000 a week, without losing any of theirs. Since 21 October 2026 an invite pays only when that person trades on Corium: the 150 after their first trade, the 10% in the weeks they trade. A sign-up alone brings nothing. [Referrals →](/earn/referrals)
+Share `corium.so/?r=yourcode`. Anyone who signs in for the first time through it adds 10% of their DUST to yours, up to 5,000 a week, without losing any of theirs. Since 21 October 2026 an invite pays in two parts: 50 DUST when that person connects an eligible account, 100 more on their first trade on Corium, and the 10% in the weeks they trade. [Referrals →](/earn/referrals)
 
 ## Account
 

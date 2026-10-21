@@ -8,7 +8,7 @@
 - Your link: **corium.so/?r=yourname**, or **corium.so/?r=&lt;your wallet&gt;**, which always works.
 - You get **10% of their DUST**, up to **5,000 a week** from referrals. They keep 100% of theirs.
 - It counts for **new accounts**: anyone who signs in for the first time within 48 hours of opening your link.
-- **An invite pays when your referral trades.** Since 21 October 2026, the 150 DUST for a friend you bring lands after their first trade on Corium, and your 10% of their DUST counts in the weeks they trade. A sign-up alone brings nothing.
+- **An invite pays in two parts.** Since 21 October 2026: **50 DUST** when the friend you bring connects an eligible account, **100 more** on their first trade on Corium, and your 10% of their DUST counts in the weeks they trade.
 - One level: you earn from the people you bring, not from the people they bring.
 </div>
 
@@ -28,7 +28,7 @@ Any Corium page works with `?r=`: a coin, a request, a bounty. Share the page yo
 
 - The link is remembered in the visitor’s browser. When they sign in for the first time, they become your referral, as long as their account is under 48 hours old.
 - Each week you get 10% of every referral’s DUST, from every source, rounded and capped at 5,000 a week in total.
-- **Nothing lands until they trade.** For referrals made from 21 October 2026 on, the 150 DUST for bringing them waits for their first trade on Corium (any coin, any size), and your 10% of their DUST counts only in a week they traded or did something on chain. Someone who signs in, does the quests and never trades earns you nothing. Referrals made before that date keep counting as they did.
+- **Two parts, since 21 October 2026.** 50 DUST lands when your referral connects an eligible X, Reddit or Discord account. The other 100 land on their first trade on Corium (any coin, any size), on their next visit after it. Your 10% of their DUST counts only in a week they traded or did something on chain. Someone who signs in, does the quests and never trades earns you 50 and nothing more. Referrals made before that date were paid whole at the start and keep counting as they did.
 - The 10% share adds to your weekly payout once you qualify, but [can’t qualify you on its own](/earn/dust#qualifying): you need 500 earned DUST of your own that week. The 150 for each friend who connects an eligible account is [free DUST](/earn/dust#free-dust), and does count toward the 500.
 - You can’t refer yourself, including your own [linked wallets](/guide/account#linked-wallets).
 

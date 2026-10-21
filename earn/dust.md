@@ -24,7 +24,7 @@ See the board at **[corium.so/points](https://corium.so/points)**.
 | **Win a request** | **5,000** | The creator of the winning coin. |
 | **Fund a bounty** | **500 per SOL** | When its coin graduates, for the part of your bounty that went to other finishers. |
 | **Trade** | **10 per SOL**, up to 300 a day | Any trade on Corium, except a creator trading their own coin. |
-| **Refer friends** | **10%** of theirs, up to 5,000 a week | On top of theirs, never out of it. Counts in the weeks they trade. [Referrals →](/earn/referrals) |
+| **Refer friends** | **10%** of theirs, up to 5,000 a week | On top of theirs, never out of it; counts in the weeks they trade. Plus 50 DUST when they join and 100 on their first trade. [Referrals →](/earn/referrals) |
 
 ### Free DUST
 

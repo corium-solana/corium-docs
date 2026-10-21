@@ -66,7 +66,7 @@ Finishing earns roughly a 6% to 15% rebate on the SOL put into a graduating coin
 | A creator washing their own coin | 0.35 SOL net of creator fees | Creators earn no trading DUST on their own coins |
 | Fund a bounty and finish it yourself | ~0.25 SOL | Funding DUST counts only what went to other finishers |
 | Graduate your own coin alone | Tens of SOL | Selling 80% of the supply into an 85 SOL pool |
-| Fake referrals | The referrals’ own activity | Nothing until each referral trades; capped at 5,000 a week; can’t qualify you |
+| Fake referrals | The referrals’ own activity | 50 a head until each referral trades; capped at 5,000 a week; can’t qualify you |
 | Farm free DUST with many accounts | An aged X, Reddit or Discord account each | Only eligible accounts earn it, each identity once; daily DUST is capped at 1,500 a week; payouts are checked by hand |
 
 In weeks the fees drive the pool, it grows by about 0.00005 SOL per trading DUST, while a trading DUST costs about 0.0005 SOL in fees: volume farming loses ten to one.
