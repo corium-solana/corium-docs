@@ -34,6 +34,9 @@ Sign in with X, Reddit or Discord and DUST comes free, no SOL needed. At [corium
 | **Welcome bonus** | **250** | Once per account. |
 | **Connect X, Reddit or Discord** | **200** each | Once per network. |
 | **Link the Telegram bot** | **150** | Once. |
+| **Join @corium_solana and @corium_alerts on Telegram** | **100** each | Once each. Checked with Telegram, so join with the Telegram account you linked. |
+| **Follow @corium and @corium_bounties on X** | **75** each | Once each. X tells Corium about follows as they happen; give it a minute before you check. |
+| **Post about Corium on X** | **150** | Once a week. A post from the X account you connected that mentions @corium; put your invite link in it and every sign-up through it pays you too. |
 | **Choose a star** | **20 to 500** | Once a UTC day: five stars, a DUST amount under each, pick one. Days in a row multiply it, up to ×2 from day 11. A missed day starts the streak over. |
 | **Daily quests** | **30** each | Three a day, the same three for everyone. |
 | **Bring a friend** | **150** | When someone who joined through your link connects an eligible account. Up to 3,000 a week. On top of the 10% share. |
