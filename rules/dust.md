@@ -13,6 +13,8 @@
 | Fund a bounty | 500 per SOL | The week its coin graduates, for the share of your contribution that went to finishers other than you. |
 | Trade | 10 per SOL | Every trade on a Corium coin, up to 300 DUST per wallet per UTC day. A coin’s creator earns none for trading their own coin. |
 | Referrals | 10% of theirs | Of each referral’s DUST that week, capped at 5,000 a week in total, and only in weeks the referral traded or did something on chain (referrals since 21 October 2026). Never taken from the referral. [Referrals →](/earn/referrals) |
+| Conviction | 1,000 per SOL | SOL bought under a quarter of a Corium coin’s curve, times the share of those tokens still held when it graduates, the week it graduates. A coin’s creator earns none on their own coin. On-chain DUST. |
+| Today’s twenty, crates, badges | See [Today’s twenty](/earn/play) | Twenty on-chain achievements a day, a crate on the first buy of each coin each day (up to ten), and ten one-time badges. Read from the chain alone. Community-board DUST: it does not count in the hunters’ pool, and it does not use the free weekly cap. |
 | Genesis | 500 once per token, then 100 a week | A Seeker or Saga Genesis Token in a wallet on the account: the bonus once per token (by mint, whichever of the owner’s wallets holds it), the weekly grant every week the account opens its campaign, eligibility for free DUST without a follower count, and ×1.25 weight on on-chain DUST in the hunters’ pool. |
 | Free DUST | See [Free DUST](/earn/dust#free-dust) | Welcome bonus 250 and one-time quests (connecting X, Reddit or Discord 200 each, the Telegram bot 150, the Telegram group and alerts channel 100 each, following @corium_so and @corium_bounties on X 75 each), once per account; a post about Corium on X mentioning @corium_so, 150 a week; a daily star (20 to 500, times the streak, up to ×2) and three daily quests (30 each), together at most 1,500 a week; 150 per friend brought, at most 3,000 a week. Only with an eligible X, Reddit or Discord account on yours, and each grant once per account and per identity. |
 
@@ -33,7 +35,7 @@ hunters’ pool   = max(3 SOL,   25% × Corium’s fees that week)
 community pool  = max(1.5 SOL, 10% × Corium’s fees that week)
 ```
 
-The **hunters’ pool** is split by **on-chain DUST alone**: finishing, stretch buys, launches, bounties and requests. The **community pool** is the board as a whole: every kind of DUST, including free DUST and referrals. Corium’s fees are its share of curve trading fees on every coin plus the fees its locked pool positions earned that week; the floors are paid from the treasury when fees don’t cover them. Both pools land in one payout, to the same wallet. The shares are set per season and said here when they change.
+The **hunters’ pool** is split by **on-chain DUST alone**: finishing, stretch buys, launches, bounties, requests and conviction. The **community pool** is the board as a whole: every kind of DUST, including free DUST and referrals. Corium’s fees are its share of curve trading fees on every coin plus the fees its locked pool positions earned that week; the floors are paid from the treasury when fees don’t cover them. Both pools land in one payout, to the same wallet. The shares are set per season and said here when they change.
 
 ## The split
 
@@ -42,7 +44,12 @@ The **hunters’ pool** is split by **on-chain DUST alone**: finishing, stretch 
 3. **Pro rata:** each gets `pool × their DUST ÷ the top 20’s DUST`.
 4. **Cap:** no account takes more than **30%** of the pool.
 
-**The hunters’ pool** is split separately: everyone with at least **100 on-chain DUST** that week is in, pro rata by on-chain DUST, nobody over **30%** of it. Free DUST and referral DUST don’t count toward it.
+**The hunters’ pool** is split separately, in two parts:
+
+- **70%** goes to everyone with at least **100 on-chain DUST** that week, pro rata by on-chain DUST, nobody over **30%** of it. On-chain DUST is weighted by your [hunter rank](/earn/play#hunter-ranks) (up to ×1.25) and a Genesis token (×1.25), together at most ×1.5.
+- **30%** is paid as **ten draws** by tickets: one per coin a day you buy 0.05 SOL or more of and hold that day, up to ten a day. Ten different accounts are drawn when the week closes, from a Solana blockhash kept with the week. With fewer ticket holders than ten, each holder wins once; with none, the whole pool goes pro rata. [Weekly draws →](/earn/play#weekly-draws)
+
+Free DUST, play DUST and referral DUST don’t count toward it.
 
 Payouts are sent in SOL to each account’s main wallet from the treasury after the week closes.
 

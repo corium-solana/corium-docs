@@ -66,6 +66,7 @@ export default defineConfig({
             { text: 'Bounties on any coin', link: '/earn/bounties' },
             { text: 'Requests', link: '/earn/requests' },
             { text: 'DUST & weekly payouts', link: '/earn/dust' },
+            { text: 'Today’s twenty, crates & badges', link: '/earn/play' },
             { text: 'Referrals', link: '/earn/referrals' },
           ],
         },

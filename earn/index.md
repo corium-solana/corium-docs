@@ -1,12 +1,13 @@
 # Ways to earn
 
-<p class="lede">Corium pays the people who make coins succeed. There are five ways to earn, and they stack: the same buy can win a supernova bounty, a sponsor’s bounty and DUST at once.</p>
+<p class="lede">Corium pays the people who make coins succeed. There are six ways to earn, and they stack: the same buy can win a supernova bounty, a sponsor’s bounty, DUST, an achievement and a crate at once.</p>
 
 <div class="cards">
   <a href="/rules/bounty"><b>Supernova bounty</b><span>Buy a coin’s final 10% and hold through graduation. Funded by Corium’s fees, automatically, on every coin.</span></a>
   <a href="/earn/bounties"><b>Bounties</b><span>Extra SOL that sponsors put on a coin graduating, on Corium or pump.fun. Finish it to split it.</span></a>
   <a href="/earn/requests"><b>Requests</b><span>Prizes for coins that don’t exist yet. Launch the winner, finish it, or sponsor it.</span></a>
   <a href="/earn/dust"><b>DUST</b><span>Points for all of the above and for trading. The top 20 get SOL every Monday.</span></a>
+  <a href="/earn/play"><b>Today’s twenty</b><span>Twenty things to do on chain every day, a crate with every coin you buy, badges for good.</span></a>
   <a href="/earn/referrals"><b>Referrals</b><span>10% of your friends’ DUST, on top of theirs, from your own link.</span></a>
 </div>
 
