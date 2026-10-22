@@ -32,6 +32,7 @@ Two pools a week, each the larger of a floor and a share of Corium’s fees:
 
 ```
 hunters’ pool   = max(3 SOL,   25% × Corium’s fees that week)
+weekly draws    = 30% × the hunters’ pool, on top of it
 community pool  = max(1.5 SOL, 10% × Corium’s fees that week)
 ```
 
@@ -44,10 +45,10 @@ The **hunters’ pool** is split by **on-chain DUST alone**: finishing, stretch 
 3. **Pro rata:** each gets `pool × their DUST ÷ the top 20’s DUST`.
 4. **Cap:** no account takes more than **30%** of the pool.
 
-**The hunters’ pool** is split separately, in two parts:
+**The hunters’ pool** is split separately, and the draws come on top of it:
 
-- **70%** goes to everyone with at least **100 on-chain DUST** that week, pro rata by on-chain DUST, nobody over **30%** of it. On-chain DUST is weighted by your [hunter rank](/earn/play#hunter-ranks) (up to ×1.25) and a Genesis token (×1.25), together at most ×1.5.
-- **30%** is paid as **ten draws** by tickets: one per coin a day you buy 0.05 SOL or more of and hold that day, up to ten a day. Ten different accounts are drawn when the week closes, from a Solana blockhash kept with the week. With fewer ticket holders than ten, each holder wins once; with none, the whole pool goes pro rata. [Weekly draws →](/earn/play#weekly-draws)
+- **All of it** goes to everyone with at least **100 on-chain DUST** that week, pro rata by on-chain DUST, nobody over **30%** of it. On-chain DUST is weighted by your [hunter rank](/earn/play#hunter-ranks) (up to ×1.25) and a Genesis token (×1.25), together at most ×1.5.
+- **On top of it, 30% more** is paid as **ten draws** by tickets: one per coin a day you buy 0.05 SOL or more of and hold that day, up to ten a day. Ten different accounts are drawn when the week closes, from a Solana blockhash kept with the week. With fewer ticket holders than ten, each holder wins once. The draws never take from what the hunters split. [Weekly draws →](/earn/play#weekly-draws)
 
 Free DUST, play DUST and referral DUST don’t count toward it.
 

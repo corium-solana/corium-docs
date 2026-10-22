@@ -85,7 +85,7 @@ With a [Genesis token](/rules/dust#earning), the two weights multiply, up to ×1
 
 ## Weekly draws
 
-**30% of the hunters’ pool** is paid as **ten prizes** every week, drawn by tickets.
+**On top of the hunters’ pool, 30% more** is paid as **ten prizes** every week, drawn by tickets. With the hunters’ pool at 3 SOL, that is 0.9 SOL in draws, and the hunters still split all 3 SOL.
 
 - One ticket for every coin you buy **0.05 SOL or more** of in a day and still hold that day: a Corium coin, or a pump.fun stretch bought on Corium. Up to **ten a day**.
 - Buying and selling back the same day is no ticket.
