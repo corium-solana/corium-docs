@@ -20,6 +20,16 @@
 
 Linked wallets are one account: their DUST adds up, and the account’s caps apply once. Corium’s own wallets are excluded from the board.
 
+### Badges
+
+Some accounts carry a badge next to their name: **EARLY** (an early adopter), **SEEKER** or **SAGA** (a Genesis token), and badges Corium gives for things that don’t happen on chain, such as helping early, running an event or finding a bug. Hover a badge, or tap it in the app, to see what it means. A badge can give:
+
+- **DUST once** or **DUST every week**, paid when you open Corium, like the early adopters’ 100. It counts on the community board.
+- **A weight in the hunters’ pool** on your on-chain DUST. It multiplies with your hunter rank and a Genesis token, and all of them together stop at **×1.5**.
+- **Extra draw tickets**, in any week you hold at least one ticket of your own.
+
+Badges never touch on-chain DUST itself, and an account that farms or abuses the board can be taken off it.
+
 ## The week
 
 - A week runs from **Monday 00:00 UTC to the next Monday**. When it closes, its board is frozen exactly as it stands and the next starts at zero.
@@ -47,7 +57,7 @@ The **hunters’ pool** is split by **on-chain DUST alone**: finishing, stretch 
 
 **The hunters’ pool** is split separately, and the draws come on top of it:
 
-- **All of it** goes to everyone with at least **100 on-chain DUST** that week, pro rata by on-chain DUST, nobody over **30%** of it. On-chain DUST is weighted by your [hunter rank](/earn/play#hunter-ranks) (up to ×1.25) and a Genesis token (×1.25), together at most ×1.5.
+- **All of it** goes to everyone with at least **100 on-chain DUST** that week, pro rata by on-chain DUST, nobody over **30%** of it. On-chain DUST is weighted by your [hunter rank](/earn/play#hunter-ranks) (up to ×1.25) and a Genesis token (×1.25), together at most ×1.5, with any [badge](#badges) weight inside that limit.
 - **On top of it, 30% more** is paid as **ten draws** by tickets: one per coin a day you buy 0.05 SOL or more of and hold that day, up to ten a day. Ten different accounts are drawn when the week closes, from a Solana blockhash kept with the week. With fewer ticket holders than ten, each holder wins once. The draws never take from what the hunters split. [Weekly draws →](/earn/play#weekly-draws)
 
 Free DUST, play DUST and referral DUST don’t count toward it.
