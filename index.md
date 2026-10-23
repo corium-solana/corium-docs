@@ -34,7 +34,7 @@ features:
     linkText: How requests work
   - icon: { src: /icons/dust.svg, width: 40, height: 40 }
     title: DUST, paid every Monday
-    details: Launching, finishing, funding and trading earn DUST. Each week the top 20 split a SOL pool of 25% of Corium’s fees, never under 1.5 SOL.
+    details: Launching, finishing, funding and trading earn DUST. Each week two SOL pools: everyone with 100+ on-chain DUST shares one, the top 20 with 1,000+ DUST the other: at least 3 SOL and 1.5 SOL, more as Corium’s fees grow.
     link: /earn/dust
     linkText: The weekly board
   - icon: { src: /icons/referral.svg, width: 40, height: 40 }
@@ -79,7 +79,7 @@ features:
   <a class="path" href="/earn/dust">
     <span class="path-k">Everyone</span>
     <b>Get paid weekly</b>
-    <p>Everything above earns DUST. The top 20 each Monday split a SOL pool. Your rank is for life.</p>
+    <p>Everything above earns DUST. Every Monday two SOL pools: everyone with 100+ on-chain DUST shares one, the top 20 with 1,000+ DUST the other. Your rank is for life.</p>
   </a>
 </div>
 

@@ -36,4 +36,4 @@ Any Corium page works with `?r=`: a coin, a request, a bounty. Share the page yo
 
 - **Post the link with something to do.** A coin in its final stretch, a live bounty or a request with a big prize gives people a reason to sign in now, and a reason to trade, which is what makes the invite pay.
 - **Use a code people remember.** `?r=kopec` gets typed; a wallet address doesn’t.
-- **Bring creators.** A creator whose coin graduates earns 3,000 DUST from that coin alone, and 10% of it is yours.
+- **Bring creators.** A creator whose coin graduates earns 5,500 DUST from that coin alone, and 10% of it is yours.

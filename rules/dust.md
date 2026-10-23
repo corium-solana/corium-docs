@@ -52,7 +52,7 @@ The **hunters’ pool** is split by **on-chain DUST alone**: finishing, stretch 
 
 1. **Qualify:** at least **1,000 DUST** that week, of which at least **500 earned** (finishing, launching, requests, bounties and free DUST). Trading DUST and the 10% referral share count toward your payout, but not toward the 500.
 2. **Top 20:** the 20 qualifying accounts with the most DUST. An account that doesn’t qualify takes no place: the next qualifying one moves up.
-3. **Pro rata:** each gets `pool × their DUST ÷ the top 20’s DUST`.
+3. **Pro rata:** each gets `pool × their DUST ÷ the top 20’s DUST`, capped as below.
 4. **Cap:** no account takes more than **30%** of the pool; what a capped account can’t take is shared among the rest. With three or fewer qualifying, 30% each can’t add up to the whole pool, so the cap rises to an equal share (a third, a half, all of it): **a pool is always paid out in full, never left over.**
 
 **The hunters’ pool** is split separately, and the draws come on top of it:

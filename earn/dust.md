@@ -1,6 +1,6 @@
 # DUST & weekly payouts
 
-<p class="lede">Everything that grows Corium earns DUST. Every Monday, the top 20 accounts on the board split a pool of SOL. Your lifetime DUST sets your rank, and it never resets.</p>
+<p class="lede">Everything that grows Corium earns DUST. Every Monday two SOL pools: everyone with 100+ on-chain DUST shares one, the top 20 with 1,000+ DUST the other. Your lifetime DUST sets your rank, and it never resets.</p>
 
 <div class="glance">
 <b>At a glance</b>

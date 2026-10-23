@@ -20,7 +20,7 @@ Most launchpads keep every fee and leave the hard part, getting a coin over the 
 | [**Supernova bounty**](/rules/bounty) | Half of Corium’s fees on every coin, held for that coin | The wallets that buy its final 10% and hold through graduation |
 | [**Bounties**](/earn/bounties) | SOL anyone puts on a coin graduating, on Corium or pump.fun | The same finishers. If it doesn’t graduate in time, sponsors are refunded in full |
 | [**Requests**](/earn/requests) | A prize for a coin that doesn’t exist yet | The creator of the first entry to graduate, and its finishers. The sponsor gets a bag of the winner and half of Corium’s fees on it |
-| [**DUST**](/earn/dust) | Points for everything above, plus trading | The top 20 each week split a SOL pool: 25% of Corium’s fees, never under 1.5 SOL |
+| [**DUST**](/earn/dust) | Points for everything above, plus trading | Every week two SOL pools: everyone with 100+ on-chain DUST shares one, the top 20 with 1,000+ DUST the other: 25% and 10% of Corium’s fees, at least 3 SOL and 1.5 SOL |
 | [**Referrals**](/earn/referrals) | Your own link | 10% of the DUST of everyone you bring who trades, on top of theirs |
 
 ## The idea in 30 seconds
@@ -30,7 +30,7 @@ Most launchpads keep every fee and leave the hard part, getting a coin over the 
   <li><b>Trade on the curve.</b> Price rises as SOL comes in and falls as it goes out. Every trade pays 1%, split between Meteora, the creator and Corium. <a href="/guide/trading">Trading →</a></li>
   <li><b>Watch the star.</b> Each coin’s star follows its curve: protostar, main sequence, giants, then <b>critical</b> in the final stretch. <a href="/guide/stars">Stars →</a></li>
   <li><b>Finish it.</b> The last 10% of the curve is the final stretch. Buy it, hold through graduation, and split the coin’s supernova bounty plus any bounties on it. <a href="/rules/bounty">The bounty →</a></li>
-  <li><b>Get paid weekly.</b> All of it earns DUST. Every Monday the top 20 split a SOL pool, and your rank climbs for good. <a href="/earn/dust">DUST →</a></li>
+  <li><b>Get paid weekly.</b> All of it earns DUST. Every Monday two SOL pools: everyone with 100+ on-chain DUST shares one, the top 20 with 1,000+ DUST the other, and your rank climbs for good. <a href="/earn/dust">DUST →</a></li>
 </ol>
 
 ## Built on

@@ -54,7 +54,7 @@ Nobody judges entries: if buyers graduate a coin, it wins. While an entry is sti
 - **A coin can enter one request, ever**, and only while it’s early on its curve, so a coin that’s already nearly graduated can’t be entered everywhere.
 - **If you win**, you get your share of the prize in SOL, you keep every token you bought apart from the stake, and you earn your normal creator fees. Winning always pays you: the stake is sized from the prize so your share is worth more than what you give up.
 - **If you lose**, or nobody wins, your stake comes back to you.
-- Winning a request earns **3,000 DUST**, on top of 500 when your coin reaches its final stretch and 2,500 when it graduates. [DUST →](/earn/dust)
+- Winning a request earns **5,000 DUST**, on top of 500 when your coin reaches its final stretch and 5,000 when it graduates. [DUST →](/earn/dust)
 
 ## For traders
 

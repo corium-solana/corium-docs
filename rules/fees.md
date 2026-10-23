@@ -53,7 +53,7 @@ A pump.fun finishing buy goes through pump.fun’s own program at pump.fun’s p
 
 | | |
 |---|---|
-| Weekly DUST pool | 25% of Corium’s fees each week (curve plus locked-pool fees), never under 1.5 SOL. [DUST →](/rules/dust) |
+| Weekly DUST pools | The hunters’ pool, 25% of Corium’s fees each week (curve plus locked-pool fees), never under 3 SOL, and the community pool, 10%, never under 1.5 SOL. [DUST →](/rules/dust) |
 | Request sponsors | 50% of Corium’s fees on a request’s winning coin: curve fees from when the request opened until graduation, and locked-pool fees for 30 days after. [Requests →](/earn/requests) |
 
 Both are paid in SOL from the treasury.

@@ -79,7 +79,7 @@ No fee. They stake a small part of their own launch buy; if they lose, or nobody
 ## DUST & referrals
 
 ### What is DUST?
-Points for what grows Corium: finishing curves, launching coins that graduate, winning requests, funding bounties, trading and referrals, plus free DUST for signing in, a daily star and daily quests. Every Monday the top 20 split a SOL pool. [DUST →](/earn/dust)
+Points for what grows Corium: finishing curves, launching coins that graduate, winning requests, funding bounties, trading and referrals, plus free DUST for signing in, a daily star and daily quests. Every Monday two SOL pools: everyone with 100+ on-chain DUST shares one, the top 20 with 1,000+ DUST the other. [DUST →](/earn/dust)
 
 ### How big is the weekly pool?
 25% of Corium’s fees that week, never less than 1.5 SOL.
