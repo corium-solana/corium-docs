@@ -51,7 +51,7 @@ Every step after graduation can be triggered by anyone; Corium’s crank does it
 
 ## DUST
 
-When a bounty’s coin graduates, its finishers earn **1,000 DUST per SOL** of stretch credit, and its sponsors earn **200 DUST per SOL** that went to finishers other than themselves. [DUST →](/earn/dust)
+When a bounty’s coin graduates, its finishers earn **2,000 DUST per SOL** of stretch credit, and its sponsors earn **500 DUST per SOL** that went to finishers other than themselves. [DUST →](/earn/dust)
 
 ## Tips
 

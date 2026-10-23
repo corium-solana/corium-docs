@@ -18,7 +18,7 @@
 The money is in **finishing**: buying the final stretch of a curve, the last 10% before graduation.
 
 - Every Corium coin has a [supernova bounty](/rules/bounty), and some carry [bounties](/earn/bounties) from sponsors as well. Finishers split both.
-- Finishing earns **1,000 DUST per SOL** when the coin graduates, the biggest source of [DUST](/earn/dust).
+- Finishing earns **2,000 DUST per SOL** when the coin graduates, the biggest source of [DUST](/earn/dust). Every final-stretch buy through Corium earns 300 per SOL on top, finished or not, up to 600 a day.
 - Plain trading earns 10 DUST per SOL, up to 300 a day.
 
 Find coins to finish on **Explore → Final stretch** and on **[Bounties](https://corium.so/bounties)**, which lists the coins with SOL on them, closest to graduating first.
@@ -27,14 +27,14 @@ Find coins to finish on **Explore → Final stretch** and on **[Bounties](https:
 
 - Launching is free, and you earn **37% of the curve fees** on your coin, then half of its locked pool’s fees forever after it graduates. [Fees →](/rules/fees)
 - [Requests](/earn/requests) are prizes waiting for a coin. Launch an entry; if yours graduates first, you take the creator’s share of the prize.
-- Your coin reaching its final stretch earns **500 DUST**, and graduating earns **2,500** more. Winning a request: **3,000**.
+- Your coin reaching its final stretch earns **500 DUST**, and graduating earns **5,000** more. Winning a request: **5,000**.
 - Your coin stalling at 80%? Put a [bounty](/earn/bounties) on it. Traders come to finish curves with money on them.
 
 ### If you sponsor
 
 - A [bounty](/earn/bounties) pays only if the coin graduates in time. Otherwise every lamport comes back to you.
 - A [request](/earn/requests) gets you a bag of the winning coin at its launch price, and **half of Corium’s fees on it**: its curve fees from when you opened the request, and its locked pool’s fees for 30 days after it graduates. No winner, full refund.
-- Funding a bounty earns **200 DUST per SOL** that went to other finishers when the coin graduates.
+- Funding a bounty earns **500 DUST per SOL** that went to other finishers when the coin graduates.
 
 ## How it adds up
 
