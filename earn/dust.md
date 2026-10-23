@@ -50,7 +50,7 @@ Daily stars and daily quests add up to at most **1,500 a week**. Free DUST needs
 <ol class="steps">
   <li><b>The week closes</b> at Monday 00:00 UTC and its board is frozen as it stands.</li>
   <li><b>The pools are set:</b> the hunters’ pool is 25% of Corium’s fees that week (curve fees plus locked-pool fees), or 3 SOL if that’s more; the community pool is 10%, or 1.5 SOL.</li>
-  <li><b>The hunters’ pool is split</b> among everyone with 100+ on-chain DUST, pro rata; <b>the community pool</b> among the top 20 qualifying accounts, pro rata to all their DUST. Nobody takes more than 30% of either; what a capped account can’t take goes to the rest, and with three or fewer qualifying the cap rises to an equal share, so a pool is always paid in full.</li>
+  <li><b>The hunters’ pool is split</b> among everyone with 100+ on-chain DUST, strictly by share, with no cap: a bigger share of the on-chain DUST is a bigger share of the pool. <b>The community pool</b> goes to the top 20 qualifying accounts, pro rata to all their DUST, nobody over 30% (an equal share when three or fewer qualify). Both are always paid in full.</li>
   <li><b>SOL is sent to each account’s main wallet</b> from Corium’s treasury, shortly after the week closes.</li>
 </ol>
 
