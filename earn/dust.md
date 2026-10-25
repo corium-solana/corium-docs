@@ -28,12 +28,12 @@ See the board at **[corium.so/points](https://corium.so/points)**.
 
 ### Free DUST
 
-Sign in with X, Reddit or Discord and DUST comes free, no SOL needed. At [corium.so/points](https://corium.so/points):
+Sign in with X or Discord and DUST comes free, no SOL needed. At [corium.so/points](https://corium.so/points):
 
 | You | DUST | When |
 |---|---|---|
 | **Welcome bonus** | **250** | Once per account. |
-| **Connect X, Reddit or Discord** | **200** each | Once per network. |
+| **Connect X or Discord** | **200** each | Once per network. |
 | **Link the Telegram bot** | **150** | Once. |
 | **Seeker or Saga owner** | **500** once, then **100 a week** | Connect the wallet that holds your Genesis token (on a Seeker, the Seed Vault wallet). The token is one per phone and stays with you, so it also makes your account eligible without a follower count, and your on-chain DUST weighs ×1.25 in the hunters’ pool. |
 | **Join @corium_solana and @corium_alerts on Telegram** | **100** each | Once each. Checked with Telegram, so join with the Telegram account you linked. |
@@ -43,7 +43,7 @@ Sign in with X, Reddit or Discord and DUST comes free, no SOL needed. At [corium
 | **Daily quests** | **30** each | Three a day, the same three for everyone. |
 | **Bring a friend** | **150** | When someone who joined through your link connects an eligible account. Up to 3,000 a week. On top of the 10% share. |
 
-Daily stars and daily quests add up to at most **1,500 a week**. Free DUST needs at least one **eligible** account on yours: X at least 30 days old with 10+ followers, Reddit at least 30 days old with 20+ karma, or Discord at least 90 days old. Without one you can sign in and look around, but you won't earn free DUST.
+Daily stars and daily quests add up to at most **1,500 a week**. Free DUST needs at least one **eligible** account on yours: X at least 30 days old with 10+ followers, or Discord at least 90 days old. Without one you can sign in and look around, but you won't earn free DUST.
 
 ## Getting paid
 

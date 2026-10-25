@@ -28,7 +28,7 @@ Any Corium page works with `?r=`: a coin, a request, a bounty. Share the page yo
 
 - The link is remembered in the visitor’s browser. When they sign in for the first time, they become your referral, as long as their account is under 48 hours old.
 - Each week you get 10% of every referral’s DUST, from every source, rounded and capped at 5,000 a week in total.
-- **Two parts, since 21 October 2026.** 50 DUST lands when your referral connects an eligible X, Reddit or Discord account. The other 100 land on their first trade on Corium (any coin, any size), on their next visit after it. Your 10% of their DUST counts only in a week they traded or did something on chain. Someone who signs in, does the quests and never trades earns you 50 and nothing more. Referrals made before that date were paid whole at the start and keep counting as they did.
+- **Two parts, since 21 October 2026.** 50 DUST lands when your referral connects an eligible X or Discord account. The other 100 land on their first trade on Corium (any coin, any size), on their next visit after it. Your 10% of their DUST counts only in a week they traded or did something on chain. Someone who signs in, does the quests and never trades earns you 50 and nothing more. Referrals made before that date were paid whole at the start and keep counting as they did.
 - The 10% share adds to your weekly payout once you qualify, but [can’t qualify you on its own](/earn/dust#qualifying): you need 500 earned DUST of your own that week. The 150 for each friend who connects an eligible account is [free DUST](/earn/dust#free-dust), and does count toward the 500.
 - You can’t refer yourself, including your own [linked wallets](/guide/account#linked-wallets).
 

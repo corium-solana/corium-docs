@@ -16,7 +16,7 @@
 | Conviction | 1,000 per SOL | SOL bought under a quarter of a Corium coin’s curve, times the share of those tokens still held when it graduates, the week it graduates. A coin’s creator earns none on their own coin. On-chain DUST. |
 | Today’s twenty, crates, badges | See [Today’s twenty](/earn/play) | Twenty on-chain achievements a day, a crate on the first buy of each coin each day (up to ten), and ten one-time badges. Read from the chain alone. Community-board DUST: it does not count in the hunters’ pool, and it does not use the free weekly cap. |
 | Genesis | 500 once per token, then 100 a week | A Seeker or Saga Genesis Token in a wallet on the account: the bonus once per token (by mint, whichever of the owner’s wallets holds it), the weekly grant every week the account opens its campaign, eligibility for free DUST without a follower count, and ×1.25 weight on on-chain DUST in the hunters’ pool. |
-| Free DUST | See [Free DUST](/earn/dust#free-dust) | Welcome bonus 250 and one-time quests (connecting X, Reddit or Discord 200 each, the Telegram bot 150, the Telegram group and alerts channel 100 each, following @corium_so and @corium_bounties on X 75 each), once per account; a post about Corium on X mentioning @corium_so, 150 a week; a daily star (20 to 500, times the streak, up to ×2) and three daily quests (30 each), together at most 1,500 a week; 150 per friend brought, at most 3,000 a week. Only with an eligible X, Reddit or Discord account on yours, and each grant once per account and per identity. |
+| Free DUST | See [Free DUST](/earn/dust#free-dust) | Welcome bonus 250 and one-time quests (connecting X or Discord 200 each, the Telegram bot 150, the Telegram group and alerts channel 100 each, following @corium_so and @corium_bounties on X 75 each), once per account; a post about Corium on X mentioning @corium_so, 150 a week; a daily star (20 to 500, times the streak, up to ×2) and three daily quests (30 each), together at most 1,500 a week; 150 per friend brought, at most 3,000 a week. Only with an eligible X or Discord account on yours, and each grant once per account and per identity. |
 
 Linked wallets are one account: their DUST adds up, and the account’s caps apply once. Corium’s own wallets are excluded from the board.
 
@@ -85,7 +85,7 @@ Finishing earns roughly a 6% to 15% rebate on the SOL put into a graduating coin
 | Fund a bounty and finish it yourself | ~0.25 SOL | Funding DUST counts only what went to other finishers |
 | Graduate your own coin alone | Tens of SOL | Selling 80% of the supply into an 85 SOL pool |
 | Fake referrals | The referrals’ own activity | 50 a head until each referral trades; capped at 5,000 a week; can’t qualify you |
-| Farm free DUST with many accounts | An aged X, Reddit or Discord account each | Only eligible accounts earn it, each identity once; daily DUST is capped at 1,500 a week; payouts are checked by hand |
+| Farm free DUST with many accounts | An aged X or Discord account each | Only eligible accounts earn it, each identity once; daily DUST is capped at 1,500 a week; payouts are checked by hand |
 
 In weeks the fees drive the pool, it grows by about 0.00005 SOL per trading DUST, while a trading DUST costs about 0.0005 SOL in fees: volume farming loses ten to one.
 
