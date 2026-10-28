@@ -67,6 +67,7 @@ export default defineConfig({
             { text: 'Requests', link: '/earn/requests' },
             { text: 'DUST & weekly payouts', link: '/earn/dust' },
             { text: 'Today’s twenty, crates & badges', link: '/earn/play' },
+            { text: 'Badges on your name', link: '/earn/badges' },
             { text: 'Referrals', link: '/earn/referrals' },
           ],
         },
