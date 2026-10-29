@@ -25,7 +25,33 @@ A 1 SOL buy after the launch window pays 0.01 SOL in fees: 0.002 SOL to Meteora,
 
 ## After graduation
 
-A graduated coin trades on its **Meteora DAMM v2** pool, which charges a **1%** fee to traders. After Meteora's protocol share, the fee goes to the pool's liquidity. That liquidity is **permanently locked**, and it belongs **50/50 to the creator and Corium**: both earn its fees, and neither can ever withdraw it.
+A graduated coin trades on its **Meteora DAMM v2** pool. Its liquidity is **permanently locked**, and it belongs **75% to the creator and 25% to Corium**: both earn its fees by those shares, and neither can ever withdraw it.
+
+The pool's fee **steps down as the coin grows**, so a coin that runs is never more expensive to trade on Corium than on pump.fun, at any market cap:
+
+| Market cap | Corium pool fee | pump.fun (PumpSwap) |
+|---|---|---|
+| At graduation (about 425 SOL) | **1%** | 1.20% to 1.25% |
+| 4,420 SOL | 0.89% | 1.00% |
+| 10,000 SOL | 0.80% | 0.95% |
+| 25,000 SOL | 0.66% | 0.80% |
+| 50,000 SOL | 0.49% | 0.55% |
+| 100,000 SOL and up | **0.25%** | 0.30% |
+
+Market caps are in SOL, as pump.fun's tiers are. The fee moves in 75 small steps between graduation and 100,000 SOL (by how far the square root of the price has risen), and back up if the price falls.
+
+Every pool fee is taken in SOL and split the same way, whatever its size:
+
+| Share of the fee | At 1% | At 0.25% | Goes to |
+|---|---|---|---|
+| **20%** | 0.20% | 0.05% | Meteora (its protocol fee) |
+| **16%** | 0.16% | 0.04% | **Stays in the pool** (20% of what Meteora leaves): deeper liquidity with every trade, so bigger trades move the price less |
+| **48%** | 0.48% | 0.12% | The coin's **creator** (their locked 75%) |
+| **16%** | 0.16% | 0.04% | The Corium **treasury** (its locked 25%) |
+
+When a trade comes through a referrer, such as an aggregator, the referrer gets a fifth of Meteora's part (4% of the fee) out of Meteora's share; nobody else's changes.
+
+Coins launched before the stepped fee came in keep a flat **1%** pool fee with no compounding and a 50/50 pool (0.20% Meteora, 0.40% creator, 0.40% treasury): a coin's pool terms are set when it launches.
 
 Graduation itself costs nothing: there is no migration fee.
 

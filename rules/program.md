@@ -12,7 +12,8 @@ Don't trust an address for the Corium launchpad from anywhere else. Your wallet 
 |---|---|
 | App | [corium.so](https://corium.so) |
 | Corium program (`corium_launch`) | `NovanpiewpH4zvYgtzAQN2zWQ94KcKWrHCTswWdZ1Y1` |
-| Corium config (Meteora DBC) | `HdY7SdqgdquPcSSFD6gkFaLUQ4zRTdCjPDaPa57DgbRw` |
+| Corium config (Meteora DBC) | `D4CPCPQ3BqVyAV7WQAjLFdq91WNJjvP1MtcJMyoHtYC2` (every new coin) |
+| First Corium config | `HdY7SdqgdquPcSSFD6gkFaLUQ4zRTdCjPDaPa57DgbRw` (coins launched before the stepped pool fee) |
 | Fee claimer (the Corium vault) | `HdtdnxH8mqD4UhSKsA1gueo89DYNsc9QaoAXqWoZaodb` |
 | Treasury | `GLVXkNtqT7Atdz1vCyd22kWDPcFdCbktHFGHiWx19yg4` (a Squads multisig) |
 | Admin and upgrade authority | `GLVXkNtqT7Atdz1vCyd22kWDPcFdCbktHFGHiWx19yg4` (the same Squads multisig) |
@@ -39,7 +40,7 @@ The program is **verified**: OtterSec rebuilt it from its public source, [github
 
 ## The coin config
 
-One Meteora DBC config for every coin:
+One Meteora DBC config for every new coin (coins launched on the first config keep its terms, which differ only in the pool: its fee and its split):
 
 | | |
 |---|---|
@@ -51,7 +52,8 @@ One Meteora DBC config for every coin:
 | First buy by the creator | Pays the minimum fee |
 | Fee split | 37% of the partner + creator share to the creator |
 | Fee claimer | The Corium vault |
-| Migrates to | DAMM v2, 1% fee, liquidity 50% creator / 50% Corium, all permanently locked |
+| Migrates to | DAMM v2, liquidity 75% creator / 25% Corium, all permanently locked (coins on the first config: 50/50) |
+| Pool fee | 1% at graduation, stepping down by market cap to 0.25% at 100,000 SOL (75 linear steps of the square root of the price), back up if the price falls; 20% of what Meteora leaves compounds into the pool's liquidity. Coins on the first config: 1% flat |
 
 ## Accounts
 

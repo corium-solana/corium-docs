@@ -70,7 +70,7 @@ Migration usually lands within moments of graduation. While it runs, the coin pa
 
 ## After graduation
 
-You keep trading the coin on Corium, now against its DAMM v2 pool. The trade panel says which venue you are on. The pool charges a 1% fee that goes to its liquidity, which the creator and Corium own 50/50 and can never withdraw.
+You keep trading the coin on Corium, now against its DAMM v2 pool. The trade panel says which venue you are on. The pool's fee starts at 1% and steps down to 0.25% as the coin grows, so it's never above pump.fun's at the same market cap ([the steps](/rules/fees#after-graduation)). After Meteora's protocol share, a fifth of it stays in the pool, deepening its liquidity; the liquidity belongs 75% to the creator and 25% to Corium, and neither can ever withdraw it.
 
 ## Your positions
 

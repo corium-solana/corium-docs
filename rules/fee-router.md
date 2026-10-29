@@ -24,7 +24,7 @@ All in one transaction. The 50% is set once per config when the config is regist
 | `claim` (a bounty) | The winning wallet | The wallet and amount prove against the posted merkle root. Each wallet claims once. Claims never exceed the payout. |
 | `sweep_expired` | **Anyone** | The claim window (30 days) has passed. The unclaimed rest goes to the treasury only. |
 | `release_bounty` | **Anyone** | The coin graduated, no payout was posted, and the claim window has passed since graduation. The escrow goes to the treasury only. |
-| `claim_lp_fees` | **Anyone** | Fees on Corium's locked half of a graduated coin's DAMM v2 pool go only to **the treasury's own token accounts**. |
+| `claim_lp_fees` | **Anyone** | Fees on Corium's locked share of a graduated coin's DAMM v2 pool go only to **the treasury's own token accounts**. |
 | `claim_surplus` | **Anyone** | Any curve surplus Meteora releases to the partner goes only to the treasury's own token account. |
 
 "Anyone" means any wallet can send the transaction. The money still goes only where the program says: into escrow, to winners, or to the treasury.
