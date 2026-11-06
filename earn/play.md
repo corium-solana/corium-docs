@@ -1,6 +1,6 @@
-# Today's twenty, crates & badges
+# Daily twenty, crates & badges
 
-<p class="lede">Twenty things to do on chain every day, each paying DUST. Your first buy of each coin opens a crate. Badges are yours for good. Lucky moments pay the most.</p>
+<p class="lede">Twenty things to do on chain every day, each paying DUST. Your first buy of each coin opens a crate. Badges are yours for good. Lucky moments pay the most. They're in <b>Earn → Quests</b>: the <b>Daily twenty</b> tab, and the <b>Bonus</b> tab for luck and habit.</p>
 
 <div class="glance">
 <b>At a glance</b>
@@ -9,7 +9,7 @@
 - **A crate on every coin you buy** each day, up to ten a day: 5, 25, 150 or 1,500 DUST.
 - **Ten badges** that stay on your profile, each with a little DUST.
 - Everything is read from the chain. Nothing to claim and nothing to report: it lands on its own, seconds after the trade.
-- This DUST counts on the [community board](/earn/dust). The [hunters’ pool](/rules/dust#the-pools) still pays on-chain DUST alone.
+- This DUST counts on the [community board](/earn/dust#payday) and toward your rank. The [hunters’ pool](/rules/dust#the-split) is split by SPARK.
 </div>
 
 ## The twenty
@@ -69,11 +69,11 @@ A crate’s roll comes from your buy’s transaction signature, mixed with a sec
 
 Each badge shows how many hunters hold it.
 
-## Hunter ranks
+## Hunter levels
 
-Your **lifetime on-chain DUST** (finishing, stretch buys, launches, bounties, requests, conviction) sets a hunter rank, separate from your DUST rank. A higher rank weighs more in the [hunters’ pool](/rules/dust#the-split):
+Your **lifetime [SPARK](/earn/dust#spark)** sets your Hunter level, separate from your rank. (Your on-chain DUST from before SPARK counts 1:1.) A higher level weighs more in the [hunters’ pool](/rules/dust#the-split):
 
-| Rank | Lifetime on-chain DUST | Weight |
+| Hunter level | Lifetime SPARK | Weight |
 |---|---|---|
 | Scout | 100 | ×1 |
 | Tracker | 1,000 | ×1.05 |
@@ -81,18 +81,18 @@ Your **lifetime on-chain DUST** (finishing, stretch buys, launches, bounties, re
 | Finisher | 20,000 | ×1.15 |
 | Starbreaker | 75,000 | ×1.25 |
 
-With a [Genesis token](/rules/dust#earning), the two weights multiply, up to ×1.5 in all.
+With a [Genesis token](/rules/dust#earning-dust), the two weights multiply, up to ×1.5 in all. Earn shows your level, the SPARK to the next one and your weight.
 
 ## Weekly draws
 
-**On top of the hunters’ pool, 30% more** is paid as **ten prizes** every week, drawn by tickets. With the hunters’ pool at 3 SOL, that is 0.9 SOL in draws, and the hunters still split all 3 SOL.
+**On top of the hunters’ pool, 30% more** is paid as **ten prizes** every week, drawn by tickets. With the hunters’ pool at its 1.5 SOL floor, that is 0.45 SOL in draws, and the hunters still split all 1.5 SOL.
 
 - One ticket for every coin you buy **0.05 SOL or more** of in a day and still hold that day: a Corium coin, or a pump.fun stretch bought on Corium. Up to **ten a day**.
 - Buying and selling back the same day is no ticket.
 - When the week closes, ten different accounts are drawn, each by its share of the tickets, from a **Solana blockhash** read at that moment and kept with the week, so anyone can redo the draw.
 
-Your tickets this week, the prize per winner and last week’s winners are on [the DUST page](https://corium.so/points#today).
+Your tickets this week, the prize per winner and last week’s winners are on [Earn](https://corium.so/points#draws).
 
 ## Conviction
 
-Buy a Corium coin **under a quarter of its curve** and hold it through graduation: **1,000 DUST per SOL**, the week it graduates, on the share of those early tokens you still held when it did. It is on-chain DUST, so it counts in the hunters’ pool.
+Buy a Corium coin **under a quarter of its curve** and hold it through graduation: **1,000 DUST per SOL**, the week it graduates, on the share of those early tokens you still held when it did, and **300 SPARK per SOL** toward the hunters’ pool.

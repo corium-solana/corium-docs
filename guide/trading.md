@@ -1,5 +1,13 @@
 # Trading
 
+<p class="lede">Trade from wherever you are on Corium: from a post on the Feed, from a coin's page, or from Corium Trade, which reaches every Solana token. Corium's own coins trade on their bonding curve; everything else goes through Jupiter's best route.</p>
+
+## From the Feed
+
+Every coin on the Feed has **Ape in**: a small buy sheet with the coin's price, your preset amounts and any amount you type. A Corium coin on its curve is bought there; anything else through Corium Trade. When it lands, Corium offers to post it, and a post made then is a [call](/guide/posting#calls) scored from that price. [Buying from a post →](/guide/feed#buying-from-a-post)
+
+Your first trade on Corium, of any size and anywhere, is one of the [three steps](/guide/posting#the-three-steps) that open posting.
+
 ## On the bonding curve
 
 Until it graduates, every coin trades against its own **bonding curve** (Meteora DBC). There is no order book and no counterparty: you buy from the curve and sell back into it.
@@ -41,14 +49,18 @@ The chart is drawn with TradingView's open-source [Lightweight Charts](https://w
 
 ## Corium Trade: any Solana token
 
-[corium.so/trade](https://corium.so/trade) trades **any Solana token with a market**: pump.fun, Bonk, Bags, Believe, Meteora, Raydium, Orca, Moonshot and the rest, each on Jupiter's best route, and pump.fun coins still on their curve directly on pump.fun.
+**Corium Trade** is the Feed's **Trade** tab (and [corium.so/trade](https://corium.so/trade)). It trades **any Solana token with a market**: pump.fun, Bonk, Bags, Believe, Meteora, Raydium, Orca, Moonshot and the rest, each on Jupiter's best route, and pump.fun coins still on their curve directly on pump.fun.
+
+<figure class="pic narrow"><img src="/shots/trade.webp" alt="Corium Trade" /><figcaption>Corium Trade: tokenized stocks next to every Solana token.</figcaption></figure>
+
 
 - **Fee: 0.25% a trade**, nothing else on top from Corium. It is a plain SOL transfer to Corium's treasury inside the same transaction, so anyone can see it. A buy of 1 SOL spends 1 SOL in all; a sale's fee comes out of the SOL it returns. The network's priority fee is separate and set by the **speed** (fast, turbo, ultra) in the trade settings.
 - **Pulse** lists new coins, coins in their final stretch and coins that just graduated, across launchpads (pick the launchpads you want); **Trending** ranks by trending, volume or organic activity over 5 minutes to 24 hours, or lists the **big coins** (worth $50M or more); the **watchlist** keeps your stars. Search by name, ticker, or paste any mint; Corium's own coins come first and open on their Corium pages.
 - **Stocks** lists tokenized stocks: tokens that track a company's shares (xStocks, Backpack, Ondo) or a private company's before it lists (Pre-IPO), such as Nvidia, Tesla, the S&P 500, OpenAI and Anthropic. They trade around the clock like any token, at the same 0.25%. Each tracks its shares as its issuer says; read the issuer's terms before you buy, as you would a fund's.
 - A token's page is laid out like every coin page on Corium: the chart, its trades (filter big ones, the dev's, yours), holders, your trades, and beside them the trade panel, the safety screen, the audit and the token's facts. The trade panel has your preset amounts (one tap trades when a wallet is connected), a live quote with price impact, the fee and the route, slippage and speed, and your position with its profit and average entry. <kbd>B</kbd> and <kbd>S</kbd> switch buy and sell.
-- **In the Android app** (1.5.0 and later), Corium Trade has its own tab at the foot of the screen, with the same Pulse, Trending, Stocks, watchlist and search, a ⚡ one-tap buy on every row (the amount is in the trade settings), and every token's page with its chart, screen, audit, your position and a live quote before you sign. Bounties moved to the top of the menu.
-- Trades in Corium Trade earn trading DUST and count for the trade quests. A buy of a pump.fun coin in its final stretch counts as a stretch attempt, the same as one made on its Corium page.
+- **In the [apps](/guide/apps)**, Trade has its own tab at the foot of the screen, with the same Pulse, Trending, Stocks, watchlist and search, a one-tap buy on every row (the amount is in the trade settings), and every token's page with its chart, screen, audit, your position and a live quote before you sign.
+- **One-tap trades** are on by default in the trade settings: a preset amount buys as you tap it. With [Cori's wallet](/guide/wallet#two-taps), which signs inside Corium, the first tap arms the button and a second within 3 seconds buys.
+- Trades in Corium Trade earn trading DUST and [SPARK](/earn/dust#spark), and count for the trade quests. A buy of a pump.fun coin in its final stretch counts as a stretch attempt, the same as one made on its Corium page.
 
 ## Trading from Telegram
 
@@ -74,7 +86,7 @@ You keep trading the coin on Corium, now against its DAMM v2 pool. The trade pan
 
 ## Your positions
 
-**Portfolio** shows your coins with their value and profit, your bounties (pending in a final stretch, or ready to claim), the coins you launched, and your trade history. Profit is measured against your average cost.
+Your [profile](/guide/profiles) shows what your wallets hold now, read from the chain, with value and profit against your average cost; your bounties (pending in a final stretch, or ready to claim); the coins you launched; and your trade history. On a phone, **⚡** opens with your positions first, each with **Sell**. [The quick sheet →](/guide/wallet#the-quick-sheet-and-the-you-menu)
 
 ::: warning Know what you're buying
 Anyone can launch a coin. A coin on Corium is not endorsed by Corium, and most memecoins go to zero. Check the creator's trades, the holder list and the socials before you buy.

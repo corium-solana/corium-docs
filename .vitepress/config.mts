@@ -5,7 +5,7 @@ export default defineConfig({
   lang: 'en-US',
   title: 'Corium Docs',
   description:
-    'Corium is the Solana launchpad that pays its users: supernova bounties for the wallets that carry a coin over the line, bounties on any coin, requests for coins that don’t exist yet, and a weekly SOL leaderboard.',
+    'Corium is social trading on Solana: one feed of every coin, trader and move, trading from any post, Corium Trade for every Solana token and tokenized stocks, a wallet built in, launching your own coin, and DUST paid out in SOL every week.',
   cleanUrls: true,
   // Corium Game's pages stay in game/ but are not published for now.
   srcExclude: ['game/**'],
@@ -34,6 +34,7 @@ export default defineConfig({
 
     nav: [
       { text: 'Guide', link: '/guide/what-is-corium', activeMatch: '/guide/' },
+      { text: 'Feed', link: '/guide/feed', activeMatch: '/guide/(feed|posting|profiles)' },
       { text: 'Earn', link: '/earn/', activeMatch: '/earn/' },
       { text: 'Rules', link: '/rules/', activeMatch: '/rules/' },
       { text: 'FAQ', link: '/faq' },
@@ -47,14 +48,25 @@ export default defineConfig({
           items: [
             { text: 'What is Corium?', link: '/guide/what-is-corium' },
             { text: 'Getting started', link: '/guide/getting-started' },
+            { text: 'The apps', link: '/guide/apps' },
           ],
         },
         {
-          text: 'Launch & trade',
+          text: 'Social',
           items: [
-            { text: 'Launching a coin', link: '/guide/launching' },
-            { text: 'The screen', link: '/guide/screen' },
+            { text: 'The Feed', link: '/guide/feed' },
+            { text: 'Posting & calls', link: '/guide/posting' },
+            { text: 'Profiles', link: '/guide/profiles' },
+            { text: 'Coin chat, callouts & leaderboards', link: '/guide/social' },
+          ],
+        },
+        {
+          text: 'Trade & launch',
+          items: [
             { text: 'Trading', link: '/guide/trading' },
+            { text: 'The screen', link: '/guide/screen' },
+            { text: 'Wallets', link: '/guide/wallet' },
+            { text: 'Launching a coin', link: '/guide/launching' },
             { text: 'Stars', link: '/guide/stars' },
           ],
         },
@@ -62,20 +74,19 @@ export default defineConfig({
           text: 'Earn',
           items: [
             { text: 'Ways to earn', link: '/earn/' },
+            { text: 'DUST & weekly payouts', link: '/earn/dust' },
+            { text: 'Daily twenty, crates & badges', link: '/earn/play' },
+            { text: 'Badges on your name', link: '/earn/badges' },
+            { text: 'Your crew', link: '/earn/referrals' },
             { text: 'Supernova bounty', link: '/rules/bounty' },
             { text: 'Bounties on any coin', link: '/earn/bounties' },
             { text: 'Requests', link: '/earn/requests' },
-            { text: 'DUST & weekly payouts', link: '/earn/dust' },
-            { text: 'Today’s twenty, crates & badges', link: '/earn/play' },
-            { text: 'Badges on your name', link: '/earn/badges' },
-            { text: 'Referrals', link: '/earn/referrals' },
           ],
         },
         {
           text: 'Your account',
           items: [
-            { text: 'Profile, wallets & track record', link: '/guide/account' },
-            { text: 'Social: follow, callouts & more', link: '/guide/social' },
+            { text: 'Account, wallets & track record', link: '/guide/account' },
             { text: 'Finish links & Blinks', link: '/guide/finish-links' },
             { text: 'Telegram', link: '/guide/telegram' },
           ],
@@ -86,7 +97,7 @@ export default defineConfig({
             { text: 'Overview', link: '/rules/' },
             { text: 'Supernova bounty', link: '/rules/bounty' },
             { text: 'Bounties & requests', link: '/rules/pots' },
-            { text: 'DUST', link: '/rules/dust' },
+            { text: 'DUST & SPARK', link: '/rules/dust' },
             { text: 'Fees', link: '/rules/fees' },
             { text: 'Fee router', link: '/rules/fee-router' },
             { text: 'Program reference', link: '/rules/program' },

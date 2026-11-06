@@ -12,8 +12,19 @@ Press **Create**, fill in the coin, and sign one transaction. The coin, its bond
 | Image | PNG, JPG, GIF or WebP, up to 4 MB. Square works best. Without one, the coin gets generated art. |
 | X, Telegram, Website | Optional links, shown on the coin page |
 | Buy at launch | Optional SOL for your own first buy, in the same transaction |
+| Your launch post | Optional, up to 500 characters. Goes on the Feed as yours when the coin lights. [Below →](#your-launch-post) |
 
 The name, ticker and image go into standard Solana token metadata, with the image and description pinned to IPFS, so every wallet and explorer shows them.
+
+## Your launch post
+
+The moment your coin lands, the Feed shows its launch as a **New star** card: a poster on your coin's picture, with its name and ticker and a buy button. Write **Your launch post** on the Create page and your words go under that poster, **as a post of yours**, in place of Corium's own card: your thesis, why this one, what you'll do with it. People reply to it, repost it and follow you from it.
+
+- **One per coin**, written by the wallet that created it.
+- **Whatever your rank**, and without the [three steps](/guide/posting#the-three-steps): launching cost you SOL.
+- Without one, Corium posts the launch for you, and you can still post about your coin from the Feed any time.
+
+After the launch, you can always post about a coin you launched. Those posts are labelled **Dev** of that coin, so readers know the creator is talking. [Creators on the Feed →](/guide/posting#creators)
 
 ## Your coin's star
 
@@ -46,7 +57,8 @@ You need to be signed in to launch. Launching is limited to signed-in wallets be
 - You earn **37% of the curve's trading fees after Meteora's cut** (about 0.3% of volume), in SOL.
 - After graduation you own 75% of the locked pool liquidity, and earn 75% of its LP fees. (Coins launched before the stepped pool fee: half.)
 - **Claiming:** open your profile. The **Ready to claim** card adds up your creator fees and bounties, and **Claim all** collects them in as few transactions as possible; the **Created** tab shows what each coin owes you, curve fees and LP fees together. The Telegram bot's `/claims` lists them too.
-- Your trades are marked **Dev** on the coin page and in chat, so everyone can see what the creator does.
+- Your trades are marked **Dev** on the coin page and in chat, and your posts about the coin on the Feed, so everyone can see what the creator does and says.
+- Your coin earns you DUST as others put SOL into it, reach its final stretch and graduate, and [SPARK](/earn/dust#spark) for the SOL others buy of it in its first day. [DUST →](/earn/dust#earning-dust)
 
 ::: tip A good launch
 A clear image, a real description and working links make a coin easy to trust. Buying a small first bag at launch is normal; buying a large one is visible to everyone, and many traders read it as a warning.

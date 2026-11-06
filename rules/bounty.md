@@ -40,7 +40,7 @@ The scores, each wallet's amount and its merkle proof are published to IPFS with
 
 ## Claiming
 
-Your bounty shows in **Portfolio → Bounties** and on the coin page. It is *settling* until the payout is posted, shortly after the 10-minute hold check, then **Claim** sends it to your wallet.
+Your bounty shows on your profile’s **Bounties** tab and on the coin page. It is *settling* until the payout is posted, shortly after the 10-minute hold check, then **Claim** sends it to your wallet.
 
 | | |
 |---|---|

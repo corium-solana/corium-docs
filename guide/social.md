@@ -1,12 +1,14 @@
-# Social
+# Coin chat, callouts & leaderboards
 
-## Chat
+<p class="lede">Every Corium coin has its own chat, its callouts, and pages that show who got in early and who carried it over the line. The rest of Corium's social side lives on <a href="/guide/feed">the Feed</a>, <a href="/guide/posting">posting & calls</a> and <a href="/guide/profiles">profiles</a>.</p>
 
-Every coin has its own **live chat** on its coin page. The **Live chat** panel on Explore shows the newest posts from every coin, each with the coin it's about and the author's position in it.
+## Coin chat
 
-- **Posting** needs a signed-in wallet. Messages are up to 280 characters, at most one every 2 seconds, and you can't post the same line twice in a row.
-- **Replies** quote the message they answer. Reply from a coin's chat, or right from the Explore feed.
-- **Likes** are one per wallet per message.
+Every coin has a **live chat** on its page. Its lines also come into the Feed's **For you**, marked with the coin.
+
+- **Writing** in a coin's chat is a reply, so it needs the [three steps](/guide/posting#the-three-steps) and a wallet. Messages are up to 280 characters, at most one every 2 seconds, and you can't post the same line twice in a row. The [posting rules](/guide/posting#what-corium-won-t-carry) apply.
+- **Replies** quote the message they answer.
+- **Likes** are one per account per message, with any sign-in.
 - **`$TICKER`** mentions are highlighted. Links show as plain text and are never clickable, so a link in chat can't be a trap you click by accident.
 
 ### Badges
@@ -20,36 +22,17 @@ Every message shows what its author has done on that coin:
 | **Stretch** | The wallet has bounty credit from the final stretch |
 | **Carried it** | The wallet earned part of this coin's supernova bounty |
 
-In the Explore feed, each post also shows the author's **position** and **profit** in dollars on that coin.
-
 ### Moderation
 
-Moderators hide messages and ban wallets that post scams, impersonation, harassment or illegal content. A banned wallet can't post, and its messages disappear for everyone. See the [Terms](/legal/terms).
-
-## Profiles
-
-Every wallet that signs in gets a public profile: its star name and photo, a bio, when it joined, what it holds, the bounties it earned, the coins it launched, its callouts and its trade history. Open any name or avatar to see it. [Setting yours up →](/guide/getting-started#_3-your-profile)
-
-Everything on a profile is public, like the chain it comes from.
-
-### Verified X handle
-
-**Verify X** on your profile proves an X account is yours, without giving Corium access to it: you post a code that only your wallet gets, paste the post's link, and Corium reads it back. The handle then shows on your profile and next to your callouts. Delete the post afterwards if you like; **unlink** removes the handle.
-
-## Follow and watch
-
-- **Follow** anyone from their profile. Follower and following counts are public.
-- **Watch** a coin with ☆ on its page to hear when it enters the final stretch and when it goes supernova. Your watchlist is private, and leads the coin strip in terminal mode.
-- The **Following** panel on Explore shows what the people you follow do, live: buys, sells, launches and calls (trades under 0.05 SOL are left out).
-- The **bell** collects what's for you: new followers, big trades and launches by people you follow, their calls, and supernovas of coins you watch. Get the same on [Telegram](/guide/telegram).
+Moderators hide messages and ban wallets that post scams, impersonation, harassment or illegal content. A banned wallet can't post, and its messages disappear for everyone. **Report** is on every line's menu. See the [Terms](/legal/terms).
 
 ## Callouts
 
-A **callout** says *this one*, in public, with a timestamp. It is made in the coin's chat: turn on the megaphone next to **Send**, add a note of up to 140 characters if you like, and post. It shows in the chat as a marked line, and your followers hear it.
+A **callout** says *this one*, in public, with a timestamp, in a Corium coin's chat: turn on the megaphone next to **Send**, add a note of up to 140 characters if you like, and post. It shows in the chat as a marked line, comes into the Feed, and your followers hear it.
 
-You can only call a coin you hold: at least **$1** of it at the moment you call. Chat itself stays open to anyone signed in.
+You can only call a coin you hold: at least **$1** of it at the moment you call. One callout per wallet every 6 hours.
 
-Every call records the market cap at that moment, and shows what happened after:
+Every callout records the market cap at that moment, and shows what happened after:
 
 | | |
 |---|---|
@@ -58,7 +41,11 @@ Every call records the market cap at that moment, and shows what happened after:
 | **✦ went supernova** | The coin graduated after the call |
 | **sold X% after calling** | The caller sold at least half of their bag within a day of calling it |
 
-One call per wallet every 6 hours. The **Callers** leaderboard scores them: a call that went supernova counts **3**, a call that doubled counts **1**, and a call you dumped on costs **2**.
+The **Callers** leaderboard scores callouts: a call that went supernova counts **3**, a call that doubled counts **1**, and a call you dumped on costs **2**.
+
+::: info Callouts and calls
+A callout is made in a coin's chat and needs a bag. A [call on the Feed](/guide/posting#calls) is any post that names a coin, from Ember, scored on the Feed's own callers' board by how the price moved since. Your profile's **Calls** tab shows both.
+:::
 
 ## Sniper wall
 
@@ -84,3 +71,5 @@ On a coin that went supernova, **▶ Supernova clip** makes a 10-second vertical
 | **Callers** | Their callouts: 3 for a supernova, 1 for a double, minus 2 for a dumped call |
 
 The top three stand on a podium, each in front of the star of the coin that got them there.
+
+The weekly DUST boards and the Hall of Fame are on **Earn**. [DUST & weekly payouts →](/earn/dust)

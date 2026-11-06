@@ -5,11 +5,11 @@
 <div class="glance">
 <b>At a glance</b>
 
-- Badges show next to your name on the [DUST board](https://corium.so/points), in the Hall of Fame, on your profile and in the Corium app. Hover or tap one to see what it means.
+- Badges show next to your name on the [boards](https://corium.so/points), in the Hall of Fame, on your profile, on your posts and in the Corium app. Hover or tap one to see what it means.
 - Corium gives them. You can't ask for one or buy one.
 - A badge with DUST pays it when you next open Corium, signed in: the one-time DUST once, the weekly DUST in every week you open Corium.
 - The weekly DUST of **GRINDER** and **WAVE 3** runs until the **last week of 2026**.
-- These are not the ten badges you earn in [Today's twenty](/earn/play#badges); those are your own, for things you did on chain.
+- These are not the ten badges you earn in the [Daily twenty](/earn/play#badges); those are your own, for things you did on chain.
 </div>
 
 ## The badges
@@ -17,7 +17,7 @@
 | Badge | Who has it | What it gives |
 |---|---|---|
 | **★ EARLY** | The early adopters: on the board in week 2 | **100 DUST** every week |
-| **◆ SEEKER** / **◆ SAGA** | Owners of a Seeker or Saga phone who claimed its Genesis token | **500 DUST** per token once, **100 DUST** every week, and ×1.25 on your on-chain DUST in the [hunters’ pool](/rules/dust#the-pools) |
+| **◆ SEEKER** / **◆ SAGA** | Owners of a Seeker or Saga phone who claimed its Genesis token | **500 DUST** per token once, **100 DUST** every week, and ×1.25 on your SPARK in the [hunters’ pool](/rules/dust#the-pools) |
 | **💎 OG** | Here with the founder since his trench days | A mark of thanks, given by hand |
 | **⚡ GRINDER** | Week 3: the top 20 of the board, and everyone outside it who put in the most work (days played, SOL spent on Corium, coins launched, posts in their own words, friends who stayed) | **500 DUST** once, then **100 DUST** every week until the last week of 2026 |
 | **◎ WAVE 3** | Joined in week 3 and came back to play | **250 DUST** once, then **50 DUST** every week until the last week of 2026 |

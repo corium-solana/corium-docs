@@ -55,6 +55,17 @@ Coins launched before the stepped fee came in keep a flat **1%** pool fee with n
 
 Graduation itself costs nothing: there is no migration fee.
 
+## Corium Trade
+
+| | |
+|---|---|
+| Any Solana token, tokenized stocks, big coins | **0.25%** of the trade, nothing else on top from Corium |
+| How it's taken | A plain SOL transfer to Corium’s treasury inside the same transaction, visible to anyone. On a buy it is part of what you spend; on a sale it comes out of the SOL you get back. |
+| Route | Jupiter’s best route (pump.fun coins on their curve go to pump.fun directly), with the venue’s own fees as quoted |
+| Priority fee | Set by the speed you pick (fast, turbo, ultra); it goes to the network, not Corium |
+
+[Corium Trade →](/guide/trading#corium-trade-any-solana-token)
+
 ## Launching
 
 | | |
@@ -79,7 +90,7 @@ A pump.fun finishing buy goes through pump.fun’s own program at pump.fun’s p
 
 | | |
 |---|---|
-| Weekly DUST pools | The hunters’ pool, 25% of Corium’s fees each week (curve plus locked-pool fees), never under 3 SOL, and the community pool, 10%, never under 1.5 SOL. [DUST →](/rules/dust) |
+| Weekly pools | The community pool, 10% of Corium’s fees each week (its curve fees, locked-pool fees and Corium Trade fees), never under 1.5 SOL; the hunters’ pool, 25%, never under 1.5 SOL; and weekly draws worth 30% of the hunters’ pool on top. [DUST & SPARK →](/rules/dust) |
 | Request sponsors | 50% of Corium’s fees on a request’s winning coin: curve fees from when the request opened until graduation, and locked-pool fees for 30 days after. [Requests →](/earn/requests) |
 
 Both are paid in SOL from the treasury.
@@ -88,7 +99,7 @@ Both are paid in SOL from the treasury.
 
 | | |
 |---|---|
-| Signing in, chat, profiles | Free. Signing in is a message, not a transaction. |
+| Signing in, posting, chat, profiles | Free. Signing in is a message, not a transaction, and posting on the Feed is never paid. |
 | Claiming a bounty | The Solana transaction fee, plus about 0.001 SOL of rent for your claim record |
 | Solana network fees | Every transaction pays Solana's own small fee, which goes to validators |
 

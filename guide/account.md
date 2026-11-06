@@ -1,29 +1,30 @@
-# Profile, wallets & track record
+# Account, wallets & track record
 
-<p class="lede">Your Corium account is your wallet, your public profile, and everything you’ve done on chain. Link more wallets to make them one account, and bring your pump.fun history with you.</p>
+<p class="lede">Your Corium account is the logins on it (your wallets, your X, your Discord), your public profile, and everything you’ve done on chain. Link more wallets to make them one account, and bring your pump.fun history with you.</p>
+
+## Your logins
+
+An account starts with whichever you sign in with first: a wallet, X or Discord. Add the others from the **Account** tab on your profile, and they become one account: sign in with any of them, on any device, and you're in the same place. [Getting started →](/guide/getting-started)
+
+| Login | Gives your account |
+|---|---|
+| **A wallet** | Trading, launching, bounties and claims, and step 1 of the [three steps](/guide/posting#the-three-steps). Payouts go to your main wallet. |
+| **X** | Step 3, your handle shown next to your name, mentions by `@handle`, and the X quests. An X account at least 30 days old with 10+ followers makes your account eligible for free DUST. |
+| **Discord** | Step 3, mentions by its handle, and eligibility for free DUST if the Discord account is at least 90 days old. |
+
+Corium reads your X or Discord public profile only, and never posts for you. Liking, following, watching coins, messages and Telegram work with any login; anything that signs a transaction needs a wallet. A reward sitting on another of your wallets says so ("Connect 8zzH…s1xu to claim it"), and connects it for you.
 
 ## Your profile
 
-Every wallet that signs in gets a public profile at `corium.so/wallet/<address>`: a star name (random at first, yours to change), a photo, a bio, your [DUST rank](/earn/dust#ranks), and tabs for what you’ve done.
-
-| Tab | Shows |
-|---|---|
-| **Holdings** | Coins you hold, with value and profit against your average cost |
-| **Bounties** | Supernova bounties and sponsored bounties you’ve earned, settling or ready to claim |
-| **Created** | Coins you launched, and the creator fees they’ve earned |
-| **Calls** | Your [callouts](/guide/social#callouts) and how they did |
-| **Activity** | Your trades, launches and claims |
-| **Track record** | Your pump.fun history (below), once imported |
-
-Setting up your name and photo: [Getting started →](/guide/getting-started#_3-your-profile)
+Every account has a public profile: a player's page with your star, rank, record and look. [Profiles →](/guide/profiles)
 
 ### Ready to claim
 
-On your own profile, one card adds up your supernova bounties and creator fees, and **Claim all** collects them in as few transactions as possible. Payouts from sponsored bounties and requests (finisher shares, prizes, a request’s stake, refunds) are on the **Bounties** tab and on each bounty’s or request’s page. Every claim is a transaction you sign; nothing is ever sent without you.
+On your own profile, the readout adds up your supernova bounties and creator fees, and **Claim all** collects them in as few transactions as possible. Payouts from sponsored bounties and requests (finisher shares, prizes, a request’s stake, refunds) are on the **Bounties** tab and on each bounty’s or request’s page. Every claim is a transaction you sign; nothing is ever sent without you.
 
 ### Your invite link
 
-Next to your rank on your own profile is your [referral link](/earn/referrals). One click copies it.
+Your [referral link](/earn/referrals) is on **Earn → Your crew**. One click copies it.
 
 ## Linked wallets
 
@@ -65,3 +66,7 @@ Your pump.fun history is already public, on chain. Corium reads it from your wal
 - **Combined:** with linked wallets, the cards add up all of them.
 
 It’s read-only: importing your history needs no signature beyond signing in, and changes nothing on chain.
+
+## Deleting your account
+
+[corium.so/delete-account](https://corium.so/delete-account) deletes your Corium account: your profile, your logins and what you wrote in coin chats, your follows and your watchlist. What happened on chain stays on chain: Corium can't change it. See the [Privacy policy](/legal/privacy).
